@@ -72,6 +72,7 @@ def create_rectangles(bin_length, bin_height):
 # Main loop
 
 # Bin parameters
-bin_length = 40
-bin_height = 25
+bin_length = 100
+bin_height = 50
 create_rectangles(bin_length, bin_height)
+
