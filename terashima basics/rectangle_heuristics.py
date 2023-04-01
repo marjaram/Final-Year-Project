@@ -1,3 +1,4 @@
+############################################################################# Imports and setup #####################################################################################################
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -8,15 +9,15 @@ import os
 import logging
 np.set_printoptions(threshold=sys.maxsize)
 
-
 BIN_HEIGHT = 100
 BIN_WIDTH = 100
 NUM_POINTS = 3 # determines number of rectangles: NUM_RECTANGLES = (NUM_POINTS + 1) ** 2
 
-
 fig, axs = plt.subplots(4,4)
 fig.set_figwidth(10)
 fig.set_figheight(10)
+
+############################################################################ Functions ########################################################################################################################################
 
 def create_rectangles(shuffle=True, rotate=False):
     xs = [i for i in range(1,BIN_WIDTH)]
@@ -48,11 +49,12 @@ def create_rectangles(shuffle=True, rotate=False):
             rectangles.append((height, width))
     return rectangles
 
+
+
 ################################## SORT BY DECREASING AREA #####################################################
 sort = False
-# items = create_rectangles()
-# items = [(87, 29), (5, 43), (4, 43), (87, 12), (4, 12), (4, 29), (87, 16), (5, 12), (4, 16), (4, 29), (4, 43), (4, 12), (5, 29), (5, 16), (4, 16), (87, 43)]
-items = [(10,10),(40,10),(10,30),(40,40)]
+items = create_rectangles()
+
 if sort:
     areas = []
     for i in range(len(items)):
@@ -82,7 +84,7 @@ not_break = True
 while not_break:
     i += 2
     piece = items.pop()
-    if (BIN_WIDTH - 1 - rightmost[0]) > piece[0]: 
+    if (BIN_WIDTH - rightmost[0]) > piece[0]: 
         object[BIN_HEIGHT-piece[1]:BIN_HEIGHT, rightmost[0] + 1 : rightmost[0] + piece[0]+1] += i
         if BIN_HEIGHT - piece[1] <= uppermost[1]:
             uppermost = (rightmost[0] + piece[0] , BIN_HEIGHT - piece[1]) 
@@ -93,69 +95,68 @@ while not_break:
         not_break = False
 
     axs[j//4, j%4].matshow(object, cmap='Reds')
-    axs[j//4, j%4].plot(rightmost[0], rightmost[1],'ro')
-    axs[j//4, j%4].plot(uppermost[0], uppermost[1],'ro')
+    axs[j//4, j%4].plot(rightmost[0],rightmost[1],'go')
+    axs[j//4, j%4].plot(uppermost[0],uppermost[1],'go')
     axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
-    axs[j//4, j%4].text(rightmost[0]-20, rightmost[1]-20, f"R={rightmost}")
-    axs[j//4, j%4].text(uppermost[0]-20, uppermost[1]-20, f"U={uppermost}")
-    axs[j//4, j%4].text(upperrightmost[0],upperrightmost[1], f"UR={upperrightmost}")
+    axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
     j += 1
 
 ################################ NEXT PIECE ################################################################################################
 
 # INSERT PIECE AT UPPERRIGHTMOST POINT
+if upperrightmost[1] - piece[1] < 0:
+    print(f'Cannot insert piece of size {piece}')
+    sys.exit()
+    
 object[upperrightmost[1]-piece[1] : upperrightmost[1], BIN_WIDTH - piece[0]:BIN_WIDTH] += i 
-
-axs[j//4, j%4].matshow(object, cmap='Blues')
-axs[j//4, j%4].plot(rightmost[0], rightmost[1],'ro')
-axs[j//4, j%4].plot(uppermost[0], uppermost[1],'ro')
-axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
-axs[j//4, j%4].text(rightmost[0], rightmost[1], f"R={rightmost}")
-axs[j//4, j%4].text(uppermost[0], uppermost[1], f"U={uppermost}")
-axs[j//4, j%4].text(upperrightmost[0],upperrightmost[1], f"UR={upperrightmost}")
-
-# DOWN
-not_break = True
 current_pos = (BIN_WIDTH - 1,uppermost[1]-piece[1])
 
-axs[j//4, j%4].plot(current_pos[0],current_pos[1],'go')
-axs[j//4, j%4].text(current_pos[0] - 20,current_pos[1], f"CP={current_pos}")
-j += 1
+stable = False
+while not stable:
+    prev_pos = current_pos
 
-while not_break and (current_pos[1] + piece[1] < BIN_HEIGHT):
-    object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1] += i
-    row = object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1]%2
-    if 0 in row: # clash detected; move piece back up
-        object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1] -= i
-        not_break = False
-    else:
-        object[current_pos[1], current_pos[0]-piece[0]+1:current_pos[0]+1] = 0
-        current_pos = (current_pos[0],current_pos[1]+1)
+    # DOWN
+    not_break = True
+    while not_break and (current_pos[1] + piece[1] < BIN_HEIGHT):
+        object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1] += i
+        row = object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1]%2
+        if 0 in row: # clash detected; move piece back up
+            object[current_pos[1] + piece[1], current_pos[0]-piece[0]+1:current_pos[0]+1] -= i
+            not_break = False
+        else:
+            object[current_pos[1], current_pos[0]-piece[0]+1:current_pos[0]+1] = 0
+            current_pos = (current_pos[0],current_pos[1]+1)
 
-# LEFT
-axs[j//4, j%4].matshow(object, cmap='Greens')
-axs[j//4, j%4].text(current_pos[0] - 40,current_pos[1]-20, f"CP={current_pos}")
-j += 1
-print(current_pos[1])
-print(current_pos[1]+ piece[1]) 
-print(current_pos[0]-piece[0]-1)
-not_break = True
-while not_break and (current_pos[0] - piece[0] > 0):
-    object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]] += i
-    col = object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]]%2
-    if 0 in col:
-        object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]] -= i
-        not_break = False
-    else:
-        object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]] = 0
-        current_pos = (current_pos[0] - 1, current_pos[1])       
+    # LEFT
+    not_break = True
+    while not_break and (current_pos[0] - piece[0] >= 0):
+        object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]] += i
+        col = object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]]%2
+        if 0 in col:
+            object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]-piece[0]] -= i
+            not_break = False
+        else:
+            object[current_pos[1]: current_pos[1]+ piece[1], current_pos[0]] = 0
+            current_pos = (current_pos[0] - 1, current_pos[1])
 
-axs[j//4, j%4].matshow(object, cmap='Reds')
-axs[j//4, j%4].text(current_pos[0] - 20, current_pos[1], f"{current_pos}")
-
-j += 1
+    if prev_pos == current_pos:
+        stable = True
+        if current_pos[0] >= rightmost[0]:
+            rightmost = current_pos
+            upperrightmost = (rightmost[0], uppermost[1])
+        if current_pos[1] <= uppermost[1]:
+            uppermost = current_pos
+            upperrightmost = (rightmost[0], uppermost[1])
+        axs[j//4, j%4].matshow(object, cmap='Blues')
+        axs[j//4, j%4].text(current_pos[0] - 20, current_pos[1], f"{current_pos}")
+        axs[j//4, j%4].plot(rightmost[0],rightmost[1],'go')
+        axs[j//4, j%4].plot(uppermost[0],uppermost[1],'go')
+        axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
+        axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
+        j += 1
 
 plt.show()
+
 
 ################################################################# EVALUTATION METRICS ################################################################################################
 
@@ -164,50 +165,3 @@ plt.show()
 # Number of shapes remaining
 
 
-# Do I need this loop? At least for the first few placements, I should just be able to place the piece next to the start piece?
-'''while len(items) > 0:
-    piece = items.pop()
-    print(piece)
-    object[:piece[1], BIN_WIDTH-piece[0]:BIN_WIDTH] +=1 
-    
-    # If doesn't fit (check for >1 values), return error signal and break out of loop
-    if 2 in object[:piece[1], BIN_WIDTH-piece[0]:BIN_WIDTH]:
-        object[:piece[1], BIN_WIDTH-piece[0]:BIN_WIDTH] -= 1
-        print(f'Could not fit in piece {piece}') 
-        break
-    
-    start_position = (BIN_WIDTH, 0)
-    current_position = (BIN_WIDTH, 0)
-    # Down movement
-
-    while current_position[1] < BIN_HEIGHT-piece[1]:
-        print(current_position)
-        object[current_position[1], current_position[0]-piece[0]:current_position[0]] = 0
-        object[current_position[1] + piece[1], current_position[0]-piece[0]:current_position[0]] += 1
-        plt.matshow(object, cmap='Blues')
-        plt.text(current_position[0], current_position[1], f"{current_position}")
-        plt.show()
-        if 2 in object[current_position[1] + piece[1], current_position[0]-piece[0]:current_position[0]]:
-            object[current_position[1] + piece[1], current_position[0]-piece[0]:current_position[0]] -= 1
-            # Move object up
-            object[current_position[1], current_position[0]-piece[0]:current_position[0]] += 1
-            object[current_position[1] + piece[1], current_position[0]-piece[0]:current_position[0]] -= 1
-            break
-        
-
-        # If there are any values greater than 1 in bottom row
-            # Increment row above by 1
-            # Decrement bottom row by 1
-            #break
-        current_position = (current_position[0], current_position[1]+1)
-    
-    # LEFT MOVEMENT
-    # While true:
-        # Set right col to 0's
-        # Increment cols underneath by 1
-        # If there col any values greater than 1 in left col
-            # Increment col to right by 1
-            # Decrement left col by 1
-
-    # if position == current_position:
-        # end_flag = True'''
