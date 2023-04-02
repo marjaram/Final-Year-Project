@@ -1,7 +1,7 @@
 import itertools
 import numpy as np
 
-def create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_POINTS, shuffle=True, rotate=False, decreasing_area_sort=False):
+def create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_POINTS, shuffle=True, rotate=False, decreasing_area_sort=True):
     xs = [i for i in range(1,BIN_WIDTH)]
     ys = [i for i in range(1,BIN_HEIGHT)]
     x_coords = [0, BIN_WIDTH]

@@ -2,7 +2,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-import generator
 np.set_printoptions(threshold=sys.maxsize)
 
 BIN_HEIGHT = 100
@@ -106,4 +105,3 @@ def bottom_left(items):
     print(f'Pieces remaining= {len(items) + 1}/{(NUM_POINTS+1)**2}')
     plt.show()
 
-bottom_left(items)

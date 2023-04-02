@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 import generator
+import placement
 np.set_printoptions(threshold=sys.maxsize)
 
 BIN_HEIGHT = 1000
@@ -12,7 +13,7 @@ items = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_POINTS)
 object = np.zeros((BIN_HEIGHT, BIN_WIDTH))
 
 print(f'Allocating {len(items)} items into {BIN_WIDTH}x{BIN_HEIGHT} bins')
-
+placement.bottom_left(items)
 # Open empty bin
 # Call generator to get rectangle set and 8-digit code
 # While rectangle set not empty:
