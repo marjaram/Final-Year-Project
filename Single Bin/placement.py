@@ -52,8 +52,6 @@ def bottom_left(items):
 
     # Insert next piece at Upperrightmost point, then move down and left until in a stable position
     while True:
-        if len(items) == 0:
-            break
         if upperrightmost[1] - piece[1] < 0:
             break
 
@@ -104,6 +102,8 @@ def bottom_left(items):
                 axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
                 j += 1
         i += 2
+        if len(items) == 0:
+            break
         piece = items.pop()
  
     # Redefine uppermost, rightmost, upperrightmost then check if piece can be placed below and left of upperrightmost point
@@ -112,8 +112,6 @@ def bottom_left(items):
     upperrightmost = (BIN_WIDTH-1, 0)
 
     while True:
-        if len(items) == 0:
-            break
         current_pos = (BIN_WIDTH-1, 0)
         object[:piece[1], BIN_WIDTH-piece[0]:] += i # insert new piece
         
@@ -167,12 +165,14 @@ def bottom_left(items):
                 axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
                 axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
                 j += 1
-            
+             
         i += 2
+        if len(items) == 0:
+            break
         piece = items.pop()
     
     print(f'Area filled = {np.count_nonzero(object)}/{BIN_HEIGHT*BIN_WIDTH} = {(100*np.count_nonzero(object))/(BIN_HEIGHT*BIN_WIDTH)}%')
-    print(f'Pieces remaining = {len(items) + 1}/{(NUM_POINTS+1)**2}')
+    print(f'Pieces placed = {int((i-1)/2)}/{(NUM_POINTS+1)**2}')
     plt.show()
 
 bottom_left(items)
