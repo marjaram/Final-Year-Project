@@ -43,11 +43,11 @@ def bottom_left(items):
         else:
             not_break = False
 
-        axs[j//4, j%4].matshow(object, cmap='Reds')
-        axs[j//4, j%4].plot(rightmost[0],rightmost[1],'go')
-        axs[j//4, j%4].plot(uppermost[0],uppermost[1],'go')
-        axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
-        axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
+        axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].matshow(object, cmap='Reds')
+        axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(rightmost[0],rightmost[1],'go')
+        axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(uppermost[0],uppermost[1],'go')
+        axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(upperrightmost[0],upperrightmost[1],'ro')
+        axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].text(20,20, f"UR={upperrightmost}")
         j += 1
 
     # Insert next piece at Upperrightmost point, then move down and left until in a stable position
@@ -95,11 +95,11 @@ def bottom_left(items):
                 if current_pos[1] <= uppermost[1]:
                     uppermost = current_pos
                     upperrightmost = (rightmost[0], uppermost[1])
-                axs[j//4, j%4].matshow(object, cmap='Blues')
-                axs[j//4, j%4].plot(rightmost[0],rightmost[1],'go')
-                axs[j//4, j%4].plot(uppermost[0],uppermost[1],'go')
-                axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
-                axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].matshow(object, cmap='Blues')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(rightmost[0],rightmost[1],'go')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(uppermost[0],uppermost[1],'go')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(upperrightmost[0],upperrightmost[1],'ro')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].text(20,20, f"UR={upperrightmost}")
                 j += 1
         i += 2
         if len(items) == 0:
@@ -159,11 +159,11 @@ def bottom_left(items):
                 if current_pos[1] <= uppermost[1]:
                     uppermost = current_pos
                     upperrightmost = (rightmost[0], uppermost[1])
-                axs[j//4, j%4].matshow(object, cmap='Greens')
-                axs[j//4, j%4].plot(rightmost[0],rightmost[1],'go')
-                axs[j//4, j%4].plot(uppermost[0],uppermost[1],'go')
-                axs[j//4, j%4].plot(upperrightmost[0],upperrightmost[1],'ro')
-                axs[j//4, j%4].text(20,20, f"UR={upperrightmost}")
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].matshow(object, cmap='Greens')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(rightmost[0],rightmost[1],'go')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(uppermost[0],uppermost[1],'go')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].plot(upperrightmost[0],upperrightmost[1],'ro')
+                axs[j//(NUM_POINTS+1), j%(NUM_POINTS+1)].text(20,20, f"UR={upperrightmost}")
                 j += 1
              
         i += 2

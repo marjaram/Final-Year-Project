@@ -5,15 +5,15 @@ import generator
 import placement
 np.set_printoptions(threshold=sys.maxsize)
 
-BIN_HEIGHT = 1000
-BIN_WIDTH = 1000
-NUM_POINTS = 20 # determines number of rectangles: NUM_RECTANGLES = (NUM_POINTS + 1) ** 2
+BIN_HEIGHT = 100
+BIN_WIDTH = 100
+NUM_RECTANGLES = 20 
 
-items = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_POINTS)
+items, label = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
 object = np.zeros((BIN_HEIGHT, BIN_WIDTH))
-
-print(f'Allocating {len(items)} items into {BIN_WIDTH}x{BIN_HEIGHT} bins')
-placement.bottom_left(items)
+objects = [(object, None)]
+print(f'Allocating {len(items)} items into {BIN_WIDTH}x{BIN_HEIGHT} bins. Label: {label}')
+# placement.bottom_left(item)
 # Open empty bin
 # Call generator to get rectangle set and 8-digit code
 # While rectangle set not empty:
