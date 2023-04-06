@@ -4,39 +4,63 @@ import sys
 import generator
 import placement
 np.set_printoptions(threshold=sys.maxsize)
+fig, axs = plt.subplots(4,4)
+fig.set_figwidth(10)
+fig.set_figheight(10)
 
+# Define dimensions of bin and number of rectangles
 BIN_HEIGHT = 100
 BIN_WIDTH = 100
 NUM_RECTANGLES = 20 
 
-items, label = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-object = np.zeros((BIN_HEIGHT, BIN_WIDTH))
-objects = [(object, None)]
-print(f'Allocating {len(items)} items into {BIN_WIDTH}x{BIN_HEIGHT} bins. Label: {label}')
-# placement.bottom_left(item)
-# Open empty bin
-# Call generator to get rectangle set and 8-digit code
-# While rectangle set not empty:
-    # Select bin calling one of the following:
-        # First Fit: Consider the opened objects in turn in a fixed order and place the item in the first one where it fits.
-        # First Fit Decreasing (FFD). Sort pieces in decreasing order, and the largest one is placed according to FF.
-        # First Fit Increasing (FFI). Sort pieces in increasing order, and the smallest one is placed according to FF.
-        # Filler + FFD. This places as many pieces as possible within the open objects. If at least one piece has been placed, the algorithm stops. The FFD algorithm is applied, otherwise.
-        # Next Fit (NF). Use the current object to place the next piece, otherwise open a new one
-        # and place the piece there.
-        # Next Fit Decreasing (NFD). Sort the pieces in decreasing order, and the largest one is
-        # placed according to NF.
-        # Best Fit (BF). This places the item in the opened object where it best fits, that is, in the
-        # object that leaves minimum waste.
-        # BestFitDecreasing(BFD).Sameasthepreviousone,butsortingthepiecesindecreasing
-        # order.
-        # Worst Fit (WF). It places the item in the opened object where it worst fits (that is, with
-        # the largest available room).
-        # Djang and Fitch (DJD). It places items in an object, taking items by decreasing size, until
-        # the object is at least one-third full. Then, it initializes w, a variable indicating the allowed waste,
-        # and looks for combinations of one, two, or three items producing a waste w. If any combination fails,
-        # it increases w accordingly. We adapted this heuristic to consider the initial filling different to a third,
-        # and the combinations for getting the allowed waste up to five items.
-    # Call placement heuristic
-    # If rectangle can be placed in bin: repeat
-    # Else: open new bin and repeat
+# Create: rectangle set, 8-digit label, area dictionary, height dictionary (to lookup when removing pieces wfrom labels)
+items, label, area_dict, height_dict = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES, shuffle=True, decreasing_area_sort=True)
+bin_dict = {'0':[]} # Dictionary storing the items allocated to each bin
+areas = 0
+# Define list of objects(bins)
+objects = [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
+print(f'Allocating {len(items)} items into {BIN_WIDTH}x{BIN_HEIGHT} bins. Label: {label[:4], label[4:7], label[7]}')
+
+
+for i in range(len(items)):
+    item = items.pop(0)
+    areas += (item[0]*item[1])
+    print(f'_____________________________________________________________________item {i} is {item}_____________________________________________________________________')
+    j = (2 * i + 1) % 10 # j-value determines colour of piece in display
+
+    # Try to place rectangle. If possible, return updated bin and NONE. Else, return bin and item
+    can_place = False 
+    for o in range(len(objects)):
+        print(f'Trying bin {o}')
+        object, fail_flag = placement.bottom_left(objects[o], item, BIN_WIDTH, BIN_HEIGHT, j)
+        if fail_flag != 0:
+            can_place = True
+            print(f'Placed in bin {o}')
+            bin_dict[f'{o}'].append(i)
+            break
+    if not can_place:
+        objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+        bin = objects[-1]
+        object, fail_flag = placement.bottom_left(bin, item, BIN_WIDTH, BIN_HEIGHT, j)
+        if fail_flag != 0:
+            print(f'New bin {o+1} created and item {i} placed')
+            bin_dict[f'{o+1}'] = [i]
+        else:
+            print(f'Fatal error, item {i}:{item} larger than bin')
+
+print('__________________________________________________________________________________________________________________________________________')
+# Display each bin
+for i in range(len(objects)):
+    object = objects[i][0]
+    print(f'Bin {i} percentage usage = {(100*np.count_nonzero(object))/(BIN_HEIGHT*BIN_WIDTH)}%')
+    print(f'Items allocated to bin {i}: {bin_dict[f"{i}"]}')
+    axs[i//4][i%4].matshow(object, cmap='Blues')
+# print(f'Total area of rectangles = {areas}')
+# print(f'Total bin spaced used = {BIN_HEIGHT*BIN_WIDTH*len(objects)}')
+print(f'Average Storage efficiency = {100*areas/((BIN_HEIGHT*BIN_WIDTH*len(objects)))}%')
+plt.show()
+
+
+
+
+
