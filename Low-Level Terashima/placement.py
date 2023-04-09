@@ -69,5 +69,6 @@ def bottom_left(bin, item, BIN_WIDTH, BIN_HEIGHT, i):
                     uppermost = current_pos
                     upperrightmost = (rightmost[0], uppermost[1])
 
+        print(f'Placed at BL:({current_pos[0]-item[0]+1},{current_pos[1]+item[1]-1}), TR:{current_pos}')
         return object, 1
        
