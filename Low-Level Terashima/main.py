@@ -12,12 +12,10 @@ fig.set_figheight(10)
 BIN_HEIGHT = 100
 BIN_WIDTH = 100
 NUM_RECTANGLES = 20 
-selection_heuristic = 'best' # alternatively: 'first', 'next', 'djd'
+selection_heuristic = 'djd' # alternatively: 'first', 'next', 'djd'
 placement_heuristic = 'bl'
+
 # Create: rectangle set, 8-digit label, area dictionary, height dictionary (to lookup when removing pieces wfrom labels)
-# items = [(20,5),(80,50),(8,90),(35,30),(20,20),(60,15),(34,23),(56,43),(23,21),(12,42)]
-# item_areas = sorted([(i[0]*i[1], i) for i in items], reverse=True)
-# items = [i[1] for i in item_areas]
 test_set = [(55, 55), (47, 47), (43, 43), (45, 37), (32, 49), (34, 44), (65, 23), (25, 57), (41, 34), (57, 18), (24, 41), (43, 20), (33, 24), (23, 34), (46, 16), (17, 35), (36, 10), (44, 4), (54, 3), (3, 11)]
 items, label, area_dict, height_dict = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES, shuffle=True, decreasing_area_sort=True)
 items = test_set
@@ -123,8 +121,67 @@ elif selection_heuristic == 'best':
                 else:
                     print(f'Fatal error, item {i}:{item} larger than bin')
 
+elif selection_heuristic == 'next':
 
+    current_object = 0
 
+    for i in range(len(items)):
+        item = items.pop(0)
+        areas += (item[0]*item[1])
+        print(f'_____________________________________________________________________item {i} is {item}, Current object is {current_object}_____________________________________________________________________')
+        j = (2 * i + 1) % 10 # j-value determines colour of piece in display
+        
+        # Try to place in current object
+        can_place = False 
+        object, fail_flag = placement.bottom_left(objects[current_object], item, BIN_WIDTH, BIN_HEIGHT, j)
+        if fail_flag != 0:
+                can_place = True
+                print(f'Placed in current object: bin {current_object}')
+                bin_dict[f'{current_object}'].append(i)
+
+        # If cannot, iterate through other objects
+        if not can_place:
+            for o in range(len(objects)-1):
+                print(f'co: {current_object}, o:{o}, lo:{len(objects)}')
+                new_current_object = (current_object + o + 1) % len(objects)
+                print(f'Trying bin {new_current_object}')
+                object, fail_flag = placement.bottom_left(objects[new_current_object], item, BIN_WIDTH, BIN_HEIGHT, j)
+                if fail_flag != 0:
+                        can_place = True
+                        print(f'Placed in bin {new_current_object}')
+                        bin_dict[f'{new_current_object}'].append(i)
+                        break
+            # If cannot place in any other object, create new object and place there
+            if not can_place:
+                objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+                current_object = len(objects) - 1
+                object, fail_flag = placement.bottom_left(objects[current_object], item, BIN_WIDTH, BIN_HEIGHT, j)
+                if fail_flag != 0:
+                    print(f'New bin {len(objects) - 1} created and item {i} placed')
+                    bin_dict[f'{len(objects) - 1}'] = [NUM_RECTANGLES-len(items)-1]
+                else:
+                    print(f'Fatal error, item {i}:{item} larger than bin')
+
+elif selection_heuristic == 'djd': # ASSUMES ITEMS ARE PRESORTED IN DESCENDING ORDER!
+    waste = 0
+    w = BIN_HEIGHT * BIN_WIDTH / 20 # value to increment waste by
+    current_object = 0
+
+    i = 0
+    while len(items) > 0:
+        # Fill bin until at least 1/3 area is covered. Store pieces that did not fit
+        item = item.pop(0)
+        print(f'_____________________________________________________________________item {i} is {item}_____________________________________________________________________')
+        j = (2 * i + 1) % 10 # j-value determines colour of piece in display
+        i += 1
+
+        object, fail_flag = placement.bottom_left(objects[0], item, BIN_WIDTH, BIN_HEIGHT, j)
+        if fail_flag == 1:
+    #         items.pop(i)
+    #     if np.count_nonzero(object) >= 1/3 * BIN_HEIGHT * BIN_WIDTH:
+    #         break
+    
+    # remaining_space = BIN_HEIGHT * BIN_WIDTH - np.count_nonzero(object)
 
 print('__________________________________________________________________________________________________________________________________________')
 # Display each bin
