@@ -1,8 +1,6 @@
-############################################################################# Imports and setup #####################################################################################################
-import numpy as np
-import matplotlib.pyplot as plt
-import sys
-np.set_printoptions(threshold=sys.maxsize)
+import logging
+logger = logging.getLogger('my_module_name')
+logging.basicConfig(filename='log.log',filemode='w', encoding='utf-8', level=logging.DEBUG)
 
 def bottom_left(bin, item, BIN_WIDTH, BIN_HEIGHT, i):
     object = bin[0]
@@ -27,7 +25,7 @@ def bottom_left(bin, item, BIN_WIDTH, BIN_HEIGHT, i):
         row = object[current_pos[1] + item[1] - 1, current_pos[0]-item[0]+1:current_pos[0]+1] % 2
         if 0 in row or 0 in col:
             object[:item[1], BIN_WIDTH-item[0]:] -= i
-            print('Cannot place')
+            logging.info('Cannot place')
             return object, 0
 
 
@@ -69,6 +67,6 @@ def bottom_left(bin, item, BIN_WIDTH, BIN_HEIGHT, i):
                     uppermost = current_pos
                     upperrightmost = (rightmost[0], uppermost[1])
 
-        print(f'Placed at BL:({current_pos[0]-item[0]+1},{current_pos[1]+item[1]-1}), TR:{current_pos}')
+        logging.info(f'Placed at BL:({current_pos[0]-item[0]+1},{current_pos[1]+item[1]-1}), TR:{current_pos}')
         return object, 1
        

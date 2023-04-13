@@ -1,0 +1,324 @@
+INFO:root:Selection: ff, Placement: bl. Allocating 20 items into 100x100 bins.
+INFO:root:__________________________________________________________________________________________________________________________________________
+INFO:root:_____________________________________________________________________item 0 is (43, 60)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 1 is (50, 48)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,99), TR:(92, 52)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 2 is (41, 53)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:New bin 1 created and item 2 placed
+INFO:root:_____________________________________________________________________item 3 is (41, 49)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(83, 3)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 4 is (48, 23)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(41,99), TR:(88, 77)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 5 is (50, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(41,76), TR:(90, 58)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 6 is (44, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(41,57), TR:(84, 39)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 7 is (26, 30)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(0,46), TR:(25, 17)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 8 is (32, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(26,38), TR:(57, 20)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 9 is (13, 35)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(84,51), TR:(96, 17)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 10 is (50, 9)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(26,19), TR:(75, 11)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 11 is (9, 47)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(91,99), TR:(99, 53)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 12 is (23, 12)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(58,38), TR:(80, 27)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 13 is (3, 64)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(97,99), TR:(99, 36)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 14 is (8, 21)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(85,52), TR:(92, 32)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 15 is (39, 4)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(0,10), TR:(38, 7)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 16 is (59, 2)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,2), TR:(58, 1)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 17 is (21, 4)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(58,26), TR:(78, 23)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 18 is (8, 9)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(84,16), TR:(91, 8)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 19 is (41, 1)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(59,2), TR:(99, 2)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 0 is (43, 60)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 1 is (50, 48)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,99), TR:(92, 52)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 2 is (41, 53)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:New bin 1 created and item 2 placed
+INFO:root:_____________________________________________________________________STARTING BEST PHASE_____________________________________________________________________
+INFO:root:_____________________________________________________________________item 3 is (41, 49)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(83, 3)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(41,99), TR:(81, 51)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 4 is (48, 23)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(90, 29)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(41,50), TR:(88, 28)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 5 is (50, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(92, 33)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(0,27), TR:(49, 9)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 6 is (44, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(86, 33)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(50,27), TR:(93, 9)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 7 is (26, 30)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(68, 22)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 8 is (32, 19)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,39), TR:(31, 21)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 9 is (13, 35)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(69,51), TR:(81, 17)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 10 is (50, 9)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,20), TR:(49, 12)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(0,8), TR:(49, 0)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 11 is (9, 47)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(82,51), TR:(90, 5)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 12 is (23, 12)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:New bin 2 created and item 9 placed
+INFO:root:_____________________________________________________________________item 13 is (3, 64)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(93,99), TR:(95, 36)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(89,99), TR:(91, 36)
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(25, 36)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 14 is (8, 21)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(91,51), TR:(98, 31)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(30, 79)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 15 is (39, 4)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,20), TR:(38, 17)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(50,8), TR:(88, 5)
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(61, 96)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 16 is (59, 2)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,20), TR:(58, 19)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(81, 98)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 17 is (21, 4)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,18), TR:(20, 15)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(50,4), TR:(70, 1)
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(43, 96)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 18 is (8, 9)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(91,30), TR:(98, 22)
+INFO:root:Trying bin 1
+INFO:root:Placed at BL:(89,8), TR:(96, 0)
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(30, 91)
+INFO:root:Placed in bin 1
+INFO:root:_____________________________________________________________________item 19 is (41, 1)_____________________________________________________________________
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,18), TR:(40, 18)
+INFO:root:Trying bin 1
+INFO:root:Cannot place
+INFO:root:Trying bin 2
+INFO:root:Placed at BL:(23,99), TR:(63, 99)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 0 is (43, 60), Current object is 0_____________________________________________________________________
+INFO:root:Placed in current object: bin 0
+INFO:root:_____________________________________________________________________item 1 is (50, 48), Current object is 0_____________________________________________________________________
+INFO:root:Placed at BL:(43,99), TR:(92, 52)
+INFO:root:Placed in current object: bin 0
+INFO:root:_____________________________________________________________________item 2 is (41, 53), Current object is 0_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:New bin 1 created and item 2 placed
+INFO:root:_____________________________________________________________________item 3 is (41, 49), Current object is 1_____________________________________________________________________
+INFO:root:Placed at BL:(41,99), TR:(81, 51)
+INFO:root:Placed in current object: bin 1
+INFO:root:_____________________________________________________________________item 4 is (48, 23), Current object is 1_____________________________________________________________________
+INFO:root:Placed at BL:(41,50), TR:(88, 28)
+INFO:root:Placed in current object: bin 1
+INFO:root:_____________________________________________________________________item 5 is (50, 19), Current object is 1_____________________________________________________________________
+INFO:root:Placed at BL:(0,27), TR:(49, 9)
+INFO:root:Placed in current object: bin 1
+INFO:root:_____________________________________________________________________item 6 is (44, 19), Current object is 1_____________________________________________________________________
+INFO:root:Placed at BL:(50,27), TR:(93, 9)
+INFO:root:Placed in current object: bin 1
+INFO:root:_____________________________________________________________________item 7 is (26, 30), Current object is 1_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:co: 1, o:0, lo:2
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(43,51), TR:(68, 22)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 8 is (32, 19), Current object is 1_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:co: 1, o:0, lo:2
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(0,39), TR:(31, 21)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 9 is (13, 35), Current object is 1_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:co: 1, o:0, lo:2
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(69,51), TR:(81, 17)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 10 is (50, 9), Current object is 1_____________________________________________________________________
+INFO:root:Placed at BL:(0,8), TR:(49, 0)
+INFO:root:Placed in current object: bin 1
+INFO:root:_____________________________________________________________________item 11 is (9, 47), Current object is 1_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:co: 1, o:0, lo:2
+INFO:root:Trying bin 0
+INFO:root:Placed at BL:(82,51), TR:(90, 5)
+INFO:root:Placed in bin 0
+INFO:root:_____________________________________________________________________item 12 is (23, 12), Current object is 1_____________________________________________________________________
+INFO:root:Cannot place
+INFO:root:co: 1, o:0, lo:2
+INFO:root:Trying bin 0
+INFO:root:Cannot place
+INFO:root:New bin 2 created and item 12 placed
+INFO:root:_____________________________________________________________________item 13 is (3, 64), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(23,99), TR:(25, 36)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 14 is (8, 21), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(26,99), TR:(33, 79)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 15 is (39, 4), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(34,99), TR:(72, 96)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 16 is (59, 2), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(34,95), TR:(92, 94)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 17 is (21, 4), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(34,93), TR:(54, 90)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 18 is (8, 9), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(55,93), TR:(62, 85)
+INFO:root:Placed in current object: bin 2
+INFO:root:_____________________________________________________________________item 19 is (41, 1), Current object is 2_____________________________________________________________________
+INFO:root:Placed at BL:(34,84), TR:(74, 84)
+INFO:root:Placed in current object: bin 2
+INFO:root:Bin 0 percentage usage = 78.67%
+INFO:root:Items allocated to bin 0: [0, 1, 3, 9, 13, 16, 18, 19]
+INFO:root:Bin 1 percentage usage = 80.08%
+INFO:root:Items allocated to bin 1: [2, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 17]
+INFO:root:Fitness of this ff packing is 6300.89
+INFO:root:Bin 0 percentage usage = 72.46%
+INFO:root:Items allocated to bin 0: [0, 1, 7, 8, 9, 11]
+INFO:root:Bin 1 percentage usage = 75.22%
+INFO:root:Items allocated to bin 1: [2, 3, 4, 5, 6, 10]
+INFO:root:Bin 2 percentage usage = 11.07%
+INFO:root:Items allocated to bin 2: [12, 13, 14, 15, 16, 17, 18, 19]
+INFO:root:Fitness of this nf packing is 3677.01
+INFO:root:Bin 0 percentage usage = 75.73%
+INFO:root:Items allocated to bin 0: [0, 1, 7, 8, 9, 11, 14, 16, 19]
+INFO:root:Bin 1 percentage usage = 80.26%
+INFO:root:Items allocated to bin 1: [2, 3, 4, 5, 6, 10, 13, 15, 17, 18]
+INFO:root:Bin 2 percentage usage = 2.76%
+INFO:root:Items allocated to bin 2: [12]
+INFO:root:Fitness of this bf packing is 4061.44
