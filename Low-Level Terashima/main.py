@@ -22,8 +22,8 @@ selection_heuristic = 'bf' # alternatively: 'first', 'next', 'djd'
 placement_heuristic = 'bl'
 
 # Create: rectangle set, 8-digit label, area dictionary, height dictionary (to lookup when removing pieces wfrom labels)
-items, label, area_dict, height_dict = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES, shuffle=True, decreasing_area_sort=True)
-# items = [(55, 55), (47, 47), (43, 43), (45, 37), (32, 49), (34, 44), (65, 23), (25, 57), (41, 34), (57, 18), (24, 41), (43, 20), (33, 24), (23, 34), (46, 16), (17, 35), (36, 10), (44, 4), (54, 3), (3, 11)]
+# items, label, area_dict, height_dict = generator.create_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES, shuffle=True, decreasing_area_sort=True)
+items = [(55, 55), (47, 47), (43, 43), (45, 37), (32, 49), (34, 44), (65, 23), (25, 57), (41, 34), (57, 18), (24, 41), (43, 20), (33, 24), (23, 34), (46, 16), (17, 35), (36, 10), (44, 4), (54, 3), (3, 11)]
 bin_dict = {'0':[]} # Dictionary storing the items allocated to each bin
 # Define list of objects(bins)
 objects = [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
@@ -39,7 +39,7 @@ elif selection_heuristic == 'nf':
     objects = selection.nf(items, objects, BIN_WIDTH, BIN_HEIGHT, bin_dict, NUM_RECTANGLES)
     
 elif selection_heuristic == 'djd': # ASSUMES ITEMS ARE PRESORTED IN DESCENDING ORDER
-    objects = selection.djd(items, objects, BIN_WIDTH, BIN_HEIGHT, bin_dict, NUM_RECTANGLES)
+    objects, bin_dict = selection.djd(items, BIN_WIDTH, BIN_HEIGHT)
 
 logging.info('__________________________________________________________________________________________________________________________________________')
 pu_total = 0
@@ -52,6 +52,7 @@ for i in range(len(objects)):
 fitness = pu_total/len(objects)
 logging.info(f'Fitness of this packing is {fitness:.2f}')
 
+print(bin_dict)
 # plt.show()
 
 
