@@ -1,5 +1,8 @@
 import selection
+import pandas as pd
 import numpy as np
+import time
+import sys
 seed = np.random.default_rng()
 
 def generate_rectangles(BIN_WIDTH=100, BIN_HEIGHT=100, NUM_RECTANGLES=20):
@@ -60,26 +63,89 @@ BIN_HEIGHT = 1000
 BIN_WIDTH = 1000
 NUM_RECTANGLES = 30
 
+labels = []
+
+ff_times = []
+ffd_times = []
+nf_times = []
+nfd_times = []
+bf_times = []
+bfd_times = []
+djd_times = []
+
+ff_results = []
+ffd_results = []
+nf_results = []
+nfd_results = []
+bf_results = []
+bfd_results = []
+djd_results = []
+
 for problem_instace in range(1000):
+    print(problem_instace)
     items, label = generate_rectangles(BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
+    labels.append(label)
 
+    ff_start = time.time_ns()
     ff_objects, ff_bin_dict = selection.ff(items,BIN_WIDTH,BIN_HEIGHT)
+    ff_end = time.time_ns()
+    ff_times.append(ff_end-ff_start)
+
+    ffd_start = time.time_ns()
     ffd_objects, ffd_bin_dict = selection.ffd(items,BIN_WIDTH,BIN_HEIGHT)
+    ffd_end = time.time_ns()
+    ffd_times.append(ffd_end-ffd_start)
+
+    nf_start = time.time_ns()
     nf_objects, nf_bin_dict = selection.nf(items,BIN_WIDTH,BIN_HEIGHT)
+    nf_end = time.time_ns()
+    nf_times.append(nf_end-nf_start)
+    
+    nfd_start = time.time_ns()
     nfd_objects, nfd_bin_dict = selection.nfd(items,BIN_WIDTH,BIN_HEIGHT)
+    nfd_end = time.time_ns()
+    nfd_times.append(nfd_end-nfd_start)
+
+    bf_start = time.time_ns()
     bf_objects, bf_bin_dict = selection.bf(items,BIN_WIDTH,BIN_HEIGHT)
+    bf_end = time.time_ns()
+    bf_times.append(bf_end-bf_start)
+
+    bfd_start = time.time_ns()
     bfd_objects, bfd_bin_dict = selection.bfd(items,BIN_WIDTH,BIN_HEIGHT)
+    bfd_end = time.time_ns()
+    bfd_times.append(bfd_end-bfd_start)
+
+    djd_start = time.time_ns()
     djd_objects, djd_bin_dict = selection.djd(items,BIN_WIDTH,BIN_HEIGHT)
+    djd_end = time.time_ns()
+    djd_times.append(djd_end-djd_start)
 
-    solutions = {'ff':ff_objects, 'ffd':ffd_objects, 'nf':nf_objects, 'nfd':nfd_objects, 'bf':bf_objects, 'bfd':bfd_objects, 'djd':djd_objects}
-    fitness = fitness_function(ff_objects)
-    best_solution = 'ff'
-    for solution in solutions:
-        new_fitness = fitness_function(solutions[solution])
-        print(f'{solution}: {new_fitness:.4f}')
-        if new_fitness > fitness:
-            fitness = new_fitness
-            best_solution = solution
-        
-    print(f'Problem: {problem_instace}, label: {label}, best solution: {best_solution}')    
-
+    ff_results.append(fitness_function(ff_objects))
+    ffd_results.append(fitness_function(ffd_objects))
+    nf_results.append(fitness_function(nf_objects))
+    nfd_results.append(fitness_function(nfd_objects))
+    bf_results.append(fitness_function(bf_objects))
+    bfd_results.append(fitness_function(bfd_objects))
+    djd_results.append(fitness_function(djd_objects))
+    
+results = pd.DataFrame(
+{      
+         'Labels': labels,
+         'First Fit Score': ff_results,
+         'First Fit Times': ff_times,
+         'First Fit Decreasing Score': ffd_results,
+         'First Fit Decreasing Times': ffd_times,
+         'Next Fit Score': nf_results,
+         'Next Fit Times': nf_times,
+         'Next Fit Decreasing Score': nfd_results,
+         'Next Fit Decreasing Times': nfd_times,
+         'Best Fit Score': bf_results,
+         'Best Fit Times': bf_times,
+         'Best Fit Decreasing Score': bfd_results,
+         'Best Fit Decreasing Times': bfd_times,
+         'Djang-Fitch Score': djd_results,
+         'Djang-Fitch Times': djd_times,  
+}
+)
+results.to_csv('low_level.csv')
