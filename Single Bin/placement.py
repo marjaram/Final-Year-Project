@@ -173,6 +173,14 @@ def bottom_left(items):
     
     print(f'Area filled = {np.count_nonzero(object)}/{BIN_HEIGHT*BIN_WIDTH} = {(100*np.count_nonzero(object))/(BIN_HEIGHT*BIN_WIDTH)}%')
     print(f'Pieces placed = {int((i-1)/2)}/{(NUM_POINTS+1)**2}')
+    for q1 in range(4):
+        for q2 in range(4):
+                        
+            #hide x-axis
+            axs[q1][q2].get_xaxis().set_visible(False)
+
+            #hide y-axis 
+            axs[q1][q2].get_yaxis().set_visible(False)
     plt.show()
 
 bottom_left(items)
