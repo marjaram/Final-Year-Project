@@ -210,73 +210,76 @@ BIN_HEIGHT = 100
 NUM_RECTANGLES = 20
 
 # SPECIFIC (JUST FOR GENETIC ALGORITHM)
-population_size = 25
+population_size = 10
 seeding = False 
-problems_per_round = 5
+problems_per_round = 10
 ############################################# GENETIC ALGORITHM #######################################################
 
 
 # GENERATE INITIAL POPULATION
 if not seeding: # RANDOMLY
-    initial_population = []
+    population = []
     for i in range(population_size):
         initial_chromosome = [seed.integers(0,7) for i in range(NUM_RECTANGLES)]
-        initial_population.append(initial_chromosome)
+        population.append(initial_chromosome)
 else:
     pass
 
 # MAIN LOOP
-    # CALCULATE FITNESS - sample 5 problems from training set. For each problem, run the single-item selection heuristics.
 
-fitnesses = []
-for i in range(100):
-    logging.info(f'Problem {i}')
-    print(f'Problem {i}')
-    # Randomly sample a problem from the training set
-    problem = copy.deepcopy(training_set[seed.integers(0,len(training_set))])
-    bin_dict = {'0':[]}
-    objects =  [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
-    # Solve problem using the heuristics in the chromosome
-    chromosome = initial_population[0]
-    round = 0
-    current_bin = 0
-    while round < NUM_RECTANGLES:
-        logging.info(f'Round {round}: {len(problem)} items remaining')
-        solution = chromosome[round]
-        # logging.info('Descending')
-        if solution in [1,3,5]: # choose largest remaining piece by area
-            areas = [[x[0] * x[1], x] for x in problem]
-            areas.sort(reverse=True)
-            item = areas[0][1]
-            problem.remove(item)
-        elif solution in [0,2,4]:
-            item = problem.pop(0) # instead choose first piece in queue
+# Assign [problems_per_round] problems to each chromosome and calculate fitness
+fitness_dict = {i:[] for i in range(population_size)}
+# Randomly sample a problem from the training set
+for problem_index in range(problems_per_round):
+    current_problem = training_set[seed.integers(0,len(training_set))]
+    # Solve selected problem with each heuristic
+    for chromosome in population:
+        problem = copy.deepcopy(current_problem)
+        bin_dict = {'0':[]}
+        objects =  [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
+        round = 0
+        current_bin = 0
+        while round < NUM_RECTANGLES:
+            logging.info(f'Round {round}: {len(problem)} items remaining')
+            solution = chromosome[round]
+            if solution in [1,3,5]: # choose largest remaining piece by area
+                logging.info('Descending')
+                areas = [[x[0] * x[1], x] for x in problem]
+                areas.sort(reverse=True)
+                item = areas[0][1]
+                problem.remove(item)
+            elif solution in [0,2,4]:
+                item = problem.pop(0) # instead choose first piece in queue
 
-        if solution in [0,1]:
-            # logging.info('First Fit')
-            objects, bin_dict, current_bin = single_ff(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
+            if solution in [0,1]:
+                logging.info('First Fit')
+                objects, bin_dict, current_bin = single_ff(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
 
-        elif solution in [2,3]:
-            # logging.info('Next Fit')
-            objects, bin_dict, current_bin = single_nf(bin_dict, objects, item, round, current_bin, BIN_WIDTH, BIN_HEIGHT)
-        
-        elif solution in [4,5]:
-            # logging.info('Best Fit')
-            objects, bin_dict, current_bin = single_bf(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
+            elif solution in [2,3]:
+                logging.info('Next Fit')
+                objects, bin_dict, current_bin = single_nf(bin_dict, objects, item, round, current_bin, BIN_WIDTH, BIN_HEIGHT)
+            
+            elif solution in [4,5]:
+                logging.info('Best Fit')
+                objects, bin_dict, current_bin = single_bf(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
 
-        elif solution == 6:
-            # logging.info('DJD')
-            objects, bin_dict, problem, current_bin = single_djd(bin_dict, objects, problem, current_bin, BIN_WIDTH, BIN_HEIGHT)
-            pass
+            elif solution == 6:
+                logging.info('DJD')
+                objects, bin_dict, problem, current_bin = single_djd(bin_dict, objects, problem, current_bin, BIN_WIDTH, BIN_HEIGHT)
+                pass
 
-        # logging.info(bin_dict)
-        round += 1
+            logging.info(bin_dict)
+            round += 1
+        fitness = fitness_function(objects)
+        fitness_dict[population.index(chromosome)].append(fitness)
 
-    fitnesses.append(fitness_function(objects))
+fitness_series = pd.DataFrame(fitness_dict).describe().loc['50%']
+fitness_df = pd.DataFrame({'Chromosome':[chromosome for chromosome in population], 'Fitness':fitness_series})
 
-fitnesses_series = pd.Series(fitnesses)
-print(fitnesses_series.describe())
+# PARENT SELECTION
+total_fitness = fitness_df['Fitness'].sum()
+normalised_fitness_series = fitness_df['Fitness'].div(total_fitness)
 
-    # PARENT SELECTION
-    # CROSSOVER
-    # MUTATION
+
+# CROSSOVER
+# MUTATION
