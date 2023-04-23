@@ -1,3 +1,4 @@
+##################################################### IMPORTS #######################################################
 import math
 import sys
 import numpy as np
@@ -5,201 +6,277 @@ import pandas as pd
 import ast
 import logging
 import placement
+import copy
 seed = np.random.default_rng()
 logger = logging.getLogger('my_module_name')
 logging.basicConfig(filename='log.log',filemode='w', encoding='utf-8', level=logging.DEBUG)
 
-###################################################### AUXILIARY FUNCTIONS ######################################################
+training_set = pd.read_csv('training_set.csv')['Item sets']
+training_set = training_set.apply(lambda x: ast.literal_eval(x))
 
-def generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES):
-    # Generate widths and heights of rectangles between 1 and 2/3 bin dimensions
-    widths = seed.integers(1,BIN_WIDTH, NUM_RECTANGLES)
-    heights = seed.integers(1,BIN_HEIGHT, NUM_RECTANGLES)
-    rectangles = list(zip(widths, heights))
-    seed.shuffle(rectangles)
+testing_set = pd.read_csv('testing_set.csv')['Item sets']
 
-    # Rotate (swap width and height) of a random number of rectangles    
-    num_rotations = seed.integers(NUM_RECTANGLES)
-    for i in range(num_rotations):
-        x = rectangles.pop(0)
-        width, height = x[0], x[1]
-        rectangles.append((height, width))
+############################################# AUXILIARY AND SINGLE SELECTION FUNCTIONS #######################################################
+def fitness_function(object_list): 
+    fraction_util = 0
+    for object in object_list:
+        fraction_util += ((np.count_nonzero(object[0]))/(BIN_HEIGHT*BIN_WIDTH))**2
+    fitness = fraction_util/len(object_list)
 
-    # Generate label for problem instance
-    areas = [(rectangle[0]*rectangle[1], rectangle) for rectangle in rectangles]
-    # Area labels
-    huge = 0
-    large = 0
-    medium = 0
-    small = 0
-    for area in areas:
-        if area[0] > (BIN_WIDTH * BIN_HEIGHT)/2:
-            huge += 1        
-        elif (BIN_WIDTH * BIN_HEIGHT)/2 >= area[0] > (BIN_WIDTH * BIN_HEIGHT)/3:
-            large += 1
-        elif (BIN_WIDTH * BIN_HEIGHT)/3 >= area[0] > (BIN_WIDTH * BIN_HEIGHT)/4:
-            medium += 1
+    return fitness
+
+
+def single_ff(outer_bin_dict, outer_objects, item, i, BIN_WIDTH, BIN_HEIGHT):
+    bin_dict = copy.deepcopy(outer_bin_dict)
+    objects = copy.deepcopy(outer_objects)
+
+    j = seed.choice([1,3,5,7,9]) # j-value determines colour of piece in display
+
+    # Try to place rectangle. If possible, return updated bin and NONE. Else, return bin and item
+    can_place = False 
+    for o in range(len(objects)):
+        object, success_flag = placement.bottom_left(objects[o], item, j)
+        if success_flag == 1:
+            can_place = True
+
+            # Update return variables
+            objects[o] = object
+            bin_dict[f'{o}'].append(item)
+            current_object = o
+            break
+
+    # Cannot fit in any bin. Create a new bin and place the item.
+    if not can_place:
+        objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+        object, success_flag = placement.bottom_left(objects[-1], item, j)
+        if success_flag == 1:
+            objects[-1] = object
+            bin_dict[f'{o+1}'] = [item]
+            current_object = o + 1
         else:
-            small += 1
-    # Rectangularity labels
-    tall = 0
-    average = 0
-    short = 0
-    for area in areas:
-        if area[1][1] > BIN_HEIGHT/2:
-            tall += 1
-        elif BIN_HEIGHT/2 >= area[1][1] > BIN_HEIGHT/3:
-            average += 1
+            logging.info(f'Fatal error, item {i}:{item} larger than bin')
+    return objects, bin_dict, current_object
+
+
+def single_nf(outer_bin_dict, outer_objects, item, i, current_object, BIN_WIDTH, BIN_HEIGHT):
+    bin_dict = copy.deepcopy(outer_bin_dict)
+    objects = copy.deepcopy(outer_objects)
+
+    j = seed.choice([1,3,5,7,9]) # j-value determines colour of piece in display
+
+    # Try to place in current object
+    can_place = False 
+    object, success_flag = placement.bottom_left(objects[current_object], item, j)
+    if success_flag == 1:
+        can_place = True
+
+        # Update return variables
+        bin_dict[f'{current_object}'].append(item)
+        objects[current_object] = object
+
+    # If cannot, iterate through other objects
+    if not can_place:
+        for o in range(len(objects)-1):
+            new_current_object = (current_object + o + 1) % len(objects)
+            object, success_flag = placement.bottom_left(objects[new_current_object], item, j)
+            if success_flag == 1:
+                can_place = True
+
+                # update return variables
+                bin_dict[f'{new_current_object}'].append(item)
+                objects[new_current_object] = object
+                new_current_object = current_object
+                break
+        # If cannot place in any other object, create new object and place there
+        if not can_place:
+            objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+            current_object = len(objects) - 1
+            object, success_flag = placement.bottom_left(objects[current_object], item, j)
+            if success_flag == 1:
+                # Update return variables
+                bin_dict[f'{len(objects) - 1}'] = [item]
+                objects[current_object] = object
+            else:
+                logging.info(f'Fatal error, item {i}:{item} larger than bin')
+
+    return objects, bin_dict, current_object
+
+
+def single_bf(outer_bin_dict, outer_objects, item, i, BIN_WIDTH, BIN_HEIGHT):
+    bin_dict = copy.deepcopy(outer_bin_dict)
+    objects = copy.deepcopy(outer_objects)
+
+    j = seed.choice([1,3,5,7,9]) # j-value determines colour of piece in display
+
+    # Try to place rectangle. If possible, return updated bin and NONE. Else, return bin and item
+    can_place = False 
+    best_bin = objects[0]
+    waste = BIN_WIDTH * BIN_HEIGHT
+
+    for o in range(len(objects)):
+        object, success_flag = placement.bottom_left(objects[o], item, j)
+        if success_flag == 1:
+            can_place = True
+            if (BIN_WIDTH * BIN_HEIGHT - np.count_nonzero(object[0])) < waste:
+                best_bin_index = o
+                best_bin = object
+                waste = BIN_WIDTH * BIN_HEIGHT - np.count_nonzero(object[0])
+    
+    if can_place:
+        # update return variables
+        bin_dict[f'{best_bin_index}'].append(item)
+        objects[best_bin_index] = best_bin
+        current_object = best_bin_index
+
+    if not can_place:
+        objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+        object, success_flag = placement.bottom_left(objects[-1], item, j)
+        if success_flag == 1:
+            current_object = len(objects) - 1
+            objects[-1] = object
+            bin_dict[f'{o+1}'] = [item]
         else:
-            short += 1
-    huge, large, medium, small, tall, average, short = huge/NUM_RECTANGLES, large/NUM_RECTANGLES, medium/NUM_RECTANGLES, small/NUM_RECTANGLES, tall/NUM_RECTANGLES, average/NUM_RECTANGLES, short/NUM_RECTANGLES
-    problem_label = [huge, large, medium, small, tall, average, short, 1]
-    return rectangles, problem_label
+            logging.info(f'Fatal error, item {i}:{item} larger than bin')
+    return objects, bin_dict, current_object
 
 
-def euclidean_distance(chromosome_block, problem_label):
-    ed_total = 0
-    for index in range(7):
-        ed_total += (chromosome_block[index] - problem_label[index]) ** 2
-    return math.sqrt(ed_total)
+def single_djd(outer_bin_dict, outer_objects, problems, current_bin, BIN_WIDTH, BIN_HEIGHT):
 
+    # make deepcopies of everything
+    bin_dict = copy.deepcopy(outer_bin_dict)
+    objects = copy.deepcopy(outer_objects)
+    items = copy.deepcopy(problems)
+    current_object = copy.deepcopy(current_bin)
 
-############################################# MAIN CODE ###############################################################
+    j = seed.choice([1,3,5,7,9]) # j-value determines colour of piece in display
+    waste = 0
+    w = BIN_WIDTH * BIN_HEIGHT / 20
+    
+    # sort items by decreasing area
+    areas = [[x[0] * x[1], x] for x in items]
+    areas.sort(reverse=True)
+    items = [area[1] for area in areas]
+    for o in range(len(objects)):
+        failed = []
+        ofa = BIN_HEIGHT * BIN_WIDTH - np.count_nonzero(objects[current_object][0])
+        while waste <= ofa:
+            for item in items:
+                # If current bin is filled < 1/3, try to place the piece
+                if np.count_nonzero(objects[current_object][0]) < (BIN_WIDTH * BIN_HEIGHT / 3):
+                    object, success_flag = placement.bottom_left(objects[current_object], item, j)
+                    if success_flag == 1:
+                        items.remove(item)
+                        bin_dict[f'{current_object}'].append(item)
+                        objects[current_object] = object
+                        return objects, bin_dict, items, current_object
+                    else:
+                        failed.append(item)
+                
+                item_area = item[0] * item[1]
+                if ofa - item_area > waste:
+                    break # item is too small to fill free area, need to increment waste
 
-POPULATION_SIZE = 10
+                if (item_area > ofa) or item in failed:
+                    continue # item is too big/doesn't fit, get next smallest item
+
+                object, success_flag = placement.bottom_left(objects[current_object], item, j)
+                if success_flag == 1:
+                    items.remove(item)
+                    bin_dict[f'{current_object}'].append(item)
+                    objects[current_object] = object
+                    return objects, bin_dict, items, current_object
+                else:
+                    failed.append(item)
+            waste += w
+        current_object = (current_object + 1) % len(objects)
+
+    # All bins have failed, create a new bin and place item there
+    item = items[0]
+    objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
+    object, success_flag = placement.bottom_left(objects[-1], item, j)
+    if success_flag == 1:
+        current_object = len(objects) - 1
+        objects[current_object] = object
+        bin_dict[f'{current_object}'] = [item]
+        items.remove(item)                
+        return objects, bin_dict, items, current_object
+    else:
+        logging.info(f'Fatal error, item {i}:{item} larger than bin')
+    return objects, bin_dict, items, current_object
+############################################# PARAMETERS #######################################################
+# GLOBAL (NEED TO CHANGES ACROSS MULTIPLE PROGRAMS)
 BIN_WIDTH = 100
 BIN_HEIGHT = 100
 NUM_RECTANGLES = 20
 
-training_data_set = pd.read_csv('low_level_scores_training_set_0.csv')
-training_data_set['Labels'] = training_data_set['Labels'].apply(lambda x: ast.literal_eval(x))
-testing_data_set = pd.read_csv('testing_set.csv')
-testing_data_set['Labels'] = testing_data_set['Labels'].apply(lambda x: ast.literal_eval(x))
-
-# Generate initial population
-    # 10 individuals. Each individual has a random number of labels (2-5% of training set size)
-population = []
-for i in range(POPULATION_SIZE):
-    chromosome = []
-    num_blocks = seed.integers(0.02*len(training_data_set), 0.05*len(training_data_set))
-    for j in range(num_blocks):
-        index = seed.choice([row for row in range(len(training_data_set))])
-        chromosome.append(training_data_set.iloc[index]['Labels'])
-    population.append(chromosome)
-
-# Assign 5 problems to each individual and compute fitness
-items1, label1 = generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-items2, label2 = generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-items3, label3 = generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-items4, label4 = generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-items5, label5 = generate_rectangles(seed, BIN_WIDTH, BIN_HEIGHT, NUM_RECTANGLES)
-    
-problem1 = [items1, label1]
-problem2 = [items2, label2]
-problem3 = [items3, label3]
-problem4 = [items4, label4]
-problem5 = [items5, label5]
-
-problems = [problem1, problem2, problem3, problem4, problem5]
-for chromosome in population:
-    for problem in problems:
-        solution_bin_dict = {'0':[]}
-        solution_objects =  [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
-        items = problem[0]
-
-        while problem[1][7] != 0: # Problem not solved, pieces still remaining
-            # Find closest (euclidean distance) block in chromosome to the problem label, and choose associated selection heuristic
-            closest_block = -1
-            shortest_distance = 800
-            for block in chromosome:
-                if euclidean_distance(block, problem[1]) < shortest_distance:
-                    closest_block = block
-                    shortest_distance = euclidean_distance(block, problem[1])
-            
-            selection_heuristic = closest_block[-1]
-
-            # Apply first fit
-            if selection_heuristic == 0: 
-                item = items.pop(0)
-                logging.info(f'item {i}:{item}')
-                j = seed.choice[1,3,5,7,9]
-
-                # Try to place rectangle. If possible, return updated bin and NONE. Else, return bin and item
-                can_place = False 
-                for o in range(len(solution_objects)):
-                    logging.info(f'Trying bin {o}')
-                    object, success_flag = placement.bottom_left(solution_objects[o], item, j)
-                    if success_flag == 1:
-                        can_place = True
-                        logging.info(f'Placed in bin {o}')
-
-                        # Update return variables and label(area, height, remaining pieces)
-                        solution_objects[o] = object
-                        solution_bin_dict[f'{o}'].append(i)
-                        break
-
-                # Cannot fit in any bin. Create a new bin and place the item.
-                if not can_place:
-                    solution_objects.append([np.zeros((BIN_HEIGHT, BIN_WIDTH)), None])
-                    object, success_flag = placement.bottom_left(solution_objects[-1], item, j)
-                    if success_flag == 1:
-                        logging.info(f'New bin {o+1} created and item {i} placed')
-                        solution_objects[-1] = object
-                        solution_bin_dict[f'{o+1}'] = [i]
-
-                # Update label
-                area = item[0] * item[1]
-                height = item[1]
-                remaining_pieces = items
-
-                if area > (BIN_WIDTH * BIN_HEIGHT)/2:
-                    pass   
-                elif (BIN_WIDTH * BIN_HEIGHT)/2 >= area > (BIN_WIDTH * BIN_HEIGHT)/3:
-                    pass
-                elif (BIN_WIDTH * BIN_HEIGHT)/3 >= area > (BIN_WIDTH * BIN_HEIGHT)/4:
-                    pass
-                else:
-                    pass
-
-                
+# SPECIFIC (JUST FOR GENETIC ALGORITHM)
+population_size = 25
+seeding = False 
+problems_per_round = 5
+############################################# GENETIC ALGORITHM #######################################################
 
 
-            # Apply First fit decreasing
-            elif selection_heuristic == 1:
-                pass
-            elif selection_heuristic == 2: # Next fit
-                pass
-            elif selection_heuristic == 3: # Next fit decreasing
-                pass
-            elif selection_heuristic == 4: # Best fit
-                pass
-            elif selection_heuristic == 5: # Best fit decreasing
-                pass
-            elif selection_heuristic == 6: # DJD
-                pass
-            elif selection_heuristic == 7: # DJD2
-                pass
+# GENERATE INITIAL POPULATION
+if not seeding: # RANDOMLY
+    initial_population = []
+    for i in range(population_size):
+        initial_chromosome = [seed.integers(0,7) for i in range(NUM_RECTANGLES)]
+        initial_population.append(initial_chromosome)
+else:
+    pass
 
-            # Apply selection heuristic one step and update state attached to point
-            sys.exit()
+# MAIN LOOP
+    # CALCULATE FITNESS - sample 5 problems from training set. For each problem, run the single-item selection heuristics.
 
+fitnesses = []
+for i in range(100):
+    logging.info(f'Problem {i}')
+    print(f'Problem {i}')
+    # Randomly sample a problem from the training set
+    problem = copy.deepcopy(training_set[seed.integers(0,len(training_set))])
+    bin_dict = {'0':[]}
+    objects =  [[np.zeros((BIN_HEIGHT, BIN_WIDTH)), None]]
+    # Solve problem using the heuristics in the chromosome
+    chromosome = initial_population[0]
+    round = 0
+    current_bin = 0
+    while round < NUM_RECTANGLES:
+        logging.info(f'Round {round}: {len(problem)} items remaining')
+        solution = chromosome[round]
+        # logging.info('Descending')
+        if solution in [1,3,5]: # choose largest remaining piece by area
+            areas = [[x[0] * x[1], x] for x in problem]
+            areas.sort(reverse=True)
+            item = areas[0][1]
+            problem.remove(item)
+        elif solution in [0,2,4]:
+            item = problem.pop(0) # instead choose first piece in queue
 
-            # Update state to P'
-        # Store solution in dictionary 
-    # Calculate fitness using ff(k) - bsh(k)
+        if solution in [0,1]:
+            # logging.info('First Fit')
+            objects, bin_dict, current_bin = single_ff(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
 
-# Apply selection, crossover, mutation to produce 2 children
-    # Selection 1: choose k (the tournament size) individuals from the population at random
-        # choose the best individual from the tournament with probability p
-        # choose the second best individual with probability p*(1-p)
-        # choose the third best individual with probability p*((1-p)^2)
-        # and so on
-    # Crossover 1: 2-point crossover. For both parents, use a uniform distribution to randomly sample for which block is chosen (different for both parents).
-        # Then use the same method to randomly sample a point in the block to crossover (same for both parents)
-    # Crossover 2: Exchange 10% of blocks between parents, meaning that child 1 inherits 90% from parent 1 and 10% from parent 2, and vice versa for child 2.
-    # Mutation 1: Randomly generate new block and add to end of chromosome
-    # Mutation 2: Randomly select a block and remove it from the chromosome
-    # Mutation 3: Randomly select a block and a point in the block, and replace the value with a new number between 3 and -3, using a normal distribution with mean 0.5, and truncated.
-# Assign 5 problems to each child and compute fitness (see other fitness function)
-# Replace 2 worst individuals with new offspring
-# Assign new problem to every individual in new population and compute fitness (see l)
+        elif solution in [2,3]:
+            # logging.info('Next Fit')
+            objects, bin_dict, current_bin = single_nf(bin_dict, objects, item, round, current_bin, BIN_WIDTH, BIN_HEIGHT)
+        
+        elif solution in [4,5]:
+            # logging.info('Best Fit')
+            objects, bin_dict, current_bin = single_bf(bin_dict, objects, item, round, BIN_WIDTH, BIN_HEIGHT)
+
+        elif solution == 6:
+            # logging.info('DJD')
+            objects, bin_dict, problem, current_bin = single_djd(bin_dict, objects, problem, current_bin, BIN_WIDTH, BIN_HEIGHT)
+            pass
+
+        # logging.info(bin_dict)
+        round += 1
+
+    fitnesses.append(fitness_function(objects))
+
+fitnesses_series = pd.Series(fitnesses)
+print(fitnesses_series.describe())
+
+    # PARENT SELECTION
+    # CROSSOVER
+    # MUTATION
