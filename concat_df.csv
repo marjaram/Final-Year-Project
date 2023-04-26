@@ -1,0 +1,5001 @@
+,Fitness,Heuristic
+0,0.4391,First Fit
+1,0.3343,First Fit
+2,0.4112,First Fit
+3,0.4825,First Fit
+4,0.5028,First Fit
+5,0.5436,First Fit
+6,0.3751,First Fit
+7,0.4039,First Fit
+8,0.4767,First Fit
+9,0.3896,First Fit
+10,0.4452,First Fit
+11,0.5059,First Fit
+12,0.5111,First Fit
+13,0.4517,First Fit
+14,0.4889,First Fit
+15,0.4797,First Fit
+16,0.4288,First Fit
+17,0.4021,First Fit
+18,0.3866,First Fit
+19,0.5293,First Fit
+20,0.4644,First Fit
+21,0.3604,First Fit
+22,0.4953,First Fit
+23,0.4478,First Fit
+24,0.3924,First Fit
+25,0.4308,First Fit
+26,0.5778,First Fit
+27,0.353,First Fit
+28,0.5152,First Fit
+29,0.4441,First Fit
+30,0.476,First Fit
+31,0.5166,First Fit
+32,0.436,First Fit
+33,0.4663,First Fit
+34,0.4999,First Fit
+35,0.4967,First Fit
+36,0.4732,First Fit
+37,0.4558,First Fit
+38,0.4336,First Fit
+39,0.4257,First Fit
+40,0.5098,First Fit
+41,0.5022,First Fit
+42,0.4398,First Fit
+43,0.4777,First Fit
+44,0.428,First Fit
+45,0.4555,First Fit
+46,0.4818,First Fit
+47,0.5419,First Fit
+48,0.4455,First Fit
+49,0.5146,First Fit
+50,0.4478,First Fit
+51,0.4535,First Fit
+52,0.4289,First Fit
+53,0.4176,First Fit
+54,0.4588,First Fit
+55,0.422,First Fit
+56,0.433,First Fit
+57,0.4726,First Fit
+58,0.4083,First Fit
+59,0.3039,First Fit
+60,0.479,First Fit
+61,0.4219,First Fit
+62,0.3677,First Fit
+63,0.4513,First Fit
+64,0.4111,First Fit
+65,0.533,First Fit
+66,0.4809,First Fit
+67,0.4913,First Fit
+68,0.4772,First Fit
+69,0.4219,First Fit
+70,0.6686,First Fit
+71,0.3716,First Fit
+72,0.4235,First Fit
+73,0.4821,First Fit
+74,0.4398,First Fit
+75,0.4408,First Fit
+76,0.4563,First Fit
+77,0.4873,First Fit
+78,0.4313,First Fit
+79,0.3991,First Fit
+80,0.3873,First Fit
+81,0.5182,First Fit
+82,0.5104,First Fit
+83,0.2912,First Fit
+84,0.5173,First Fit
+85,0.497,First Fit
+86,0.4059,First Fit
+87,0.3994,First Fit
+88,0.4442,First Fit
+89,0.4505,First Fit
+90,0.4156,First Fit
+91,0.4073,First Fit
+92,0.4119,First Fit
+93,0.4492,First Fit
+94,0.4557,First Fit
+95,0.4152,First Fit
+96,0.5015,First Fit
+97,0.4159,First Fit
+98,0.3552,First Fit
+99,0.4396,First Fit
+100,0.5209,First Fit
+101,0.5076,First Fit
+102,0.4971,First Fit
+103,0.4236,First Fit
+104,0.3106,First Fit
+105,0.371,First Fit
+106,0.5079,First Fit
+107,0.4515,First Fit
+108,0.5159,First Fit
+109,0.5166,First Fit
+110,0.4767,First Fit
+111,0.3959,First Fit
+112,0.4159,First Fit
+113,0.4764,First Fit
+114,0.429,First Fit
+115,0.3599,First Fit
+116,0.4658,First Fit
+117,0.498,First Fit
+118,0.5021,First Fit
+119,0.477,First Fit
+120,0.3787,First Fit
+121,0.4343,First Fit
+122,0.4574,First Fit
+123,0.3525,First Fit
+124,0.4887,First Fit
+125,0.488,First Fit
+126,0.5499,First Fit
+127,0.4139,First Fit
+128,0.473,First Fit
+129,0.4286,First Fit
+130,0.4719,First Fit
+131,0.4178,First Fit
+132,0.4431,First Fit
+133,0.4872,First Fit
+134,0.4401,First Fit
+135,0.3832,First Fit
+136,0.341,First Fit
+137,0.3432,First Fit
+138,0.4544,First Fit
+139,0.4156,First Fit
+140,0.3718,First Fit
+141,0.5234,First Fit
+142,0.4337,First Fit
+143,0.5951,First Fit
+144,0.5364,First Fit
+145,0.4259,First Fit
+146,0.4391,First Fit
+147,0.5435,First Fit
+148,0.5121,First Fit
+149,0.3807,First Fit
+150,0.426,First Fit
+151,0.489,First Fit
+152,0.3975,First Fit
+153,0.5232,First Fit
+154,0.4737,First Fit
+155,0.4953,First Fit
+156,0.3811,First Fit
+157,0.548,First Fit
+158,0.5405,First Fit
+159,0.5888,First Fit
+160,0.4199,First Fit
+161,0.5371,First Fit
+162,0.4132,First Fit
+163,0.3901,First Fit
+164,0.5312,First Fit
+165,0.4315,First Fit
+166,0.3815,First Fit
+167,0.3928,First Fit
+168,0.5476,First Fit
+169,0.4254,First Fit
+170,0.408,First Fit
+171,0.4483,First Fit
+172,0.3847,First Fit
+173,0.4311,First Fit
+174,0.3466,First Fit
+175,0.4251,First Fit
+176,0.3847,First Fit
+177,0.4549,First Fit
+178,0.4271,First Fit
+179,0.3127,First Fit
+180,0.4405,First Fit
+181,0.3007,First Fit
+182,0.4371,First Fit
+183,0.4248,First Fit
+184,0.5656,First Fit
+185,0.4526,First Fit
+186,0.3334,First Fit
+187,0.4717,First Fit
+188,0.3996,First Fit
+189,0.3409,First Fit
+190,0.4126,First Fit
+191,0.4087,First Fit
+192,0.4059,First Fit
+193,0.4755,First Fit
+194,0.5028,First Fit
+195,0.5642,First Fit
+196,0.265,First Fit
+197,0.4366,First Fit
+198,0.3813,First Fit
+199,0.5404,First Fit
+200,0.4073,First Fit
+201,0.3672,First Fit
+202,0.4605,First Fit
+203,0.4812,First Fit
+204,0.5187,First Fit
+205,0.4376,First Fit
+206,0.3958,First Fit
+207,0.5267,First Fit
+208,0.4908,First Fit
+209,0.3586,First Fit
+210,0.583,First Fit
+211,0.3596,First Fit
+212,0.4409,First Fit
+213,0.3483,First Fit
+214,0.4537,First Fit
+215,0.4318,First Fit
+216,0.413,First Fit
+217,0.3998,First Fit
+218,0.4354,First Fit
+219,0.4814,First Fit
+220,0.3492,First Fit
+221,0.4112,First Fit
+222,0.4284,First Fit
+223,0.3654,First Fit
+224,0.4912,First Fit
+225,0.4292,First Fit
+226,0.3885,First Fit
+227,0.3385,First Fit
+228,0.5862,First Fit
+229,0.443,First Fit
+230,0.3232,First Fit
+231,0.4214,First Fit
+232,0.4554,First Fit
+233,0.3724,First Fit
+234,0.5356,First Fit
+235,0.4726,First Fit
+236,0.4212,First Fit
+237,0.4363,First Fit
+238,0.3895,First Fit
+239,0.499,First Fit
+240,0.4264,First Fit
+241,0.3977,First Fit
+242,0.4441,First Fit
+243,0.3892,First Fit
+244,0.5166,First Fit
+245,0.4448,First Fit
+246,0.3162,First Fit
+247,0.6039,First Fit
+248,0.4347,First Fit
+249,0.4389,First Fit
+250,0.4489,First Fit
+251,0.3651,First Fit
+252,0.4057,First Fit
+253,0.4805,First Fit
+254,0.5672,First Fit
+255,0.3448,First Fit
+256,0.5236,First Fit
+257,0.5889,First Fit
+258,0.3929,First Fit
+259,0.3986,First Fit
+260,0.5175,First Fit
+261,0.4274,First Fit
+262,0.4325,First Fit
+263,0.5099,First Fit
+264,0.5491,First Fit
+265,0.3476,First Fit
+266,0.5072,First Fit
+267,0.4116,First Fit
+268,0.4599,First Fit
+269,0.4079,First Fit
+270,0.5151,First Fit
+271,0.4154,First Fit
+272,0.4895,First Fit
+273,0.3252,First Fit
+274,0.3863,First Fit
+275,0.5275,First Fit
+276,0.3365,First Fit
+277,0.5366,First Fit
+278,0.3475,First Fit
+279,0.2954,First Fit
+280,0.4975,First Fit
+281,0.4,First Fit
+282,0.4947,First Fit
+283,0.3678,First Fit
+284,0.4409,First Fit
+285,0.4238,First Fit
+286,0.3696,First Fit
+287,0.4814,First Fit
+288,0.6255,First Fit
+289,0.3143,First Fit
+290,0.3894,First Fit
+291,0.45,First Fit
+292,0.4064,First Fit
+293,0.5031,First Fit
+294,0.4537,First Fit
+295,0.4931,First Fit
+296,0.3443,First Fit
+297,0.4368,First Fit
+298,0.4409,First Fit
+299,0.5034,First Fit
+300,0.4649,First Fit
+301,0.4477,First Fit
+302,0.3827,First Fit
+303,0.4321,First Fit
+304,0.4325,First Fit
+305,0.4291,First Fit
+306,0.4796,First Fit
+307,0.4534,First Fit
+308,0.438,First Fit
+309,0.4034,First Fit
+310,0.4809,First Fit
+311,0.5224,First Fit
+312,0.5174,First Fit
+313,0.3576,First Fit
+314,0.32,First Fit
+315,0.4134,First Fit
+316,0.5106,First Fit
+317,0.5316,First Fit
+318,0.4371,First Fit
+319,0.3526,First Fit
+320,0.4887,First Fit
+321,0.5323,First Fit
+322,0.5482,First Fit
+323,0.4817,First Fit
+324,0.4209,First Fit
+325,0.352,First Fit
+326,0.4817,First Fit
+327,0.4257,First Fit
+328,0.474,First Fit
+329,0.4902,First Fit
+330,0.4136,First Fit
+331,0.4696,First Fit
+332,0.4112,First Fit
+333,0.3471,First Fit
+334,0.4262,First Fit
+335,0.383,First Fit
+336,0.5273,First Fit
+337,0.2945,First Fit
+338,0.469,First Fit
+339,0.3975,First Fit
+340,0.4747,First Fit
+341,0.5311,First Fit
+342,0.5119,First Fit
+343,0.4111,First Fit
+344,0.4531,First Fit
+345,0.4893,First Fit
+346,0.4216,First Fit
+347,0.4469,First Fit
+348,0.5008,First Fit
+349,0.4852,First Fit
+350,0.4468,First Fit
+351,0.345,First Fit
+352,0.5343,First Fit
+353,0.3774,First Fit
+354,0.4269,First Fit
+355,0.4671,First Fit
+356,0.502,First Fit
+357,0.414,First Fit
+358,0.4717,First Fit
+359,0.4109,First Fit
+360,0.4122,First Fit
+361,0.4207,First Fit
+362,0.402,First Fit
+363,0.5551,First Fit
+364,0.4627,First Fit
+365,0.3587,First Fit
+366,0.4369,First Fit
+367,0.4467,First Fit
+368,0.6069,First Fit
+369,0.4607,First Fit
+370,0.4669,First Fit
+371,0.373,First Fit
+372,0.5803,First Fit
+373,0.4717,First Fit
+374,0.4972,First Fit
+375,0.2843,First Fit
+376,0.5343,First Fit
+377,0.4322,First Fit
+378,0.4159,First Fit
+379,0.5131,First Fit
+380,0.5356,First Fit
+381,0.5076,First Fit
+382,0.5916,First Fit
+383,0.4861,First Fit
+384,0.5422,First Fit
+385,0.4486,First Fit
+386,0.436,First Fit
+387,0.4486,First Fit
+388,0.4706,First Fit
+389,0.543,First Fit
+390,0.3585,First Fit
+391,0.3899,First Fit
+392,0.4932,First Fit
+393,0.4026,First Fit
+394,0.4012,First Fit
+395,0.4992,First Fit
+396,0.5706,First Fit
+397,0.4737,First Fit
+398,0.4341,First Fit
+399,0.4135,First Fit
+400,0.5366,First Fit
+401,0.4113,First Fit
+402,0.3843,First Fit
+403,0.4137,First Fit
+404,0.4874,First Fit
+405,0.4436,First Fit
+406,0.5948,First Fit
+407,0.4797,First Fit
+408,0.3645,First Fit
+409,0.4956,First Fit
+410,0.4188,First Fit
+411,0.4274,First Fit
+412,0.3764,First Fit
+413,0.4727,First Fit
+414,0.4503,First Fit
+415,0.4828,First Fit
+416,0.4824,First Fit
+417,0.5292,First Fit
+418,0.547,First Fit
+419,0.5947,First Fit
+420,0.3992,First Fit
+421,0.4237,First Fit
+422,0.5439,First Fit
+423,0.4078,First Fit
+424,0.5437,First Fit
+425,0.3836,First Fit
+426,0.6131,First Fit
+427,0.4164,First Fit
+428,0.4231,First Fit
+429,0.5865,First Fit
+430,0.513,First Fit
+431,0.4956,First Fit
+432,0.4385,First Fit
+433,0.4931,First Fit
+434,0.5476,First Fit
+435,0.5316,First Fit
+436,0.4517,First Fit
+437,0.5241,First Fit
+438,0.4672,First Fit
+439,0.4525,First Fit
+440,0.3919,First Fit
+441,0.4589,First Fit
+442,0.4888,First Fit
+443,0.4336,First Fit
+444,0.5858,First Fit
+445,0.5447,First Fit
+446,0.4492,First Fit
+447,0.4238,First Fit
+448,0.4138,First Fit
+449,0.3763,First Fit
+450,0.429,First Fit
+451,0.3226,First Fit
+452,0.4271,First Fit
+453,0.454,First Fit
+454,0.4615,First Fit
+455,0.4397,First Fit
+456,0.445,First Fit
+457,0.3977,First Fit
+458,0.306,First Fit
+459,0.3922,First Fit
+460,0.3905,First Fit
+461,0.4838,First Fit
+462,0.4157,First Fit
+463,0.4091,First Fit
+464,0.4008,First Fit
+465,0.4504,First Fit
+466,0.4562,First Fit
+467,0.4419,First Fit
+468,0.5138,First Fit
+469,0.3689,First Fit
+470,0.4051,First Fit
+471,0.5343,First Fit
+472,0.4931,First Fit
+473,0.4327,First Fit
+474,0.4531,First Fit
+475,0.3282,First Fit
+476,0.5822,First Fit
+477,0.4471,First Fit
+478,0.4059,First Fit
+479,0.4841,First Fit
+480,0.4994,First Fit
+481,0.4443,First Fit
+482,0.4578,First Fit
+483,0.4516,First Fit
+484,0.4739,First Fit
+485,0.5646,First Fit
+486,0.4492,First Fit
+487,0.4176,First Fit
+488,0.5651,First Fit
+489,0.4769,First Fit
+490,0.4056,First Fit
+491,0.3949,First Fit
+492,0.4149,First Fit
+493,0.4963,First Fit
+494,0.4132,First Fit
+495,0.5093,First Fit
+496,0.4189,First Fit
+497,0.4211,First Fit
+498,0.498,First Fit
+499,0.4807,First Fit
+0,0.5553,First Fit Decreasing
+1,0.6332,First Fit Decreasing
+2,0.5479,First Fit Decreasing
+3,0.5285,First Fit Decreasing
+4,0.5289,First Fit Decreasing
+5,0.5805,First Fit Decreasing
+6,0.5683,First Fit Decreasing
+7,0.5111,First Fit Decreasing
+8,0.568,First Fit Decreasing
+9,0.5062,First Fit Decreasing
+10,0.5814,First Fit Decreasing
+11,0.5458,First Fit Decreasing
+12,0.5482,First Fit Decreasing
+13,0.4668,First Fit Decreasing
+14,0.5039,First Fit Decreasing
+15,0.5514,First Fit Decreasing
+16,0.5551,First Fit Decreasing
+17,0.5111,First Fit Decreasing
+18,0.4669,First Fit Decreasing
+19,0.537,First Fit Decreasing
+20,0.4658,First Fit Decreasing
+21,0.3977,First Fit Decreasing
+22,0.5019,First Fit Decreasing
+23,0.5841,First Fit Decreasing
+24,0.4922,First Fit Decreasing
+25,0.5558,First Fit Decreasing
+26,0.583,First Fit Decreasing
+27,0.4572,First Fit Decreasing
+28,0.5602,First Fit Decreasing
+29,0.5695,First Fit Decreasing
+30,0.7328,First Fit Decreasing
+31,0.5287,First Fit Decreasing
+32,0.4549,First Fit Decreasing
+33,0.4859,First Fit Decreasing
+34,0.5125,First Fit Decreasing
+35,0.5304,First Fit Decreasing
+36,0.5031,First Fit Decreasing
+37,0.5929,First Fit Decreasing
+38,0.4812,First Fit Decreasing
+39,0.5536,First Fit Decreasing
+40,0.5148,First Fit Decreasing
+41,0.5407,First Fit Decreasing
+42,0.4798,First Fit Decreasing
+43,0.5256,First Fit Decreasing
+44,0.4487,First Fit Decreasing
+45,0.469,First Fit Decreasing
+46,0.4963,First Fit Decreasing
+47,0.5805,First Fit Decreasing
+48,0.5915,First Fit Decreasing
+49,0.5288,First Fit Decreasing
+50,0.5845,First Fit Decreasing
+51,0.4629,First Fit Decreasing
+52,0.4702,First Fit Decreasing
+53,0.5069,First Fit Decreasing
+54,0.5948,First Fit Decreasing
+55,0.5564,First Fit Decreasing
+56,0.6105,First Fit Decreasing
+57,0.6721,First Fit Decreasing
+58,0.6121,First Fit Decreasing
+59,0.429,First Fit Decreasing
+60,0.6146,First Fit Decreasing
+61,0.4689,First Fit Decreasing
+62,0.6202,First Fit Decreasing
+63,0.5601,First Fit Decreasing
+64,0.5297,First Fit Decreasing
+65,0.5576,First Fit Decreasing
+66,0.4755,First Fit Decreasing
+67,0.5249,First Fit Decreasing
+68,0.571,First Fit Decreasing
+69,0.673,First Fit Decreasing
+70,0.6711,First Fit Decreasing
+71,0.4752,First Fit Decreasing
+72,0.4595,First Fit Decreasing
+73,0.6303,First Fit Decreasing
+74,0.5403,First Fit Decreasing
+75,0.5559,First Fit Decreasing
+76,0.5858,First Fit Decreasing
+77,0.5493,First Fit Decreasing
+78,0.5939,First Fit Decreasing
+79,0.5073,First Fit Decreasing
+80,0.4529,First Fit Decreasing
+81,0.6468,First Fit Decreasing
+82,0.5422,First Fit Decreasing
+83,0.4971,First Fit Decreasing
+84,0.7274,First Fit Decreasing
+85,0.5636,First Fit Decreasing
+86,0.4107,First Fit Decreasing
+87,0.4982,First Fit Decreasing
+88,0.4834,First Fit Decreasing
+89,0.469,First Fit Decreasing
+90,0.507,First Fit Decreasing
+91,0.6263,First Fit Decreasing
+92,0.5741,First Fit Decreasing
+93,0.4692,First Fit Decreasing
+94,0.4901,First Fit Decreasing
+95,0.5308,First Fit Decreasing
+96,0.5237,First Fit Decreasing
+97,0.4413,First Fit Decreasing
+98,0.5114,First Fit Decreasing
+99,0.5415,First Fit Decreasing
+100,0.5427,First Fit Decreasing
+101,0.6704,First Fit Decreasing
+102,0.5657,First Fit Decreasing
+103,0.5821,First Fit Decreasing
+104,0.4952,First Fit Decreasing
+105,0.5094,First Fit Decreasing
+106,0.6355,First Fit Decreasing
+107,0.5599,First Fit Decreasing
+108,0.5633,First Fit Decreasing
+109,0.5451,First Fit Decreasing
+110,0.5838,First Fit Decreasing
+111,0.4812,First Fit Decreasing
+112,0.6065,First Fit Decreasing
+113,0.5318,First Fit Decreasing
+114,0.5482,First Fit Decreasing
+115,0.384,First Fit Decreasing
+116,0.5986,First Fit Decreasing
+117,0.6565,First Fit Decreasing
+118,0.5747,First Fit Decreasing
+119,0.4984,First Fit Decreasing
+120,0.5807,First Fit Decreasing
+121,0.6323,First Fit Decreasing
+122,0.4701,First Fit Decreasing
+123,0.5365,First Fit Decreasing
+124,0.6581,First Fit Decreasing
+125,0.6244,First Fit Decreasing
+126,0.4413,First Fit Decreasing
+127,0.5424,First Fit Decreasing
+128,0.5195,First Fit Decreasing
+129,0.5532,First Fit Decreasing
+130,0.6446,First Fit Decreasing
+131,0.5691,First Fit Decreasing
+132,0.6316,First Fit Decreasing
+133,0.5228,First Fit Decreasing
+134,0.6145,First Fit Decreasing
+135,0.4972,First Fit Decreasing
+136,0.6144,First Fit Decreasing
+137,0.5601,First Fit Decreasing
+138,0.4747,First Fit Decreasing
+139,0.6393,First Fit Decreasing
+140,0.5259,First Fit Decreasing
+141,0.5794,First Fit Decreasing
+142,0.568,First Fit Decreasing
+143,0.6065,First Fit Decreasing
+144,0.5776,First Fit Decreasing
+145,0.4444,First Fit Decreasing
+146,0.4999,First Fit Decreasing
+147,0.5653,First Fit Decreasing
+148,0.536,First Fit Decreasing
+149,0.6812,First Fit Decreasing
+150,0.5959,First Fit Decreasing
+151,0.6462,First Fit Decreasing
+152,0.5604,First Fit Decreasing
+153,0.5451,First Fit Decreasing
+154,0.612,First Fit Decreasing
+155,0.6442,First Fit Decreasing
+156,0.548,First Fit Decreasing
+157,0.5432,First Fit Decreasing
+158,0.5712,First Fit Decreasing
+159,0.5996,First Fit Decreasing
+160,0.4284,First Fit Decreasing
+161,0.583,First Fit Decreasing
+162,0.5616,First Fit Decreasing
+163,0.5848,First Fit Decreasing
+164,0.5361,First Fit Decreasing
+165,0.5948,First Fit Decreasing
+166,0.5079,First Fit Decreasing
+167,0.4933,First Fit Decreasing
+168,0.4583,First Fit Decreasing
+169,0.5881,First Fit Decreasing
+170,0.6996,First Fit Decreasing
+171,0.5388,First Fit Decreasing
+172,0.477,First Fit Decreasing
+173,0.5692,First Fit Decreasing
+174,0.548,First Fit Decreasing
+175,0.4697,First Fit Decreasing
+176,0.5207,First Fit Decreasing
+177,0.6454,First Fit Decreasing
+178,0.4643,First Fit Decreasing
+179,0.4693,First Fit Decreasing
+180,0.4769,First Fit Decreasing
+181,0.5142,First Fit Decreasing
+182,0.5472,First Fit Decreasing
+183,0.5653,First Fit Decreasing
+184,0.603,First Fit Decreasing
+185,0.4773,First Fit Decreasing
+186,0.6233,First Fit Decreasing
+187,0.4981,First Fit Decreasing
+188,0.5766,First Fit Decreasing
+189,0.5102,First Fit Decreasing
+190,0.5155,First Fit Decreasing
+191,0.4833,First Fit Decreasing
+192,0.5132,First Fit Decreasing
+193,0.6341,First Fit Decreasing
+194,0.5258,First Fit Decreasing
+195,0.5855,First Fit Decreasing
+196,0.5237,First Fit Decreasing
+197,0.5914,First Fit Decreasing
+198,0.5487,First Fit Decreasing
+199,0.5447,First Fit Decreasing
+200,0.5772,First Fit Decreasing
+201,0.4921,First Fit Decreasing
+202,0.5283,First Fit Decreasing
+203,0.5261,First Fit Decreasing
+204,0.5588,First Fit Decreasing
+205,0.4691,First Fit Decreasing
+206,0.558,First Fit Decreasing
+207,0.5186,First Fit Decreasing
+208,0.5956,First Fit Decreasing
+209,0.5498,First Fit Decreasing
+210,0.7269,First Fit Decreasing
+211,0.4792,First Fit Decreasing
+212,0.4879,First Fit Decreasing
+213,0.4352,First Fit Decreasing
+214,0.5023,First Fit Decreasing
+215,0.596,First Fit Decreasing
+216,0.5402,First Fit Decreasing
+217,0.4324,First Fit Decreasing
+218,0.6109,First Fit Decreasing
+219,0.6797,First Fit Decreasing
+220,0.6498,First Fit Decreasing
+221,0.4664,First Fit Decreasing
+222,0.6004,First Fit Decreasing
+223,0.578,First Fit Decreasing
+224,0.6143,First Fit Decreasing
+225,0.5455,First Fit Decreasing
+226,0.4166,First Fit Decreasing
+227,0.4755,First Fit Decreasing
+228,0.7599,First Fit Decreasing
+229,0.4828,First Fit Decreasing
+230,0.4749,First Fit Decreasing
+231,0.5738,First Fit Decreasing
+232,0.6148,First Fit Decreasing
+233,0.5112,First Fit Decreasing
+234,0.5668,First Fit Decreasing
+235,0.524,First Fit Decreasing
+236,0.5079,First Fit Decreasing
+237,0.5016,First Fit Decreasing
+238,0.56,First Fit Decreasing
+239,0.6704,First Fit Decreasing
+240,0.5992,First Fit Decreasing
+241,0.5743,First Fit Decreasing
+242,0.5784,First Fit Decreasing
+243,0.5712,First Fit Decreasing
+244,0.56,First Fit Decreasing
+245,0.582,First Fit Decreasing
+246,0.6053,First Fit Decreasing
+247,0.5991,First Fit Decreasing
+248,0.4513,First Fit Decreasing
+249,0.605,First Fit Decreasing
+250,0.5525,First Fit Decreasing
+251,0.687,First Fit Decreasing
+252,0.5798,First Fit Decreasing
+253,0.4996,First Fit Decreasing
+254,0.584,First Fit Decreasing
+255,0.4548,First Fit Decreasing
+256,0.6797,First Fit Decreasing
+257,0.4914,First Fit Decreasing
+258,0.4283,First Fit Decreasing
+259,0.5744,First Fit Decreasing
+260,0.4981,First Fit Decreasing
+261,0.5512,First Fit Decreasing
+262,0.5628,First Fit Decreasing
+263,0.6332,First Fit Decreasing
+264,0.6789,First Fit Decreasing
+265,0.6252,First Fit Decreasing
+266,0.508,First Fit Decreasing
+267,0.4431,First Fit Decreasing
+268,0.549,First Fit Decreasing
+269,0.5749,First Fit Decreasing
+270,0.5817,First Fit Decreasing
+271,0.6586,First Fit Decreasing
+272,0.624,First Fit Decreasing
+273,0.6125,First Fit Decreasing
+274,0.5719,First Fit Decreasing
+275,0.574,First Fit Decreasing
+276,0.4615,First Fit Decreasing
+277,0.553,First Fit Decreasing
+278,0.5426,First Fit Decreasing
+279,0.5285,First Fit Decreasing
+280,0.5109,First Fit Decreasing
+281,0.5213,First Fit Decreasing
+282,0.4992,First Fit Decreasing
+283,0.5236,First Fit Decreasing
+284,0.6039,First Fit Decreasing
+285,0.4511,First Fit Decreasing
+286,0.452,First Fit Decreasing
+287,0.6372,First Fit Decreasing
+288,0.5195,First Fit Decreasing
+289,0.5469,First Fit Decreasing
+290,0.6397,First Fit Decreasing
+291,0.5429,First Fit Decreasing
+292,0.5084,First Fit Decreasing
+293,0.5182,First Fit Decreasing
+294,0.4678,First Fit Decreasing
+295,0.5334,First Fit Decreasing
+296,0.4723,First Fit Decreasing
+297,0.6112,First Fit Decreasing
+298,0.4855,First Fit Decreasing
+299,0.5232,First Fit Decreasing
+300,0.6173,First Fit Decreasing
+301,0.6734,First Fit Decreasing
+302,0.5568,First Fit Decreasing
+303,0.5764,First Fit Decreasing
+304,0.5085,First Fit Decreasing
+305,0.5772,First Fit Decreasing
+306,0.598,First Fit Decreasing
+307,0.5563,First Fit Decreasing
+308,0.5576,First Fit Decreasing
+309,0.622,First Fit Decreasing
+310,0.6552,First Fit Decreasing
+311,0.6774,First Fit Decreasing
+312,0.5408,First Fit Decreasing
+313,0.6149,First Fit Decreasing
+314,0.4097,First Fit Decreasing
+315,0.5344,First Fit Decreasing
+316,0.5473,First Fit Decreasing
+317,0.651,First Fit Decreasing
+318,0.4663,First Fit Decreasing
+319,0.5754,First Fit Decreasing
+320,0.5113,First Fit Decreasing
+321,0.6603,First Fit Decreasing
+322,0.7442,First Fit Decreasing
+323,0.5296,First Fit Decreasing
+324,0.4632,First Fit Decreasing
+325,0.5349,First Fit Decreasing
+326,0.4991,First Fit Decreasing
+327,0.5497,First Fit Decreasing
+328,0.5818,First Fit Decreasing
+329,0.6291,First Fit Decreasing
+330,0.5769,First Fit Decreasing
+331,0.6187,First Fit Decreasing
+332,0.5847,First Fit Decreasing
+333,0.5323,First Fit Decreasing
+334,0.5774,First Fit Decreasing
+335,0.5582,First Fit Decreasing
+336,0.5458,First Fit Decreasing
+337,0.4369,First Fit Decreasing
+338,0.5271,First Fit Decreasing
+339,0.6304,First Fit Decreasing
+340,0.6566,First Fit Decreasing
+341,0.6691,First Fit Decreasing
+342,0.65,First Fit Decreasing
+343,0.4976,First Fit Decreasing
+344,0.4513,First Fit Decreasing
+345,0.4976,First Fit Decreasing
+346,0.4663,First Fit Decreasing
+347,0.6191,First Fit Decreasing
+348,0.6283,First Fit Decreasing
+349,0.6688,First Fit Decreasing
+350,0.5758,First Fit Decreasing
+351,0.4603,First Fit Decreasing
+352,0.4329,First Fit Decreasing
+353,0.595,First Fit Decreasing
+354,0.5301,First Fit Decreasing
+355,0.5831,First Fit Decreasing
+356,0.6378,First Fit Decreasing
+357,0.5687,First Fit Decreasing
+358,0.562,First Fit Decreasing
+359,0.5199,First Fit Decreasing
+360,0.5525,First Fit Decreasing
+361,0.5719,First Fit Decreasing
+362,0.5815,First Fit Decreasing
+363,0.577,First Fit Decreasing
+364,0.59,First Fit Decreasing
+365,0.5088,First Fit Decreasing
+366,0.4916,First Fit Decreasing
+367,0.6351,First Fit Decreasing
+368,0.6363,First Fit Decreasing
+369,0.605,First Fit Decreasing
+370,0.5063,First Fit Decreasing
+371,0.5983,First Fit Decreasing
+372,0.5893,First Fit Decreasing
+373,0.6506,First Fit Decreasing
+374,0.5882,First Fit Decreasing
+375,0.5474,First Fit Decreasing
+376,0.6965,First Fit Decreasing
+377,0.4693,First Fit Decreasing
+378,0.5699,First Fit Decreasing
+379,0.5248,First Fit Decreasing
+380,0.6821,First Fit Decreasing
+381,0.5117,First Fit Decreasing
+382,0.5905,First Fit Decreasing
+383,0.6431,First Fit Decreasing
+384,0.6571,First Fit Decreasing
+385,0.5845,First Fit Decreasing
+386,0.5381,First Fit Decreasing
+387,0.6,First Fit Decreasing
+388,0.5392,First Fit Decreasing
+389,0.5348,First Fit Decreasing
+390,0.5329,First Fit Decreasing
+391,0.4023,First Fit Decreasing
+392,0.5356,First Fit Decreasing
+393,0.5426,First Fit Decreasing
+394,0.4126,First Fit Decreasing
+395,0.6146,First Fit Decreasing
+396,0.5869,First Fit Decreasing
+397,0.6203,First Fit Decreasing
+398,0.5999,First Fit Decreasing
+399,0.5104,First Fit Decreasing
+400,0.6799,First Fit Decreasing
+401,0.4947,First Fit Decreasing
+402,0.5524,First Fit Decreasing
+403,0.5769,First Fit Decreasing
+404,0.5149,First Fit Decreasing
+405,0.5127,First Fit Decreasing
+406,0.6066,First Fit Decreasing
+407,0.5871,First Fit Decreasing
+408,0.5482,First Fit Decreasing
+409,0.5298,First Fit Decreasing
+410,0.5817,First Fit Decreasing
+411,0.4635,First Fit Decreasing
+412,0.565,First Fit Decreasing
+413,0.5149,First Fit Decreasing
+414,0.4765,First Fit Decreasing
+415,0.5007,First Fit Decreasing
+416,0.6544,First Fit Decreasing
+417,0.5834,First Fit Decreasing
+418,0.6653,First Fit Decreasing
+419,0.6063,First Fit Decreasing
+420,0.5726,First Fit Decreasing
+421,0.6234,First Fit Decreasing
+422,0.5747,First Fit Decreasing
+423,0.5221,First Fit Decreasing
+424,0.551,First Fit Decreasing
+425,0.5405,First Fit Decreasing
+426,0.6089,First Fit Decreasing
+427,0.5452,First Fit Decreasing
+428,0.459,First Fit Decreasing
+429,0.5931,First Fit Decreasing
+430,0.6331,First Fit Decreasing
+431,0.5331,First Fit Decreasing
+432,0.5489,First Fit Decreasing
+433,0.6905,First Fit Decreasing
+434,0.5569,First Fit Decreasing
+435,0.5787,First Fit Decreasing
+436,0.5002,First Fit Decreasing
+437,0.5796,First Fit Decreasing
+438,0.6028,First Fit Decreasing
+439,0.5308,First Fit Decreasing
+440,0.5951,First Fit Decreasing
+441,0.5708,First Fit Decreasing
+442,0.6707,First Fit Decreasing
+443,0.4394,First Fit Decreasing
+444,0.6189,First Fit Decreasing
+445,0.7172,First Fit Decreasing
+446,0.5824,First Fit Decreasing
+447,0.5841,First Fit Decreasing
+448,0.5646,First Fit Decreasing
+449,0.5214,First Fit Decreasing
+450,0.4735,First Fit Decreasing
+451,0.5589,First Fit Decreasing
+452,0.4591,First Fit Decreasing
+453,0.5845,First Fit Decreasing
+454,0.579,First Fit Decreasing
+455,0.4662,First Fit Decreasing
+456,0.5733,First Fit Decreasing
+457,0.5202,First Fit Decreasing
+458,0.5284,First Fit Decreasing
+459,0.5399,First Fit Decreasing
+460,0.5134,First Fit Decreasing
+461,0.6063,First Fit Decreasing
+462,0.4592,First Fit Decreasing
+463,0.4666,First Fit Decreasing
+464,0.5177,First Fit Decreasing
+465,0.5371,First Fit Decreasing
+466,0.6159,First Fit Decreasing
+467,0.6621,First Fit Decreasing
+468,0.6093,First Fit Decreasing
+469,0.5774,First Fit Decreasing
+470,0.5076,First Fit Decreasing
+471,0.5518,First Fit Decreasing
+472,0.529,First Fit Decreasing
+473,0.5932,First Fit Decreasing
+474,0.4768,First Fit Decreasing
+475,0.6359,First Fit Decreasing
+476,0.5989,First Fit Decreasing
+477,0.5814,First Fit Decreasing
+478,0.4985,First Fit Decreasing
+479,0.532,First Fit Decreasing
+480,0.5249,First Fit Decreasing
+481,0.4584,First Fit Decreasing
+482,0.5936,First Fit Decreasing
+483,0.4879,First Fit Decreasing
+484,0.5108,First Fit Decreasing
+485,0.7122,First Fit Decreasing
+486,0.6282,First Fit Decreasing
+487,0.5795,First Fit Decreasing
+488,0.6128,First Fit Decreasing
+489,0.4985,First Fit Decreasing
+490,0.5599,First Fit Decreasing
+491,0.506,First Fit Decreasing
+492,0.586,First Fit Decreasing
+493,0.6356,First Fit Decreasing
+494,0.5727,First Fit Decreasing
+495,0.6301,First Fit Decreasing
+496,0.5508,First Fit Decreasing
+497,0.5018,First Fit Decreasing
+498,0.52,First Fit Decreasing
+499,0.5358,First Fit Decreasing
+0,0.3453,Next Fit
+1,0.456,Next Fit
+2,0.4086,Next Fit
+3,0.3974,Next Fit
+4,0.5081,Next Fit
+5,0.4513,Next Fit
+6,0.3668,Next Fit
+7,0.4051,Next Fit
+8,0.4686,Next Fit
+9,0.272,Next Fit
+10,0.3625,Next Fit
+11,0.4972,Next Fit
+12,0.5212,Next Fit
+13,0.4406,Next Fit
+14,0.398,Next Fit
+15,0.3523,Next Fit
+16,0.4262,Next Fit
+17,0.3939,Next Fit
+18,0.3797,Next Fit
+19,0.5152,Next Fit
+20,0.3775,Next Fit
+21,0.3595,Next Fit
+22,0.4147,Next Fit
+23,0.3578,Next Fit
+24,0.3915,Next Fit
+25,0.432,Next Fit
+26,0.3891,Next Fit
+27,0.3511,Next Fit
+28,0.5339,Next Fit
+29,0.4323,Next Fit
+30,0.3566,Next Fit
+31,0.5095,Next Fit
+32,0.4245,Next Fit
+33,0.4721,Next Fit
+34,0.5026,Next Fit
+35,0.4846,Next Fit
+36,0.4686,Next Fit
+37,0.5717,Next Fit
+38,0.3184,Next Fit
+39,0.3485,Next Fit
+40,0.5055,Next Fit
+41,0.4047,Next Fit
+42,0.3312,Next Fit
+43,0.3629,Next Fit
+44,0.3346,Next Fit
+45,0.429,Next Fit
+46,0.4508,Next Fit
+47,0.423,Next Fit
+48,0.4522,Next Fit
+49,0.5135,Next Fit
+50,0.4054,Next Fit
+51,0.3561,Next Fit
+52,0.4401,Next Fit
+53,0.4163,Next Fit
+54,0.3745,Next Fit
+55,0.4066,Next Fit
+56,0.4359,Next Fit
+57,0.4787,Next Fit
+58,0.4293,Next Fit
+59,0.3081,Next Fit
+60,0.4876,Next Fit
+61,0.4188,Next Fit
+62,0.367,Next Fit
+63,0.4633,Next Fit
+64,0.404,Next Fit
+65,0.4579,Next Fit
+66,0.4806,Next Fit
+67,0.4834,Next Fit
+68,0.4838,Next Fit
+69,0.5235,Next Fit
+70,0.3755,Next Fit
+71,0.3585,Next Fit
+72,0.3398,Next Fit
+73,0.471,Next Fit
+74,0.4247,Next Fit
+75,0.436,Next Fit
+76,0.4639,Next Fit
+77,0.3867,Next Fit
+78,0.3387,Next Fit
+79,0.414,Next Fit
+80,0.4481,Next Fit
+81,0.4988,Next Fit
+82,0.4105,Next Fit
+83,0.3004,Next Fit
+84,0.5271,Next Fit
+85,0.3961,Next Fit
+86,0.3994,Next Fit
+87,0.3897,Next Fit
+88,0.4481,Next Fit
+89,0.3533,Next Fit
+90,0.4152,Next Fit
+91,0.4469,Next Fit
+92,0.438,Next Fit
+93,0.4452,Next Fit
+94,0.4484,Next Fit
+95,0.4176,Next Fit
+96,0.4758,Next Fit
+97,0.4198,Next Fit
+98,0.3505,Next Fit
+99,0.4066,Next Fit
+100,0.3969,Next Fit
+101,0.4096,Next Fit
+102,0.385,Next Fit
+103,0.5462,Next Fit
+104,0.3888,Next Fit
+105,0.368,Next Fit
+106,0.5081,Next Fit
+107,0.3553,Next Fit
+108,0.326,Next Fit
+109,0.397,Next Fit
+110,0.4532,Next Fit
+111,0.4579,Next Fit
+112,0.3321,Next Fit
+113,0.4806,Next Fit
+114,0.347,Next Fit
+115,0.3632,Next Fit
+116,0.4622,Next Fit
+117,0.381,Next Fit
+118,0.3627,Next Fit
+119,0.4016,Next Fit
+120,0.5039,Next Fit
+121,0.3429,Next Fit
+122,0.4568,Next Fit
+123,0.4224,Next Fit
+124,0.4725,Next Fit
+125,0.4782,Next Fit
+126,0.548,Next Fit
+127,0.4118,Next Fit
+128,0.4702,Next Fit
+129,0.4205,Next Fit
+130,0.4493,Next Fit
+131,0.4297,Next Fit
+132,0.3464,Next Fit
+133,0.4869,Next Fit
+134,0.4514,Next Fit
+135,0.3717,Next Fit
+136,0.4483,Next Fit
+137,0.3355,Next Fit
+138,0.454,Next Fit
+139,0.416,Next Fit
+140,0.4973,Next Fit
+141,0.3861,Next Fit
+142,0.3446,Next Fit
+143,0.5953,Next Fit
+144,0.5317,Next Fit
+145,0.3382,Next Fit
+146,0.2998,Next Fit
+147,0.4722,Next Fit
+148,0.5017,Next Fit
+149,0.4445,Next Fit
+150,0.4176,Next Fit
+151,0.5061,Next Fit
+152,0.3842,Next Fit
+153,0.5132,Next Fit
+154,0.3898,Next Fit
+155,0.4852,Next Fit
+156,0.3762,Next Fit
+157,0.548,Next Fit
+158,0.5409,Next Fit
+159,0.4894,Next Fit
+160,0.4035,Next Fit
+161,0.5461,Next Fit
+162,0.4133,Next Fit
+163,0.2386,Next Fit
+164,0.5288,Next Fit
+165,0.3283,Next Fit
+166,0.3102,Next Fit
+167,0.3844,Next Fit
+168,0.4306,Next Fit
+169,0.4209,Next Fit
+170,0.4965,Next Fit
+171,0.4425,Next Fit
+172,0.383,Next Fit
+173,0.4104,Next Fit
+174,0.3434,Next Fit
+175,0.3983,Next Fit
+176,0.3831,Next Fit
+177,0.3688,Next Fit
+178,0.3469,Next Fit
+179,0.3111,Next Fit
+180,0.4284,Next Fit
+181,0.3265,Next Fit
+182,0.4405,Next Fit
+183,0.4245,Next Fit
+184,0.4338,Next Fit
+185,0.4506,Next Fit
+186,0.3323,Next Fit
+187,0.389,Next Fit
+188,0.5266,Next Fit
+189,0.3468,Next Fit
+190,0.4262,Next Fit
+191,0.2974,Next Fit
+192,0.4698,Next Fit
+193,0.4658,Next Fit
+194,0.3771,Next Fit
+195,0.563,Next Fit
+196,0.2551,Next Fit
+197,0.4073,Next Fit
+198,0.3687,Next Fit
+199,0.5433,Next Fit
+200,0.4082,Next Fit
+201,0.2938,Next Fit
+202,0.3617,Next Fit
+203,0.4833,Next Fit
+204,0.4091,Next Fit
+205,0.3385,Next Fit
+206,0.4233,Next Fit
+207,0.3906,Next Fit
+208,0.4883,Next Fit
+209,0.2748,Next Fit
+210,0.5633,Next Fit
+211,0.2882,Next Fit
+212,0.4393,Next Fit
+213,0.3476,Next Fit
+214,0.4757,Next Fit
+215,0.3332,Next Fit
+216,0.4158,Next Fit
+217,0.3117,Next Fit
+218,0.4474,Next Fit
+219,0.4807,Next Fit
+220,0.4517,Next Fit
+221,0.4024,Next Fit
+222,0.5687,Next Fit
+223,0.2882,Next Fit
+224,0.497,Next Fit
+225,0.4151,Next Fit
+226,0.318,Next Fit
+227,0.3173,Next Fit
+228,0.5924,Next Fit
+229,0.447,Next Fit
+230,0.3249,Next Fit
+231,0.4065,Next Fit
+232,0.3848,Next Fit
+233,0.3034,Next Fit
+234,0.5272,Next Fit
+235,0.3394,Next Fit
+236,0.4204,Next Fit
+237,0.442,Next Fit
+238,0.3776,Next Fit
+239,0.3989,Next Fit
+240,0.4184,Next Fit
+241,0.4182,Next Fit
+242,0.4307,Next Fit
+243,0.3801,Next Fit
+244,0.5206,Next Fit
+245,0.4347,Next Fit
+246,0.3243,Next Fit
+247,0.4657,Next Fit
+248,0.4356,Next Fit
+249,0.4406,Next Fit
+250,0.4467,Next Fit
+251,0.3757,Next Fit
+252,0.4172,Next Fit
+253,0.3824,Next Fit
+254,0.5677,Next Fit
+255,0.3399,Next Fit
+256,0.4767,Next Fit
+257,0.4416,Next Fit
+258,0.2984,Next Fit
+259,0.2952,Next Fit
+260,0.395,Next Fit
+261,0.4429,Next Fit
+262,0.3572,Next Fit
+263,0.5027,Next Fit
+264,0.5366,Next Fit
+265,0.4336,Next Fit
+266,0.5064,Next Fit
+267,0.4308,Next Fit
+268,0.453,Next Fit
+269,0.4109,Next Fit
+270,0.3902,Next Fit
+271,0.3923,Next Fit
+272,0.5954,Next Fit
+273,0.3212,Next Fit
+274,0.3836,Next Fit
+275,0.5326,Next Fit
+276,0.3369,Next Fit
+277,0.4216,Next Fit
+278,0.2898,Next Fit
+279,0.3009,Next Fit
+280,0.4875,Next Fit
+281,0.4014,Next Fit
+282,0.4822,Next Fit
+283,0.3793,Next Fit
+284,0.5662,Next Fit
+285,0.3063,Next Fit
+286,0.3658,Next Fit
+287,0.3769,Next Fit
+288,0.4993,Next Fit
+289,0.4106,Next Fit
+290,0.3757,Next Fit
+291,0.444,Next Fit
+292,0.3312,Next Fit
+293,0.479,Next Fit
+294,0.4657,Next Fit
+295,0.4075,Next Fit
+296,0.3458,Next Fit
+297,0.4147,Next Fit
+298,0.3594,Next Fit
+299,0.5037,Next Fit
+300,0.4724,Next Fit
+301,0.6493,Next Fit
+302,0.3886,Next Fit
+303,0.3947,Next Fit
+304,0.4211,Next Fit
+305,0.3519,Next Fit
+306,0.48,Next Fit
+307,0.4533,Next Fit
+308,0.4367,Next Fit
+309,0.4041,Next Fit
+310,0.4031,Next Fit
+311,0.3573,Next Fit
+312,0.5186,Next Fit
+313,0.4621,Next Fit
+314,0.3161,Next Fit
+315,0.3374,Next Fit
+316,0.3879,Next Fit
+317,0.4705,Next Fit
+318,0.3529,Next Fit
+319,0.487,Next Fit
+320,0.4937,Next Fit
+321,0.5275,Next Fit
+322,0.4158,Next Fit
+323,0.4823,Next Fit
+324,0.4244,Next Fit
+325,0.3428,Next Fit
+326,0.4684,Next Fit
+327,0.4274,Next Fit
+328,0.4683,Next Fit
+329,0.3889,Next Fit
+330,0.4119,Next Fit
+331,0.4131,Next Fit
+332,0.4086,Next Fit
+333,0.4302,Next Fit
+334,0.4278,Next Fit
+335,0.388,Next Fit
+336,0.5222,Next Fit
+337,0.2889,Next Fit
+338,0.3518,Next Fit
+339,0.3987,Next Fit
+340,0.4662,Next Fit
+341,0.5284,Next Fit
+342,0.5107,Next Fit
+343,0.4245,Next Fit
+344,0.4448,Next Fit
+345,0.4651,Next Fit
+346,0.4128,Next Fit
+347,0.3469,Next Fit
+348,0.507,Next Fit
+349,0.4766,Next Fit
+350,0.476,Next Fit
+351,0.3528,Next Fit
+352,0.537,Next Fit
+353,0.2746,Next Fit
+354,0.4269,Next Fit
+355,0.4542,Next Fit
+356,0.5033,Next Fit
+357,0.388,Next Fit
+358,0.4627,Next Fit
+359,0.5193,Next Fit
+360,0.4178,Next Fit
+361,0.5207,Next Fit
+362,0.3289,Next Fit
+363,0.3884,Next Fit
+364,0.4579,Next Fit
+365,0.3552,Next Fit
+366,0.4462,Next Fit
+367,0.476,Next Fit
+368,0.4898,Next Fit
+369,0.3993,Next Fit
+370,0.4611,Next Fit
+371,0.4659,Next Fit
+372,0.4868,Next Fit
+373,0.3718,Next Fit
+374,0.4885,Next Fit
+375,0.3341,Next Fit
+376,0.5279,Next Fit
+377,0.3162,Next Fit
+378,0.403,Next Fit
+379,0.5184,Next Fit
+380,0.5286,Next Fit
+381,0.4941,Next Fit
+382,0.4536,Next Fit
+383,0.4868,Next Fit
+384,0.5123,Next Fit
+385,0.4355,Next Fit
+386,0.4219,Next Fit
+387,0.4443,Next Fit
+388,0.3711,Next Fit
+389,0.4176,Next Fit
+390,0.4746,Next Fit
+391,0.3847,Next Fit
+392,0.4187,Next Fit
+393,0.3896,Next Fit
+394,0.3087,Next Fit
+395,0.4165,Next Fit
+396,0.5736,Next Fit
+397,0.3803,Next Fit
+398,0.4431,Next Fit
+399,0.3527,Next Fit
+400,0.5302,Next Fit
+401,0.4205,Next Fit
+402,0.3765,Next Fit
+403,0.4302,Next Fit
+404,0.3736,Next Fit
+405,0.3374,Next Fit
+406,0.482,Next Fit
+407,0.3998,Next Fit
+408,0.348,Next Fit
+409,0.4945,Next Fit
+410,0.4139,Next Fit
+411,0.3375,Next Fit
+412,0.3758,Next Fit
+413,0.3449,Next Fit
+414,0.359,Next Fit
+415,0.4883,Next Fit
+416,0.6245,Next Fit
+417,0.5259,Next Fit
+418,0.5575,Next Fit
+419,0.5092,Next Fit
+420,0.3807,Next Fit
+421,0.5085,Next Fit
+422,0.5422,Next Fit
+423,0.4295,Next Fit
+424,0.3344,Next Fit
+425,0.3923,Next Fit
+426,0.6123,Next Fit
+427,0.3982,Next Fit
+428,0.4436,Next Fit
+429,0.5809,Next Fit
+430,0.5054,Next Fit
+431,0.3663,Next Fit
+432,0.3578,Next Fit
+433,0.3769,Next Fit
+434,0.4491,Next Fit
+435,0.536,Next Fit
+436,0.4512,Next Fit
+437,0.5047,Next Fit
+438,0.4585,Next Fit
+439,0.4378,Next Fit
+440,0.3763,Next Fit
+441,0.4299,Next Fit
+442,0.4722,Next Fit
+443,0.3224,Next Fit
+444,0.4709,Next Fit
+445,0.5515,Next Fit
+446,0.4482,Next Fit
+447,0.4124,Next Fit
+448,0.4169,Next Fit
+449,0.3656,Next Fit
+450,0.3358,Next Fit
+451,0.4026,Next Fit
+452,0.4078,Next Fit
+453,0.5531,Next Fit
+454,0.4712,Next Fit
+455,0.4496,Next Fit
+456,0.4406,Next Fit
+457,0.4035,Next Fit
+458,0.3135,Next Fit
+459,0.252,Next Fit
+460,0.3809,Next Fit
+461,0.4714,Next Fit
+462,0.3064,Next Fit
+463,0.3157,Next Fit
+464,0.3887,Next Fit
+465,0.4506,Next Fit
+466,0.433,Next Fit
+467,0.351,Next Fit
+468,0.4928,Next Fit
+469,0.4447,Next Fit
+470,0.3934,Next Fit
+471,0.5327,Next Fit
+472,0.5143,Next Fit
+473,0.335,Next Fit
+474,0.3424,Next Fit
+475,0.3279,Next Fit
+476,0.4558,Next Fit
+477,0.3508,Next Fit
+478,0.38,Next Fit
+479,0.482,Next Fit
+480,0.4934,Next Fit
+481,0.4565,Next Fit
+482,0.4215,Next Fit
+483,0.4522,Next Fit
+484,0.3972,Next Fit
+485,0.57,Next Fit
+486,0.4418,Next Fit
+487,0.4045,Next Fit
+488,0.4481,Next Fit
+489,0.4848,Next Fit
+490,0.4052,Next Fit
+491,0.3716,Next Fit
+492,0.4148,Next Fit
+493,0.4915,Next Fit
+494,0.4119,Next Fit
+495,0.5056,Next Fit
+496,0.4184,Next Fit
+497,0.3957,Next Fit
+498,0.3689,Next Fit
+499,0.3823,Next Fit
+0,0.5599,Next Fit Decreasing
+1,0.6076,Next Fit Decreasing
+2,0.5167,Next Fit Decreasing
+3,0.3967,Next Fit Decreasing
+4,0.5028,Next Fit Decreasing
+5,0.5479,Next Fit Decreasing
+6,0.5518,Next Fit Decreasing
+7,0.509,Next Fit Decreasing
+8,0.5667,Next Fit Decreasing
+9,0.4983,Next Fit Decreasing
+10,0.5776,Next Fit Decreasing
+11,0.4958,Next Fit Decreasing
+12,0.5335,Next Fit Decreasing
+13,0.453,Next Fit Decreasing
+14,0.3952,Next Fit Decreasing
+15,0.6821,Next Fit Decreasing
+16,0.5556,Next Fit Decreasing
+17,0.4929,Next Fit Decreasing
+18,0.4619,Next Fit Decreasing
+19,0.3992,Next Fit Decreasing
+20,0.4566,Next Fit Decreasing
+21,0.3711,Next Fit Decreasing
+22,0.5013,Next Fit Decreasing
+23,0.5844,Next Fit Decreasing
+24,0.468,Next Fit Decreasing
+25,0.547,Next Fit Decreasing
+26,0.5814,Next Fit Decreasing
+27,0.4255,Next Fit Decreasing
+28,0.5338,Next Fit Decreasing
+29,0.5681,Next Fit Decreasing
+30,0.4924,Next Fit Decreasing
+31,0.5043,Next Fit Decreasing
+32,0.4476,Next Fit Decreasing
+33,0.4677,Next Fit Decreasing
+34,0.5013,Next Fit Decreasing
+35,0.5007,Next Fit Decreasing
+36,0.4617,Next Fit Decreasing
+37,0.576,Next Fit Decreasing
+38,0.4406,Next Fit Decreasing
+39,0.544,Next Fit Decreasing
+40,0.5169,Next Fit Decreasing
+41,0.5076,Next Fit Decreasing
+42,0.4365,Next Fit Decreasing
+43,0.5042,Next Fit Decreasing
+44,0.4198,Next Fit Decreasing
+45,0.4278,Next Fit Decreasing
+46,0.4492,Next Fit Decreasing
+47,0.5433,Next Fit Decreasing
+48,0.5757,Next Fit Decreasing
+49,0.5097,Next Fit Decreasing
+50,0.5972,Next Fit Decreasing
+51,0.453,Next Fit Decreasing
+52,0.5777,Next Fit Decreasing
+53,0.493,Next Fit Decreasing
+54,0.4595,Next Fit Decreasing
+55,0.5588,Next Fit Decreasing
+56,0.5751,Next Fit Decreasing
+57,0.667,Next Fit Decreasing
+58,0.5853,Next Fit Decreasing
+59,0.5166,Next Fit Decreasing
+60,0.5997,Next Fit Decreasing
+61,0.639,Next Fit Decreasing
+62,0.6221,Next Fit Decreasing
+63,0.5316,Next Fit Decreasing
+64,0.4945,Next Fit Decreasing
+65,0.525,Next Fit Decreasing
+66,0.467,Next Fit Decreasing
+67,0.49,Next Fit Decreasing
+68,0.5567,Next Fit Decreasing
+69,0.5565,Next Fit Decreasing
+70,0.6525,Next Fit Decreasing
+71,0.3558,Next Fit Decreasing
+72,0.4198,Next Fit Decreasing
+73,0.6144,Next Fit Decreasing
+74,0.4138,Next Fit Decreasing
+75,0.5545,Next Fit Decreasing
+76,0.5675,Next Fit Decreasing
+77,0.5257,Next Fit Decreasing
+78,0.4441,Next Fit Decreasing
+79,0.4053,Next Fit Decreasing
+80,0.4487,Next Fit Decreasing
+81,0.6452,Next Fit Decreasing
+82,0.5144,Next Fit Decreasing
+83,0.4756,Next Fit Decreasing
+84,0.5774,Next Fit Decreasing
+85,0.5168,Next Fit Decreasing
+86,0.4059,Next Fit Decreasing
+87,0.4831,Next Fit Decreasing
+88,0.4435,Next Fit Decreasing
+89,0.4598,Next Fit Decreasing
+90,0.4967,Next Fit Decreasing
+91,0.4414,Next Fit Decreasing
+92,0.5512,Next Fit Decreasing
+93,0.441,Next Fit Decreasing
+94,0.4445,Next Fit Decreasing
+95,0.5072,Next Fit Decreasing
+96,0.4772,Next Fit Decreasing
+97,0.4183,Next Fit Decreasing
+98,0.5054,Next Fit Decreasing
+99,0.5341,Next Fit Decreasing
+100,0.4164,Next Fit Decreasing
+101,0.517,Next Fit Decreasing
+102,0.4013,Next Fit Decreasing
+103,0.5579,Next Fit Decreasing
+104,0.4926,Next Fit Decreasing
+105,0.4937,Next Fit Decreasing
+106,0.5269,Next Fit Decreasing
+107,0.448,Next Fit Decreasing
+108,0.4235,Next Fit Decreasing
+109,0.5194,Next Fit Decreasing
+110,0.5612,Next Fit Decreasing
+111,0.4799,Next Fit Decreasing
+112,0.5972,Next Fit Decreasing
+113,0.5094,Next Fit Decreasing
+114,0.5407,Next Fit Decreasing
+115,0.3701,Next Fit Decreasing
+116,0.5991,Next Fit Decreasing
+117,0.6617,Next Fit Decreasing
+118,0.5104,Next Fit Decreasing
+119,0.4837,Next Fit Decreasing
+120,0.532,Next Fit Decreasing
+121,0.5616,Next Fit Decreasing
+122,0.4464,Next Fit Decreasing
+123,0.5238,Next Fit Decreasing
+124,0.4796,Next Fit Decreasing
+125,0.488,Next Fit Decreasing
+126,0.3952,Next Fit Decreasing
+127,0.5239,Next Fit Decreasing
+128,0.4889,Next Fit Decreasing
+129,0.5132,Next Fit Decreasing
+130,0.6288,Next Fit Decreasing
+131,0.5522,Next Fit Decreasing
+132,0.6276,Next Fit Decreasing
+133,0.4878,Next Fit Decreasing
+134,0.5042,Next Fit Decreasing
+135,0.5159,Next Fit Decreasing
+136,0.4439,Next Fit Decreasing
+137,0.5623,Next Fit Decreasing
+138,0.4636,Next Fit Decreasing
+139,0.5225,Next Fit Decreasing
+140,0.4969,Next Fit Decreasing
+141,0.5185,Next Fit Decreasing
+142,0.5651,Next Fit Decreasing
+143,0.4573,Next Fit Decreasing
+144,0.5347,Next Fit Decreasing
+145,0.4423,Next Fit Decreasing
+146,0.4605,Next Fit Decreasing
+147,0.5569,Next Fit Decreasing
+148,0.5053,Next Fit Decreasing
+149,0.5359,Next Fit Decreasing
+150,0.5895,Next Fit Decreasing
+151,0.6382,Next Fit Decreasing
+152,0.553,Next Fit Decreasing
+153,0.5182,Next Fit Decreasing
+154,0.4636,Next Fit Decreasing
+155,0.642,Next Fit Decreasing
+156,0.5034,Next Fit Decreasing
+157,0.536,Next Fit Decreasing
+158,0.5285,Next Fit Decreasing
+159,0.5967,Next Fit Decreasing
+160,0.4142,Next Fit Decreasing
+161,0.5714,Next Fit Decreasing
+162,0.5337,Next Fit Decreasing
+163,0.4382,Next Fit Decreasing
+164,0.5283,Next Fit Decreasing
+165,0.4384,Next Fit Decreasing
+166,0.5006,Next Fit Decreasing
+167,0.469,Next Fit Decreasing
+168,0.5512,Next Fit Decreasing
+169,0.5508,Next Fit Decreasing
+170,0.7173,Next Fit Decreasing
+171,0.4402,Next Fit Decreasing
+172,0.4604,Next Fit Decreasing
+173,0.5586,Next Fit Decreasing
+174,0.5472,Next Fit Decreasing
+175,0.4138,Next Fit Decreasing
+176,0.5091,Next Fit Decreasing
+177,0.472,Next Fit Decreasing
+178,0.4254,Next Fit Decreasing
+179,0.4093,Next Fit Decreasing
+180,0.4479,Next Fit Decreasing
+181,0.4993,Next Fit Decreasing
+182,0.5269,Next Fit Decreasing
+183,0.4171,Next Fit Decreasing
+184,0.5648,Next Fit Decreasing
+185,0.4704,Next Fit Decreasing
+186,0.62,Next Fit Decreasing
+187,0.4815,Next Fit Decreasing
+188,0.558,Next Fit Decreasing
+189,0.5127,Next Fit Decreasing
+190,0.4898,Next Fit Decreasing
+191,0.5828,Next Fit Decreasing
+192,0.5861,Next Fit Decreasing
+193,0.6413,Next Fit Decreasing
+194,0.4934,Next Fit Decreasing
+195,0.5725,Next Fit Decreasing
+196,0.4899,Next Fit Decreasing
+197,0.4346,Next Fit Decreasing
+198,0.3895,Next Fit Decreasing
+199,0.54,Next Fit Decreasing
+200,0.5179,Next Fit Decreasing
+201,0.4603,Next Fit Decreasing
+202,0.4583,Next Fit Decreasing
+203,0.6794,Next Fit Decreasing
+204,0.5108,Next Fit Decreasing
+205,0.4412,Next Fit Decreasing
+206,0.3995,Next Fit Decreasing
+207,0.5118,Next Fit Decreasing
+208,0.5889,Next Fit Decreasing
+209,0.5429,Next Fit Decreasing
+210,0.5797,Next Fit Decreasing
+211,0.4705,Next Fit Decreasing
+212,0.4437,Next Fit Decreasing
+213,0.5002,Next Fit Decreasing
+214,0.4555,Next Fit Decreasing
+215,0.5832,Next Fit Decreasing
+216,0.5244,Next Fit Decreasing
+217,0.4298,Next Fit Decreasing
+218,0.5885,Next Fit Decreasing
+219,0.6902,Next Fit Decreasing
+220,0.6426,Next Fit Decreasing
+221,0.4051,Next Fit Decreasing
+222,0.5644,Next Fit Decreasing
+223,0.573,Next Fit Decreasing
+224,0.5006,Next Fit Decreasing
+225,0.4923,Next Fit Decreasing
+226,0.3997,Next Fit Decreasing
+227,0.445,Next Fit Decreasing
+228,0.5971,Next Fit Decreasing
+229,0.4383,Next Fit Decreasing
+230,0.4394,Next Fit Decreasing
+231,0.5384,Next Fit Decreasing
+232,0.5723,Next Fit Decreasing
+233,0.3904,Next Fit Decreasing
+234,0.5558,Next Fit Decreasing
+235,0.4819,Next Fit Decreasing
+236,0.5073,Next Fit Decreasing
+237,0.444,Next Fit Decreasing
+238,0.542,Next Fit Decreasing
+239,0.674,Next Fit Decreasing
+240,0.5531,Next Fit Decreasing
+241,0.5257,Next Fit Decreasing
+242,0.5641,Next Fit Decreasing
+243,0.5137,Next Fit Decreasing
+244,0.5311,Next Fit Decreasing
+245,0.44,Next Fit Decreasing
+246,0.5995,Next Fit Decreasing
+247,0.5979,Next Fit Decreasing
+248,0.4444,Next Fit Decreasing
+249,0.5962,Next Fit Decreasing
+250,0.5453,Next Fit Decreasing
+251,0.3638,Next Fit Decreasing
+252,0.5507,Next Fit Decreasing
+253,0.4929,Next Fit Decreasing
+254,0.5739,Next Fit Decreasing
+255,0.3383,Next Fit Decreasing
+256,0.6627,Next Fit Decreasing
+257,0.5842,Next Fit Decreasing
+258,0.4118,Next Fit Decreasing
+259,0.5339,Next Fit Decreasing
+260,0.3862,Next Fit Decreasing
+261,0.5193,Next Fit Decreasing
+262,0.4316,Next Fit Decreasing
+263,0.508,Next Fit Decreasing
+264,0.6626,Next Fit Decreasing
+265,0.6144,Next Fit Decreasing
+266,0.507,Next Fit Decreasing
+267,0.431,Next Fit Decreasing
+268,0.5004,Next Fit Decreasing
+269,0.4067,Next Fit Decreasing
+270,0.5279,Next Fit Decreasing
+271,0.4869,Next Fit Decreasing
+272,0.6016,Next Fit Decreasing
+273,0.4373,Next Fit Decreasing
+274,0.547,Next Fit Decreasing
+275,0.5375,Next Fit Decreasing
+276,0.4152,Next Fit Decreasing
+277,0.5222,Next Fit Decreasing
+278,0.5168,Next Fit Decreasing
+279,0.4991,Next Fit Decreasing
+280,0.4957,Next Fit Decreasing
+281,0.5002,Next Fit Decreasing
+282,0.4773,Next Fit Decreasing
+283,0.4804,Next Fit Decreasing
+284,0.5707,Next Fit Decreasing
+285,0.4111,Next Fit Decreasing
+286,0.3487,Next Fit Decreasing
+287,0.6073,Next Fit Decreasing
+288,0.6285,Next Fit Decreasing
+289,0.5272,Next Fit Decreasing
+290,0.6061,Next Fit Decreasing
+291,0.5362,Next Fit Decreasing
+292,0.4055,Next Fit Decreasing
+293,0.6219,Next Fit Decreasing
+294,0.4566,Next Fit Decreasing
+295,0.5018,Next Fit Decreasing
+296,0.4394,Next Fit Decreasing
+297,0.5611,Next Fit Decreasing
+298,0.4417,Next Fit Decreasing
+299,0.5131,Next Fit Decreasing
+300,0.6204,Next Fit Decreasing
+301,0.6517,Next Fit Decreasing
+302,0.7025,Next Fit Decreasing
+303,0.3938,Next Fit Decreasing
+304,0.4895,Next Fit Decreasing
+305,0.5371,Next Fit Decreasing
+306,0.6033,Next Fit Decreasing
+307,0.5467,Next Fit Decreasing
+308,0.5502,Next Fit Decreasing
+309,0.5803,Next Fit Decreasing
+310,0.6669,Next Fit Decreasing
+311,0.5612,Next Fit Decreasing
+312,0.5189,Next Fit Decreasing
+313,0.4613,Next Fit Decreasing
+314,0.3837,Next Fit Decreasing
+315,0.5137,Next Fit Decreasing
+316,0.5144,Next Fit Decreasing
+317,0.6339,Next Fit Decreasing
+318,0.4472,Next Fit Decreasing
+319,0.5411,Next Fit Decreasing
+320,0.4914,Next Fit Decreasing
+321,0.6578,Next Fit Decreasing
+322,0.7355,Next Fit Decreasing
+323,0.4948,Next Fit Decreasing
+324,0.4279,Next Fit Decreasing
+325,0.5234,Next Fit Decreasing
+326,0.4712,Next Fit Decreasing
+327,0.5488,Next Fit Decreasing
+328,0.5748,Next Fit Decreasing
+329,0.486,Next Fit Decreasing
+330,0.4023,Next Fit Decreasing
+331,0.6243,Next Fit Decreasing
+332,0.5508,Next Fit Decreasing
+333,0.4198,Next Fit Decreasing
+334,0.4241,Next Fit Decreasing
+335,0.5205,Next Fit Decreasing
+336,0.5376,Next Fit Decreasing
+337,0.4114,Next Fit Decreasing
+338,0.4703,Next Fit Decreasing
+339,0.4909,Next Fit Decreasing
+340,0.47,Next Fit Decreasing
+341,0.6657,Next Fit Decreasing
+342,0.6463,Next Fit Decreasing
+343,0.4948,Next Fit Decreasing
+344,0.4567,Next Fit Decreasing
+345,0.4854,Next Fit Decreasing
+346,0.4251,Next Fit Decreasing
+347,0.4591,Next Fit Decreasing
+348,0.6255,Next Fit Decreasing
+349,0.5081,Next Fit Decreasing
+350,0.4507,Next Fit Decreasing
+351,0.3616,Next Fit Decreasing
+352,0.5353,Next Fit Decreasing
+353,0.3727,Next Fit Decreasing
+354,0.5059,Next Fit Decreasing
+355,0.4535,Next Fit Decreasing
+356,0.6235,Next Fit Decreasing
+357,0.385,Next Fit Decreasing
+358,0.5542,Next Fit Decreasing
+359,0.5142,Next Fit Decreasing
+360,0.5426,Next Fit Decreasing
+361,0.5215,Next Fit Decreasing
+362,0.5513,Next Fit Decreasing
+363,0.5495,Next Fit Decreasing
+364,0.5848,Next Fit Decreasing
+365,0.4591,Next Fit Decreasing
+366,0.4408,Next Fit Decreasing
+367,0.6221,Next Fit Decreasing
+368,0.6086,Next Fit Decreasing
+369,0.5712,Next Fit Decreasing
+370,0.4772,Next Fit Decreasing
+371,0.4639,Next Fit Decreasing
+372,0.5884,Next Fit Decreasing
+373,0.6115,Next Fit Decreasing
+374,0.5817,Next Fit Decreasing
+375,0.5279,Next Fit Decreasing
+376,0.6894,Next Fit Decreasing
+377,0.4456,Next Fit Decreasing
+378,0.5263,Next Fit Decreasing
+379,0.4293,Next Fit Decreasing
+380,0.6611,Next Fit Decreasing
+381,0.4887,Next Fit Decreasing
+382,0.5867,Next Fit Decreasing
+383,0.64,Next Fit Decreasing
+384,0.5411,Next Fit Decreasing
+385,0.5688,Next Fit Decreasing
+386,0.5306,Next Fit Decreasing
+387,0.5896,Next Fit Decreasing
+388,0.5254,Next Fit Decreasing
+389,0.5305,Next Fit Decreasing
+390,0.5032,Next Fit Decreasing
+391,0.3954,Next Fit Decreasing
+392,0.4968,Next Fit Decreasing
+393,0.5063,Next Fit Decreasing
+394,0.3696,Next Fit Decreasing
+395,0.6091,Next Fit Decreasing
+396,0.558,Next Fit Decreasing
+397,0.4703,Next Fit Decreasing
+398,0.4569,Next Fit Decreasing
+399,0.5103,Next Fit Decreasing
+400,0.5764,Next Fit Decreasing
+401,0.4827,Next Fit Decreasing
+402,0.5646,Next Fit Decreasing
+403,0.5776,Next Fit Decreasing
+404,0.6075,Next Fit Decreasing
+405,0.4753,Next Fit Decreasing
+406,0.6009,Next Fit Decreasing
+407,0.5842,Next Fit Decreasing
+408,0.5104,Next Fit Decreasing
+409,0.4985,Next Fit Decreasing
+410,0.5443,Next Fit Decreasing
+411,0.4248,Next Fit Decreasing
+412,0.5358,Next Fit Decreasing
+413,0.4862,Next Fit Decreasing
+414,0.4486,Next Fit Decreasing
+415,0.4907,Next Fit Decreasing
+416,0.4817,Next Fit Decreasing
+417,0.5358,Next Fit Decreasing
+418,0.5332,Next Fit Decreasing
+419,0.5909,Next Fit Decreasing
+420,0.5246,Next Fit Decreasing
+421,0.6226,Next Fit Decreasing
+422,0.5536,Next Fit Decreasing
+423,0.52,Next Fit Decreasing
+424,0.4079,Next Fit Decreasing
+425,0.4837,Next Fit Decreasing
+426,0.4939,Next Fit Decreasing
+427,0.5221,Next Fit Decreasing
+428,0.4133,Next Fit Decreasing
+429,0.4564,Next Fit Decreasing
+430,0.6374,Next Fit Decreasing
+431,0.3775,Next Fit Decreasing
+432,0.5535,Next Fit Decreasing
+433,0.5442,Next Fit Decreasing
+434,0.5468,Next Fit Decreasing
+435,0.5376,Next Fit Decreasing
+436,0.4568,Next Fit Decreasing
+437,0.5186,Next Fit Decreasing
+438,0.4881,Next Fit Decreasing
+439,0.5348,Next Fit Decreasing
+440,0.5908,Next Fit Decreasing
+441,0.5543,Next Fit Decreasing
+442,0.4655,Next Fit Decreasing
+443,0.4253,Next Fit Decreasing
+444,0.5836,Next Fit Decreasing
+445,0.7171,Next Fit Decreasing
+446,0.561,Next Fit Decreasing
+447,0.4289,Next Fit Decreasing
+448,0.564,Next Fit Decreasing
+449,0.5048,Next Fit Decreasing
+450,0.6146,Next Fit Decreasing
+451,0.5522,Next Fit Decreasing
+452,0.4261,Next Fit Decreasing
+453,0.5481,Next Fit Decreasing
+454,0.4502,Next Fit Decreasing
+455,0.4596,Next Fit Decreasing
+456,0.4461,Next Fit Decreasing
+457,0.4891,Next Fit Decreasing
+458,0.4068,Next Fit Decreasing
+459,0.4836,Next Fit Decreasing
+460,0.4717,Next Fit Decreasing
+461,0.3958,Next Fit Decreasing
+462,0.4373,Next Fit Decreasing
+463,0.4208,Next Fit Decreasing
+464,0.4952,Next Fit Decreasing
+465,0.4507,Next Fit Decreasing
+466,0.4641,Next Fit Decreasing
+467,0.5952,Next Fit Decreasing
+468,0.488,Next Fit Decreasing
+469,0.5692,Next Fit Decreasing
+470,0.4956,Next Fit Decreasing
+471,0.5442,Next Fit Decreasing
+472,0.4925,Next Fit Decreasing
+473,0.5532,Next Fit Decreasing
+474,0.4649,Next Fit Decreasing
+475,0.4604,Next Fit Decreasing
+476,0.5795,Next Fit Decreasing
+477,0.584,Next Fit Decreasing
+478,0.3856,Next Fit Decreasing
+479,0.5051,Next Fit Decreasing
+480,0.5026,Next Fit Decreasing
+481,0.4589,Next Fit Decreasing
+482,0.4161,Next Fit Decreasing
+483,0.4468,Next Fit Decreasing
+484,0.4848,Next Fit Decreasing
+485,0.6072,Next Fit Decreasing
+486,0.4842,Next Fit Decreasing
+487,0.5658,Next Fit Decreasing
+488,0.5661,Next Fit Decreasing
+489,0.4972,Next Fit Decreasing
+490,0.527,Next Fit Decreasing
+491,0.4827,Next Fit Decreasing
+492,0.4119,Next Fit Decreasing
+493,0.495,Next Fit Decreasing
+494,0.5632,Next Fit Decreasing
+495,0.5226,Next Fit Decreasing
+496,0.538,Next Fit Decreasing
+497,0.4938,Next Fit Decreasing
+498,0.5131,Next Fit Decreasing
+499,0.3752,Next Fit Decreasing
+0,0.4448,Best Fit
+1,0.3417,Best Fit
+2,0.4195,Best Fit
+3,0.516,Best Fit
+4,0.51,Best Fit
+5,0.5542,Best Fit
+6,0.3683,Best Fit
+7,0.4076,Best Fit
+8,0.4771,Best Fit
+9,0.3982,Best Fit
+10,0.4609,Best Fit
+11,0.5059,Best Fit
+12,0.4461,Best Fit
+13,0.4588,Best Fit
+14,0.499,Best Fit
+15,0.3672,Best Fit
+16,0.4318,Best Fit
+17,0.4029,Best Fit
+18,0.3899,Best Fit
+19,0.4179,Best Fit
+20,0.4644,Best Fit
+21,0.3619,Best Fit
+22,0.5011,Best Fit
+23,0.4485,Best Fit
+24,0.4727,Best Fit
+25,0.46,Best Fit
+26,0.586,Best Fit
+27,0.362,Best Fit
+28,0.5154,Best Fit
+29,0.4441,Best Fit
+30,0.3167,Best Fit
+31,0.4369,Best Fit
+32,0.4308,Best Fit
+33,0.4729,Best Fit
+34,0.5095,Best Fit
+35,0.6387,Best Fit
+36,0.4744,Best Fit
+37,0.4561,Best Fit
+38,0.4344,Best Fit
+39,0.4512,Best Fit
+40,0.5227,Best Fit
+41,0.5019,Best Fit
+42,0.4441,Best Fit
+43,0.4958,Best Fit
+44,0.4316,Best Fit
+45,0.4585,Best Fit
+46,0.4901,Best Fit
+47,0.5381,Best Fit
+48,0.476,Best Fit
+49,0.5156,Best Fit
+50,0.4207,Best Fit
+51,0.4478,Best Fit
+52,0.4397,Best Fit
+53,0.417,Best Fit
+54,0.4677,Best Fit
+55,0.4295,Best Fit
+56,0.4425,Best Fit
+57,0.475,Best Fit
+58,0.573,Best Fit
+59,0.3781,Best Fit
+60,0.4783,Best Fit
+61,0.4222,Best Fit
+62,0.4613,Best Fit
+63,0.4599,Best Fit
+64,0.406,Best Fit
+65,0.5433,Best Fit
+66,0.4841,Best Fit
+67,0.4865,Best Fit
+68,0.5695,Best Fit
+69,0.5424,Best Fit
+70,0.6686,Best Fit
+71,0.3731,Best Fit
+72,0.4273,Best Fit
+73,0.5064,Best Fit
+74,0.4398,Best Fit
+75,0.4364,Best Fit
+76,0.4682,Best Fit
+77,0.5023,Best Fit
+78,0.3482,Best Fit
+79,0.415,Best Fit
+80,0.4481,Best Fit
+81,0.5196,Best Fit
+82,0.5154,Best Fit
+83,0.3028,Best Fit
+84,0.5448,Best Fit
+85,0.4026,Best Fit
+86,0.4087,Best Fit
+87,0.4012,Best Fit
+88,0.4512,Best Fit
+89,0.4505,Best Fit
+90,0.4184,Best Fit
+91,0.4285,Best Fit
+92,0.4485,Best Fit
+93,0.4496,Best Fit
+94,0.4518,Best Fit
+95,0.4206,Best Fit
+96,0.5029,Best Fit
+97,0.4232,Best Fit
+98,0.3554,Best Fit
+99,0.539,Best Fit
+100,0.5274,Best Fit
+101,0.5134,Best Fit
+102,0.3957,Best Fit
+103,0.5462,Best Fit
+104,0.3143,Best Fit
+105,0.3767,Best Fit
+106,0.5167,Best Fit
+107,0.4526,Best Fit
+108,0.5159,Best Fit
+109,0.4147,Best Fit
+110,0.4791,Best Fit
+111,0.4679,Best Fit
+112,0.4363,Best Fit
+113,0.4797,Best Fit
+114,0.4415,Best Fit
+115,0.3703,Best Fit
+116,0.4754,Best Fit
+117,0.4952,Best Fit
+118,0.488,Best Fit
+119,0.4822,Best Fit
+120,0.4926,Best Fit
+121,0.4255,Best Fit
+122,0.5479,Best Fit
+123,0.427,Best Fit
+124,0.4737,Best Fit
+125,0.6242,Best Fit
+126,0.5569,Best Fit
+127,0.427,Best Fit
+128,0.4948,Best Fit
+129,0.4346,Best Fit
+130,0.4562,Best Fit
+131,0.434,Best Fit
+132,0.3524,Best Fit
+133,0.5088,Best Fit
+134,0.4448,Best Fit
+135,0.396,Best Fit
+136,0.4564,Best Fit
+137,0.3432,Best Fit
+138,0.4663,Best Fit
+139,0.4166,Best Fit
+140,0.5017,Best Fit
+141,0.5232,Best Fit
+142,0.4429,Best Fit
+143,0.5952,Best Fit
+144,0.5426,Best Fit
+145,0.434,Best Fit
+146,0.4257,Best Fit
+147,0.555,Best Fit
+148,0.5222,Best Fit
+149,0.5558,Best Fit
+150,0.5148,Best Fit
+151,0.5031,Best Fit
+152,0.3847,Best Fit
+153,0.5272,Best Fit
+154,0.4837,Best Fit
+155,0.4968,Best Fit
+156,0.3763,Best Fit
+157,0.5691,Best Fit
+158,0.5408,Best Fit
+159,0.5889,Best Fit
+160,0.42,Best Fit
+161,0.547,Best Fit
+162,0.4243,Best Fit
+163,0.3942,Best Fit
+164,0.5341,Best Fit
+165,0.3463,Best Fit
+166,0.3815,Best Fit
+167,0.3951,Best Fit
+168,0.457,Best Fit
+169,0.4353,Best Fit
+170,0.5469,Best Fit
+171,0.5371,Best Fit
+172,0.3847,Best Fit
+173,0.4403,Best Fit
+174,0.3597,Best Fit
+175,0.4059,Best Fit
+176,0.4016,Best Fit
+177,0.455,Best Fit
+178,0.426,Best Fit
+179,0.3134,Best Fit
+180,0.4485,Best Fit
+181,0.3363,Best Fit
+182,0.4549,Best Fit
+183,0.4325,Best Fit
+184,0.5694,Best Fit
+185,0.4631,Best Fit
+186,0.404,Best Fit
+187,0.4808,Best Fit
+188,0.5277,Best Fit
+189,0.3409,Best Fit
+190,0.4277,Best Fit
+191,0.4087,Best Fit
+192,0.4865,Best Fit
+193,0.4721,Best Fit
+194,0.5241,Best Fit
+195,0.5828,Best Fit
+196,0.2674,Best Fit
+197,0.437,Best Fit
+198,0.3813,Best Fit
+199,0.5402,Best Fit
+200,0.5261,Best Fit
+201,0.3007,Best Fit
+202,0.4785,Best Fit
+203,0.4812,Best Fit
+204,0.4216,Best Fit
+205,0.4378,Best Fit
+206,0.4241,Best Fit
+207,0.5267,Best Fit
+208,0.4954,Best Fit
+209,0.3757,Best Fit
+210,0.5938,Best Fit
+211,0.3817,Best Fit
+212,0.4545,Best Fit
+213,0.3496,Best Fit
+214,0.4771,Best Fit
+215,0.432,Best Fit
+216,0.4195,Best Fit
+217,0.4141,Best Fit
+218,0.4365,Best Fit
+219,0.4814,Best Fit
+220,0.3598,Best Fit
+221,0.415,Best Fit
+222,0.5687,Best Fit
+223,0.3916,Best Fit
+224,0.4945,Best Fit
+225,0.4266,Best Fit
+226,0.3946,Best Fit
+227,0.3408,Best Fit
+228,0.5934,Best Fit
+229,0.4662,Best Fit
+230,0.3322,Best Fit
+231,0.5325,Best Fit
+232,0.4617,Best Fit
+233,0.3724,Best Fit
+234,0.5342,Best Fit
+235,0.4717,Best Fit
+236,0.4237,Best Fit
+237,0.4493,Best Fit
+238,0.3978,Best Fit
+239,0.5246,Best Fit
+240,0.4307,Best Fit
+241,0.4293,Best Fit
+242,0.4482,Best Fit
+243,0.3964,Best Fit
+244,0.5269,Best Fit
+245,0.4576,Best Fit
+246,0.4379,Best Fit
+247,0.474,Best Fit
+248,0.4444,Best Fit
+249,0.4529,Best Fit
+250,0.4496,Best Fit
+251,0.3771,Best Fit
+252,0.4151,Best Fit
+253,0.4805,Best Fit
+254,0.5729,Best Fit
+255,0.347,Best Fit
+256,0.5251,Best Fit
+257,0.5889,Best Fit
+258,0.4034,Best Fit
+259,0.3969,Best Fit
+260,0.5102,Best Fit
+261,0.4307,Best Fit
+262,0.4384,Best Fit
+263,0.6382,Best Fit
+264,0.5446,Best Fit
+265,0.4514,Best Fit
+266,0.5125,Best Fit
+267,0.4118,Best Fit
+268,0.4662,Best Fit
+269,0.4154,Best Fit
+270,0.3959,Best Fit
+271,0.4843,Best Fit
+272,0.4938,Best Fit
+273,0.4247,Best Fit
+274,0.3914,Best Fit
+275,0.5399,Best Fit
+276,0.3386,Best Fit
+277,0.5382,Best Fit
+278,0.3491,Best Fit
+279,0.308,Best Fit
+280,0.4975,Best Fit
+281,0.4932,Best Fit
+282,0.4951,Best Fit
+283,0.5005,Best Fit
+284,0.577,Best Fit
+285,0.3431,Best Fit
+286,0.3708,Best Fit
+287,0.4858,Best Fit
+288,0.5136,Best Fit
+289,0.4103,Best Fit
+290,0.3752,Best Fit
+291,0.4458,Best Fit
+292,0.411,Best Fit
+293,0.4793,Best Fit
+294,0.4681,Best Fit
+295,0.5011,Best Fit
+296,0.3575,Best Fit
+297,0.4422,Best Fit
+298,0.4453,Best Fit
+299,0.5083,Best Fit
+300,0.6082,Best Fit
+301,0.4714,Best Fit
+302,0.3961,Best Fit
+303,0.4344,Best Fit
+304,0.4333,Best Fit
+305,0.4373,Best Fit
+306,0.4824,Best Fit
+307,0.4535,Best Fit
+308,0.4557,Best Fit
+309,0.4173,Best Fit
+310,0.4852,Best Fit
+311,0.4427,Best Fit
+312,0.5221,Best Fit
+313,0.4597,Best Fit
+314,0.3209,Best Fit
+315,0.5207,Best Fit
+316,0.5131,Best Fit
+317,0.4957,Best Fit
+318,0.4375,Best Fit
+319,0.5116,Best Fit
+320,0.4973,Best Fit
+321,0.5248,Best Fit
+322,0.5518,Best Fit
+323,0.491,Best Fit
+324,0.4237,Best Fit
+325,0.3435,Best Fit
+326,0.4843,Best Fit
+327,0.4313,Best Fit
+328,0.474,Best Fit
+329,0.4924,Best Fit
+330,0.4136,Best Fit
+331,0.4921,Best Fit
+332,0.4174,Best Fit
+333,0.4309,Best Fit
+334,0.4296,Best Fit
+335,0.4037,Best Fit
+336,0.5225,Best Fit
+337,0.3976,Best Fit
+338,0.4937,Best Fit
+339,0.408,Best Fit
+340,0.5141,Best Fit
+341,0.5337,Best Fit
+342,0.5307,Best Fit
+343,0.4266,Best Fit
+344,0.4531,Best Fit
+345,0.4869,Best Fit
+346,0.3246,Best Fit
+347,0.3632,Best Fit
+348,0.5098,Best Fit
+349,0.4857,Best Fit
+350,0.476,Best Fit
+351,0.4402,Best Fit
+352,0.544,Best Fit
+353,0.2774,Best Fit
+354,0.4278,Best Fit
+355,0.4642,Best Fit
+356,0.5079,Best Fit
+357,0.4204,Best Fit
+358,0.4715,Best Fit
+359,0.4109,Best Fit
+360,0.4329,Best Fit
+361,0.5267,Best Fit
+362,0.4363,Best Fit
+363,0.5587,Best Fit
+364,0.5641,Best Fit
+365,0.3645,Best Fit
+366,0.4492,Best Fit
+367,0.4736,Best Fit
+368,0.6069,Best Fit
+369,0.485,Best Fit
+370,0.4583,Best Fit
+371,0.4686,Best Fit
+372,0.5813,Best Fit
+373,0.5019,Best Fit
+374,0.495,Best Fit
+375,0.3609,Best Fit
+376,0.5272,Best Fit
+377,0.4329,Best Fit
+378,0.5279,Best Fit
+379,0.5325,Best Fit
+380,0.5381,Best Fit
+381,0.5091,Best Fit
+382,0.5897,Best Fit
+383,0.6341,Best Fit
+384,0.6551,Best Fit
+385,0.5699,Best Fit
+386,0.436,Best Fit
+387,0.4455,Best Fit
+388,0.4741,Best Fit
+389,0.5429,Best Fit
+390,0.5084,Best Fit
+391,0.4037,Best Fit
+392,0.4934,Best Fit
+393,0.415,Best Fit
+394,0.4071,Best Fit
+395,0.4991,Best Fit
+396,0.5759,Best Fit
+397,0.4718,Best Fit
+398,0.4564,Best Fit
+399,0.5073,Best Fit
+400,0.5669,Best Fit
+401,0.4943,Best Fit
+402,0.4034,Best Fit
+403,0.444,Best Fit
+404,0.4921,Best Fit
+405,0.4577,Best Fit
+406,0.5994,Best Fit
+407,0.392,Best Fit
+408,0.3645,Best Fit
+409,0.5019,Best Fit
+410,0.4201,Best Fit
+411,0.4629,Best Fit
+412,0.3815,Best Fit
+413,0.3996,Best Fit
+414,0.4585,Best Fit
+415,0.4883,Best Fit
+416,0.4824,Best Fit
+417,0.5292,Best Fit
+418,0.5658,Best Fit
+419,0.5999,Best Fit
+420,0.387,Best Fit
+421,0.4244,Best Fit
+422,0.5472,Best Fit
+423,0.4371,Best Fit
+424,0.5464,Best Fit
+425,0.3866,Best Fit
+426,0.6198,Best Fit
+427,0.4167,Best Fit
+428,0.5678,Best Fit
+429,0.5809,Best Fit
+430,0.5134,Best Fit
+431,0.4996,Best Fit
+432,0.4442,Best Fit
+433,0.3776,Best Fit
+434,0.5479,Best Fit
+435,0.5375,Best Fit
+436,0.4558,Best Fit
+437,0.5241,Best Fit
+438,0.4646,Best Fit
+439,0.5495,Best Fit
+440,0.48,Best Fit
+441,0.4596,Best Fit
+442,0.4906,Best Fit
+443,0.4336,Best Fit
+444,0.5816,Best Fit
+445,0.5546,Best Fit
+446,0.4487,Best Fit
+447,0.426,Best Fit
+448,0.4225,Best Fit
+449,0.3763,Best Fit
+450,0.4306,Best Fit
+451,0.3403,Best Fit
+452,0.4272,Best Fit
+453,0.4484,Best Fit
+454,0.4804,Best Fit
+455,0.4448,Best Fit
+456,0.4485,Best Fit
+457,0.4062,Best Fit
+458,0.3157,Best Fit
+459,0.499,Best Fit
+460,0.395,Best Fit
+461,0.4935,Best Fit
+462,0.4481,Best Fit
+463,0.4406,Best Fit
+464,0.3898,Best Fit
+465,0.4672,Best Fit
+466,0.4564,Best Fit
+467,0.4636,Best Fit
+468,0.518,Best Fit
+469,0.4447,Best Fit
+470,0.4069,Best Fit
+471,0.5387,Best Fit
+472,0.5158,Best Fit
+473,0.4361,Best Fit
+474,0.454,Best Fit
+475,0.449,Best Fit
+476,0.5883,Best Fit
+477,0.4471,Best Fit
+478,0.3986,Best Fit
+479,0.4906,Best Fit
+480,0.505,Best Fit
+481,0.4546,Best Fit
+482,0.553,Best Fit
+483,0.4587,Best Fit
+484,0.4739,Best Fit
+485,0.565,Best Fit
+486,0.4756,Best Fit
+487,0.4188,Best Fit
+488,0.5678,Best Fit
+489,0.501,Best Fit
+490,0.4327,Best Fit
+491,0.3782,Best Fit
+492,0.4164,Best Fit
+493,0.5108,Best Fit
+494,0.4232,Best Fit
+495,0.4998,Best Fit
+496,0.4232,Best Fit
+497,0.4302,Best Fit
+498,0.504,Best Fit
+499,0.483,Best Fit
+0,0.5567,Best Fit Decreasing
+1,0.6332,Best Fit Decreasing
+2,0.5484,Best Fit Decreasing
+3,0.5065,Best Fit Decreasing
+4,0.5298,Best Fit Decreasing
+5,0.583,Best Fit Decreasing
+6,0.5683,Best Fit Decreasing
+7,0.5119,Best Fit Decreasing
+8,0.5681,Best Fit Decreasing
+9,0.5079,Best Fit Decreasing
+10,0.5841,Best Fit Decreasing
+11,0.5461,Best Fit Decreasing
+12,0.5545,Best Fit Decreasing
+13,0.4728,Best Fit Decreasing
+14,0.5091,Best Fit Decreasing
+15,0.5514,Best Fit Decreasing
+16,0.5551,Best Fit Decreasing
+17,0.5152,Best Fit Decreasing
+18,0.474,Best Fit Decreasing
+19,0.5372,Best Fit Decreasing
+20,0.4714,Best Fit Decreasing
+21,0.3984,Best Fit Decreasing
+22,0.5033,Best Fit Decreasing
+23,0.5902,Best Fit Decreasing
+24,0.4924,Best Fit Decreasing
+25,0.5592,Best Fit Decreasing
+26,0.5876,Best Fit Decreasing
+27,0.4622,Best Fit Decreasing
+28,0.5602,Best Fit Decreasing
+29,0.5713,Best Fit Decreasing
+30,0.7328,Best Fit Decreasing
+31,0.5336,Best Fit Decreasing
+32,0.4599,Best Fit Decreasing
+33,0.4795,Best Fit Decreasing
+34,0.5125,Best Fit Decreasing
+35,0.5306,Best Fit Decreasing
+36,0.5152,Best Fit Decreasing
+37,0.5976,Best Fit Decreasing
+38,0.482,Best Fit Decreasing
+39,0.5727,Best Fit Decreasing
+40,0.5201,Best Fit Decreasing
+41,0.5416,Best Fit Decreasing
+42,0.4799,Best Fit Decreasing
+43,0.5256,Best Fit Decreasing
+44,0.4554,Best Fit Decreasing
+45,0.476,Best Fit Decreasing
+46,0.4963,Best Fit Decreasing
+47,0.5805,Best Fit Decreasing
+48,0.5915,Best Fit Decreasing
+49,0.5316,Best Fit Decreasing
+50,0.5848,Best Fit Decreasing
+51,0.4676,Best Fit Decreasing
+52,0.4704,Best Fit Decreasing
+53,0.5099,Best Fit Decreasing
+54,0.5949,Best Fit Decreasing
+55,0.5573,Best Fit Decreasing
+56,0.6147,Best Fit Decreasing
+57,0.6721,Best Fit Decreasing
+58,0.6121,Best Fit Decreasing
+59,0.428,Best Fit Decreasing
+60,0.6146,Best Fit Decreasing
+61,0.4689,Best Fit Decreasing
+62,0.5085,Best Fit Decreasing
+63,0.5623,Best Fit Decreasing
+64,0.53,Best Fit Decreasing
+65,0.5577,Best Fit Decreasing
+66,0.4757,Best Fit Decreasing
+67,0.5251,Best Fit Decreasing
+68,0.5736,Best Fit Decreasing
+69,0.6731,Best Fit Decreasing
+70,0.6711,Best Fit Decreasing
+71,0.477,Best Fit Decreasing
+72,0.4647,Best Fit Decreasing
+73,0.6308,Best Fit Decreasing
+74,0.5443,Best Fit Decreasing
+75,0.5578,Best Fit Decreasing
+76,0.586,Best Fit Decreasing
+77,0.5499,Best Fit Decreasing
+78,0.6054,Best Fit Decreasing
+79,0.5165,Best Fit Decreasing
+80,0.4577,Best Fit Decreasing
+81,0.6468,Best Fit Decreasing
+82,0.5452,Best Fit Decreasing
+83,0.4997,Best Fit Decreasing
+84,0.7275,Best Fit Decreasing
+85,0.5636,Best Fit Decreasing
+86,0.4114,Best Fit Decreasing
+87,0.503,Best Fit Decreasing
+88,0.4882,Best Fit Decreasing
+89,0.469,Best Fit Decreasing
+90,0.5076,Best Fit Decreasing
+91,0.6263,Best Fit Decreasing
+92,0.5805,Best Fit Decreasing
+93,0.4601,Best Fit Decreasing
+94,0.4901,Best Fit Decreasing
+95,0.5416,Best Fit Decreasing
+96,0.5238,Best Fit Decreasing
+97,0.4492,Best Fit Decreasing
+98,0.5093,Best Fit Decreasing
+99,0.5446,Best Fit Decreasing
+100,0.5435,Best Fit Decreasing
+101,0.6704,Best Fit Decreasing
+102,0.5657,Best Fit Decreasing
+103,0.5831,Best Fit Decreasing
+104,0.5056,Best Fit Decreasing
+105,0.5245,Best Fit Decreasing
+106,0.6387,Best Fit Decreasing
+107,0.5685,Best Fit Decreasing
+108,0.5652,Best Fit Decreasing
+109,0.5444,Best Fit Decreasing
+110,0.5854,Best Fit Decreasing
+111,0.4964,Best Fit Decreasing
+112,0.607,Best Fit Decreasing
+113,0.5318,Best Fit Decreasing
+114,0.5504,Best Fit Decreasing
+115,0.3847,Best Fit Decreasing
+116,0.6108,Best Fit Decreasing
+117,0.6585,Best Fit Decreasing
+118,0.5751,Best Fit Decreasing
+119,0.5024,Best Fit Decreasing
+120,0.5564,Best Fit Decreasing
+121,0.6323,Best Fit Decreasing
+122,0.4735,Best Fit Decreasing
+123,0.5459,Best Fit Decreasing
+124,0.6581,Best Fit Decreasing
+125,0.63,Best Fit Decreasing
+126,0.4413,Best Fit Decreasing
+127,0.5424,Best Fit Decreasing
+128,0.5249,Best Fit Decreasing
+129,0.5576,Best Fit Decreasing
+130,0.6457,Best Fit Decreasing
+131,0.5706,Best Fit Decreasing
+132,0.6316,Best Fit Decreasing
+133,0.5259,Best Fit Decreasing
+134,0.6145,Best Fit Decreasing
+135,0.5161,Best Fit Decreasing
+136,0.6228,Best Fit Decreasing
+137,0.5701,Best Fit Decreasing
+138,0.4771,Best Fit Decreasing
+139,0.6423,Best Fit Decreasing
+140,0.5259,Best Fit Decreasing
+141,0.7133,Best Fit Decreasing
+142,0.5682,Best Fit Decreasing
+143,0.6077,Best Fit Decreasing
+144,0.5782,Best Fit Decreasing
+145,0.4535,Best Fit Decreasing
+146,0.4999,Best Fit Decreasing
+147,0.567,Best Fit Decreasing
+148,0.5402,Best Fit Decreasing
+149,0.6852,Best Fit Decreasing
+150,0.5966,Best Fit Decreasing
+151,0.6472,Best Fit Decreasing
+152,0.5636,Best Fit Decreasing
+153,0.5465,Best Fit Decreasing
+154,0.612,Best Fit Decreasing
+155,0.6556,Best Fit Decreasing
+156,0.5491,Best Fit Decreasing
+157,0.4569,Best Fit Decreasing
+158,0.5644,Best Fit Decreasing
+159,0.604,Best Fit Decreasing
+160,0.4292,Best Fit Decreasing
+161,0.5832,Best Fit Decreasing
+162,0.5631,Best Fit Decreasing
+163,0.585,Best Fit Decreasing
+164,0.5372,Best Fit Decreasing
+165,0.6061,Best Fit Decreasing
+166,0.513,Best Fit Decreasing
+167,0.4949,Best Fit Decreasing
+168,0.459,Best Fit Decreasing
+169,0.5897,Best Fit Decreasing
+170,0.6975,Best Fit Decreasing
+171,0.5396,Best Fit Decreasing
+172,0.4774,Best Fit Decreasing
+173,0.5691,Best Fit Decreasing
+174,0.5503,Best Fit Decreasing
+175,0.5545,Best Fit Decreasing
+176,0.5256,Best Fit Decreasing
+177,0.6486,Best Fit Decreasing
+178,0.4565,Best Fit Decreasing
+179,0.471,Best Fit Decreasing
+180,0.4777,Best Fit Decreasing
+181,0.5142,Best Fit Decreasing
+182,0.5547,Best Fit Decreasing
+183,0.5676,Best Fit Decreasing
+184,0.6173,Best Fit Decreasing
+185,0.4773,Best Fit Decreasing
+186,0.634,Best Fit Decreasing
+187,0.5082,Best Fit Decreasing
+188,0.7225,Best Fit Decreasing
+189,0.5102,Best Fit Decreasing
+190,0.5201,Best Fit Decreasing
+191,0.4833,Best Fit Decreasing
+192,0.5872,Best Fit Decreasing
+193,0.6341,Best Fit Decreasing
+194,0.527,Best Fit Decreasing
+195,0.5855,Best Fit Decreasing
+196,0.5249,Best Fit Decreasing
+197,0.5915,Best Fit Decreasing
+198,0.5489,Best Fit Decreasing
+199,0.5456,Best Fit Decreasing
+200,0.5693,Best Fit Decreasing
+201,0.4981,Best Fit Decreasing
+202,0.6604,Best Fit Decreasing
+203,0.682,Best Fit Decreasing
+204,0.5591,Best Fit Decreasing
+205,0.4715,Best Fit Decreasing
+206,0.5586,Best Fit Decreasing
+207,0.5186,Best Fit Decreasing
+208,0.5965,Best Fit Decreasing
+209,0.5463,Best Fit Decreasing
+210,0.7269,Best Fit Decreasing
+211,0.4843,Best Fit Decreasing
+212,0.4947,Best Fit Decreasing
+213,0.435,Best Fit Decreasing
+214,0.5064,Best Fit Decreasing
+215,0.5991,Best Fit Decreasing
+216,0.544,Best Fit Decreasing
+217,0.4308,Best Fit Decreasing
+218,0.6109,Best Fit Decreasing
+219,0.6819,Best Fit Decreasing
+220,0.6554,Best Fit Decreasing
+221,0.4666,Best Fit Decreasing
+222,0.6012,Best Fit Decreasing
+223,0.5845,Best Fit Decreasing
+224,0.6155,Best Fit Decreasing
+225,0.5473,Best Fit Decreasing
+226,0.4194,Best Fit Decreasing
+227,0.4755,Best Fit Decreasing
+228,0.7599,Best Fit Decreasing
+229,0.4861,Best Fit Decreasing
+230,0.4754,Best Fit Decreasing
+231,0.5738,Best Fit Decreasing
+232,0.6164,Best Fit Decreasing
+233,0.5203,Best Fit Decreasing
+234,0.5668,Best Fit Decreasing
+235,0.524,Best Fit Decreasing
+236,0.5087,Best Fit Decreasing
+237,0.5016,Best Fit Decreasing
+238,0.5598,Best Fit Decreasing
+239,0.6749,Best Fit Decreasing
+240,0.6032,Best Fit Decreasing
+241,0.5682,Best Fit Decreasing
+242,0.5784,Best Fit Decreasing
+243,0.5529,Best Fit Decreasing
+244,0.5605,Best Fit Decreasing
+245,0.583,Best Fit Decreasing
+246,0.6057,Best Fit Decreasing
+247,0.5991,Best Fit Decreasing
+248,0.4546,Best Fit Decreasing
+249,0.605,Best Fit Decreasing
+250,0.553,Best Fit Decreasing
+251,0.5605,Best Fit Decreasing
+252,0.5798,Best Fit Decreasing
+253,0.5115,Best Fit Decreasing
+254,0.5856,Best Fit Decreasing
+255,0.4663,Best Fit Decreasing
+256,0.6797,Best Fit Decreasing
+257,0.4917,Best Fit Decreasing
+258,0.4289,Best Fit Decreasing
+259,0.5744,Best Fit Decreasing
+260,0.5125,Best Fit Decreasing
+261,0.5516,Best Fit Decreasing
+262,0.5718,Best Fit Decreasing
+263,0.6363,Best Fit Decreasing
+264,0.6789,Best Fit Decreasing
+265,0.6252,Best Fit Decreasing
+266,0.508,Best Fit Decreasing
+267,0.4481,Best Fit Decreasing
+268,0.549,Best Fit Decreasing
+269,0.5749,Best Fit Decreasing
+270,0.5816,Best Fit Decreasing
+271,0.6633,Best Fit Decreasing
+272,0.6257,Best Fit Decreasing
+273,0.6112,Best Fit Decreasing
+274,0.5726,Best Fit Decreasing
+275,0.5769,Best Fit Decreasing
+276,0.4651,Best Fit Decreasing
+277,0.5532,Best Fit Decreasing
+278,0.5431,Best Fit Decreasing
+279,0.5285,Best Fit Decreasing
+280,0.5125,Best Fit Decreasing
+281,0.5244,Best Fit Decreasing
+282,0.5022,Best Fit Decreasing
+283,0.5377,Best Fit Decreasing
+284,0.6039,Best Fit Decreasing
+285,0.4513,Best Fit Decreasing
+286,0.468,Best Fit Decreasing
+287,0.6372,Best Fit Decreasing
+288,0.5296,Best Fit Decreasing
+289,0.5485,Best Fit Decreasing
+290,0.6397,Best Fit Decreasing
+291,0.5491,Best Fit Decreasing
+292,0.5131,Best Fit Decreasing
+293,0.5162,Best Fit Decreasing
+294,0.47,Best Fit Decreasing
+295,0.5334,Best Fit Decreasing
+296,0.4736,Best Fit Decreasing
+297,0.6112,Best Fit Decreasing
+298,0.4875,Best Fit Decreasing
+299,0.5304,Best Fit Decreasing
+300,0.6502,Best Fit Decreasing
+301,0.6637,Best Fit Decreasing
+302,0.5576,Best Fit Decreasing
+303,0.5765,Best Fit Decreasing
+304,0.5122,Best Fit Decreasing
+305,0.571,Best Fit Decreasing
+306,0.5981,Best Fit Decreasing
+307,0.5567,Best Fit Decreasing
+308,0.5579,Best Fit Decreasing
+309,0.6223,Best Fit Decreasing
+310,0.6676,Best Fit Decreasing
+311,0.6774,Best Fit Decreasing
+312,0.5436,Best Fit Decreasing
+313,0.6325,Best Fit Decreasing
+314,0.4137,Best Fit Decreasing
+315,0.5347,Best Fit Decreasing
+316,0.5712,Best Fit Decreasing
+317,0.651,Best Fit Decreasing
+318,0.469,Best Fit Decreasing
+319,0.5805,Best Fit Decreasing
+320,0.5145,Best Fit Decreasing
+321,0.6605,Best Fit Decreasing
+322,0.7443,Best Fit Decreasing
+323,0.531,Best Fit Decreasing
+324,0.4572,Best Fit Decreasing
+325,0.5349,Best Fit Decreasing
+326,0.5012,Best Fit Decreasing
+327,0.55,Best Fit Decreasing
+328,0.5855,Best Fit Decreasing
+329,0.6296,Best Fit Decreasing
+330,0.5773,Best Fit Decreasing
+331,0.627,Best Fit Decreasing
+332,0.6971,Best Fit Decreasing
+333,0.5284,Best Fit Decreasing
+334,0.5899,Best Fit Decreasing
+335,0.5584,Best Fit Decreasing
+336,0.5458,Best Fit Decreasing
+337,0.4377,Best Fit Decreasing
+338,0.5282,Best Fit Decreasing
+339,0.6305,Best Fit Decreasing
+340,0.6566,Best Fit Decreasing
+341,0.6724,Best Fit Decreasing
+342,0.65,Best Fit Decreasing
+343,0.5047,Best Fit Decreasing
+344,0.4554,Best Fit Decreasing
+345,0.5011,Best Fit Decreasing
+346,0.4663,Best Fit Decreasing
+347,0.6195,Best Fit Decreasing
+348,0.6305,Best Fit Decreasing
+349,0.669,Best Fit Decreasing
+350,0.4955,Best Fit Decreasing
+351,0.4627,Best Fit Decreasing
+352,0.5495,Best Fit Decreasing
+353,0.5953,Best Fit Decreasing
+354,0.5302,Best Fit Decreasing
+355,0.5847,Best Fit Decreasing
+356,0.6408,Best Fit Decreasing
+357,0.5687,Best Fit Decreasing
+358,0.566,Best Fit Decreasing
+359,0.5241,Best Fit Decreasing
+360,0.5501,Best Fit Decreasing
+361,0.572,Best Fit Decreasing
+362,0.5817,Best Fit Decreasing
+363,0.577,Best Fit Decreasing
+364,0.5902,Best Fit Decreasing
+365,0.5089,Best Fit Decreasing
+366,0.4926,Best Fit Decreasing
+367,0.6355,Best Fit Decreasing
+368,0.6393,Best Fit Decreasing
+369,0.6063,Best Fit Decreasing
+370,0.5064,Best Fit Decreasing
+371,0.6052,Best Fit Decreasing
+372,0.593,Best Fit Decreasing
+373,0.6625,Best Fit Decreasing
+374,0.5888,Best Fit Decreasing
+375,0.5512,Best Fit Decreasing
+376,0.6965,Best Fit Decreasing
+377,0.4693,Best Fit Decreasing
+378,0.5714,Best Fit Decreasing
+379,0.5282,Best Fit Decreasing
+380,0.6834,Best Fit Decreasing
+381,0.5179,Best Fit Decreasing
+382,0.6005,Best Fit Decreasing
+383,0.662,Best Fit Decreasing
+384,0.6605,Best Fit Decreasing
+385,0.5907,Best Fit Decreasing
+386,0.5349,Best Fit Decreasing
+387,0.6054,Best Fit Decreasing
+388,0.5395,Best Fit Decreasing
+389,0.5391,Best Fit Decreasing
+390,0.5329,Best Fit Decreasing
+391,0.4077,Best Fit Decreasing
+392,0.5377,Best Fit Decreasing
+393,0.5421,Best Fit Decreasing
+394,0.4121,Best Fit Decreasing
+395,0.6165,Best Fit Decreasing
+396,0.5868,Best Fit Decreasing
+397,0.6209,Best Fit Decreasing
+398,0.5934,Best Fit Decreasing
+399,0.5125,Best Fit Decreasing
+400,0.5853,Best Fit Decreasing
+401,0.5008,Best Fit Decreasing
+402,0.5653,Best Fit Decreasing
+403,0.5777,Best Fit Decreasing
+404,0.5177,Best Fit Decreasing
+405,0.5133,Best Fit Decreasing
+406,0.6111,Best Fit Decreasing
+407,0.5945,Best Fit Decreasing
+408,0.5598,Best Fit Decreasing
+409,0.5374,Best Fit Decreasing
+410,0.583,Best Fit Decreasing
+411,0.4678,Best Fit Decreasing
+412,0.5651,Best Fit Decreasing
+413,0.517,Best Fit Decreasing
+414,0.4858,Best Fit Decreasing
+415,0.5008,Best Fit Decreasing
+416,0.6526,Best Fit Decreasing
+417,0.5846,Best Fit Decreasing
+418,0.6653,Best Fit Decreasing
+419,0.6089,Best Fit Decreasing
+420,0.5728,Best Fit Decreasing
+421,0.6283,Best Fit Decreasing
+422,0.5753,Best Fit Decreasing
+423,0.5241,Best Fit Decreasing
+424,0.5523,Best Fit Decreasing
+425,0.5157,Best Fit Decreasing
+426,0.6089,Best Fit Decreasing
+427,0.5454,Best Fit Decreasing
+428,0.462,Best Fit Decreasing
+429,0.5931,Best Fit Decreasing
+430,0.635,Best Fit Decreasing
+431,0.5337,Best Fit Decreasing
+432,0.5601,Best Fit Decreasing
+433,0.6913,Best Fit Decreasing
+434,0.557,Best Fit Decreasing
+435,0.5787,Best Fit Decreasing
+436,0.51,Best Fit Decreasing
+437,0.5797,Best Fit Decreasing
+438,0.6028,Best Fit Decreasing
+439,0.5308,Best Fit Decreasing
+440,0.5973,Best Fit Decreasing
+441,0.573,Best Fit Decreasing
+442,0.6788,Best Fit Decreasing
+443,0.4442,Best Fit Decreasing
+444,0.6204,Best Fit Decreasing
+445,0.7226,Best Fit Decreasing
+446,0.5837,Best Fit Decreasing
+447,0.6031,Best Fit Decreasing
+448,0.565,Best Fit Decreasing
+449,0.5215,Best Fit Decreasing
+450,0.4909,Best Fit Decreasing
+451,0.56,Best Fit Decreasing
+452,0.4613,Best Fit Decreasing
+453,0.5938,Best Fit Decreasing
+454,0.5808,Best Fit Decreasing
+455,0.4685,Best Fit Decreasing
+456,0.5766,Best Fit Decreasing
+457,0.5202,Best Fit Decreasing
+458,0.5466,Best Fit Decreasing
+459,0.5399,Best Fit Decreasing
+460,0.5143,Best Fit Decreasing
+461,0.6073,Best Fit Decreasing
+462,0.4645,Best Fit Decreasing
+463,0.4691,Best Fit Decreasing
+464,0.5226,Best Fit Decreasing
+465,0.5395,Best Fit Decreasing
+466,0.4935,Best Fit Decreasing
+467,0.6623,Best Fit Decreasing
+468,0.6093,Best Fit Decreasing
+469,0.5774,Best Fit Decreasing
+470,0.5072,Best Fit Decreasing
+471,0.5518,Best Fit Decreasing
+472,0.5348,Best Fit Decreasing
+473,0.5883,Best Fit Decreasing
+474,0.4769,Best Fit Decreasing
+475,0.6425,Best Fit Decreasing
+476,0.599,Best Fit Decreasing
+477,0.5852,Best Fit Decreasing
+478,0.5007,Best Fit Decreasing
+479,0.5341,Best Fit Decreasing
+480,0.5259,Best Fit Decreasing
+481,0.462,Best Fit Decreasing
+482,0.5938,Best Fit Decreasing
+483,0.4892,Best Fit Decreasing
+484,0.5139,Best Fit Decreasing
+485,0.7122,Best Fit Decreasing
+486,0.6341,Best Fit Decreasing
+487,0.5795,Best Fit Decreasing
+488,0.613,Best Fit Decreasing
+489,0.4985,Best Fit Decreasing
+490,0.5599,Best Fit Decreasing
+491,0.5067,Best Fit Decreasing
+492,0.588,Best Fit Decreasing
+493,0.6434,Best Fit Decreasing
+494,0.5729,Best Fit Decreasing
+495,0.6333,Best Fit Decreasing
+496,0.5621,Best Fit Decreasing
+497,0.5185,Best Fit Decreasing
+498,0.5195,Best Fit Decreasing
+499,0.5369,Best Fit Decreasing
+0,0.5553,Djang and Fitch
+1,0.6332,Djang and Fitch
+2,0.5479,Djang and Fitch
+3,0.5285,Djang and Fitch
+4,0.5289,Djang and Fitch
+5,0.5805,Djang and Fitch
+6,0.5683,Djang and Fitch
+7,0.5111,Djang and Fitch
+8,0.568,Djang and Fitch
+9,0.5062,Djang and Fitch
+10,0.5814,Djang and Fitch
+11,0.5458,Djang and Fitch
+12,0.5482,Djang and Fitch
+13,0.4668,Djang and Fitch
+14,0.5039,Djang and Fitch
+15,0.5514,Djang and Fitch
+16,0.5551,Djang and Fitch
+17,0.5111,Djang and Fitch
+18,0.4669,Djang and Fitch
+19,0.537,Djang and Fitch
+20,0.4658,Djang and Fitch
+21,0.3977,Djang and Fitch
+22,0.5019,Djang and Fitch
+23,0.5841,Djang and Fitch
+24,0.4922,Djang and Fitch
+25,0.5558,Djang and Fitch
+26,0.583,Djang and Fitch
+27,0.4572,Djang and Fitch
+28,0.5602,Djang and Fitch
+29,0.5695,Djang and Fitch
+30,0.7328,Djang and Fitch
+31,0.5287,Djang and Fitch
+32,0.4549,Djang and Fitch
+33,0.4859,Djang and Fitch
+34,0.5125,Djang and Fitch
+35,0.5304,Djang and Fitch
+36,0.5031,Djang and Fitch
+37,0.5929,Djang and Fitch
+38,0.4812,Djang and Fitch
+39,0.5536,Djang and Fitch
+40,0.5148,Djang and Fitch
+41,0.5407,Djang and Fitch
+42,0.4798,Djang and Fitch
+43,0.5256,Djang and Fitch
+44,0.4487,Djang and Fitch
+45,0.469,Djang and Fitch
+46,0.4963,Djang and Fitch
+47,0.5805,Djang and Fitch
+48,0.5915,Djang and Fitch
+49,0.5288,Djang and Fitch
+50,0.5845,Djang and Fitch
+51,0.4629,Djang and Fitch
+52,0.4702,Djang and Fitch
+53,0.5069,Djang and Fitch
+54,0.5948,Djang and Fitch
+55,0.5564,Djang and Fitch
+56,0.6105,Djang and Fitch
+57,0.6721,Djang and Fitch
+58,0.6121,Djang and Fitch
+59,0.429,Djang and Fitch
+60,0.6146,Djang and Fitch
+61,0.4689,Djang and Fitch
+62,0.6202,Djang and Fitch
+63,0.5601,Djang and Fitch
+64,0.5297,Djang and Fitch
+65,0.5576,Djang and Fitch
+66,0.4755,Djang and Fitch
+67,0.5249,Djang and Fitch
+68,0.571,Djang and Fitch
+69,0.673,Djang and Fitch
+70,0.6711,Djang and Fitch
+71,0.4752,Djang and Fitch
+72,0.4595,Djang and Fitch
+73,0.6303,Djang and Fitch
+74,0.5403,Djang and Fitch
+75,0.5559,Djang and Fitch
+76,0.5858,Djang and Fitch
+77,0.5493,Djang and Fitch
+78,0.5939,Djang and Fitch
+79,0.5073,Djang and Fitch
+80,0.4529,Djang and Fitch
+81,0.6468,Djang and Fitch
+82,0.5422,Djang and Fitch
+83,0.4971,Djang and Fitch
+84,0.7274,Djang and Fitch
+85,0.5636,Djang and Fitch
+86,0.4107,Djang and Fitch
+87,0.4982,Djang and Fitch
+88,0.4834,Djang and Fitch
+89,0.469,Djang and Fitch
+90,0.507,Djang and Fitch
+91,0.6263,Djang and Fitch
+92,0.5741,Djang and Fitch
+93,0.4692,Djang and Fitch
+94,0.4901,Djang and Fitch
+95,0.5308,Djang and Fitch
+96,0.5237,Djang and Fitch
+97,0.4413,Djang and Fitch
+98,0.5114,Djang and Fitch
+99,0.5415,Djang and Fitch
+100,0.5427,Djang and Fitch
+101,0.6704,Djang and Fitch
+102,0.5657,Djang and Fitch
+103,0.5821,Djang and Fitch
+104,0.4952,Djang and Fitch
+105,0.5094,Djang and Fitch
+106,0.6355,Djang and Fitch
+107,0.5599,Djang and Fitch
+108,0.5633,Djang and Fitch
+109,0.5451,Djang and Fitch
+110,0.5838,Djang and Fitch
+111,0.4812,Djang and Fitch
+112,0.6065,Djang and Fitch
+113,0.5318,Djang and Fitch
+114,0.5482,Djang and Fitch
+115,0.384,Djang and Fitch
+116,0.5986,Djang and Fitch
+117,0.6565,Djang and Fitch
+118,0.5747,Djang and Fitch
+119,0.4984,Djang and Fitch
+120,0.5807,Djang and Fitch
+121,0.6323,Djang and Fitch
+122,0.4701,Djang and Fitch
+123,0.5365,Djang and Fitch
+124,0.6581,Djang and Fitch
+125,0.6244,Djang and Fitch
+126,0.4413,Djang and Fitch
+127,0.5424,Djang and Fitch
+128,0.5195,Djang and Fitch
+129,0.5532,Djang and Fitch
+130,0.6446,Djang and Fitch
+131,0.5691,Djang and Fitch
+132,0.6316,Djang and Fitch
+133,0.5228,Djang and Fitch
+134,0.6145,Djang and Fitch
+135,0.4972,Djang and Fitch
+136,0.6144,Djang and Fitch
+137,0.5601,Djang and Fitch
+138,0.4747,Djang and Fitch
+139,0.6393,Djang and Fitch
+140,0.5259,Djang and Fitch
+141,0.5794,Djang and Fitch
+142,0.568,Djang and Fitch
+143,0.6065,Djang and Fitch
+144,0.5776,Djang and Fitch
+145,0.4444,Djang and Fitch
+146,0.4999,Djang and Fitch
+147,0.5653,Djang and Fitch
+148,0.536,Djang and Fitch
+149,0.6812,Djang and Fitch
+150,0.5959,Djang and Fitch
+151,0.6462,Djang and Fitch
+152,0.5604,Djang and Fitch
+153,0.5451,Djang and Fitch
+154,0.612,Djang and Fitch
+155,0.6442,Djang and Fitch
+156,0.548,Djang and Fitch
+157,0.5432,Djang and Fitch
+158,0.5712,Djang and Fitch
+159,0.5996,Djang and Fitch
+160,0.4284,Djang and Fitch
+161,0.583,Djang and Fitch
+162,0.5616,Djang and Fitch
+163,0.5848,Djang and Fitch
+164,0.5361,Djang and Fitch
+165,0.5948,Djang and Fitch
+166,0.5079,Djang and Fitch
+167,0.4933,Djang and Fitch
+168,0.4583,Djang and Fitch
+169,0.5881,Djang and Fitch
+170,0.6996,Djang and Fitch
+171,0.5388,Djang and Fitch
+172,0.477,Djang and Fitch
+173,0.5692,Djang and Fitch
+174,0.548,Djang and Fitch
+175,0.4697,Djang and Fitch
+176,0.5207,Djang and Fitch
+177,0.6454,Djang and Fitch
+178,0.4643,Djang and Fitch
+179,0.4693,Djang and Fitch
+180,0.4769,Djang and Fitch
+181,0.5142,Djang and Fitch
+182,0.5472,Djang and Fitch
+183,0.5653,Djang and Fitch
+184,0.603,Djang and Fitch
+185,0.4773,Djang and Fitch
+186,0.6233,Djang and Fitch
+187,0.4981,Djang and Fitch
+188,0.5766,Djang and Fitch
+189,0.5102,Djang and Fitch
+190,0.5155,Djang and Fitch
+191,0.4833,Djang and Fitch
+192,0.5132,Djang and Fitch
+193,0.6341,Djang and Fitch
+194,0.5258,Djang and Fitch
+195,0.5855,Djang and Fitch
+196,0.5237,Djang and Fitch
+197,0.5914,Djang and Fitch
+198,0.5487,Djang and Fitch
+199,0.5447,Djang and Fitch
+200,0.5772,Djang and Fitch
+201,0.4921,Djang and Fitch
+202,0.5283,Djang and Fitch
+203,0.5261,Djang and Fitch
+204,0.5588,Djang and Fitch
+205,0.4691,Djang and Fitch
+206,0.558,Djang and Fitch
+207,0.5186,Djang and Fitch
+208,0.5956,Djang and Fitch
+209,0.5498,Djang and Fitch
+210,0.7269,Djang and Fitch
+211,0.4792,Djang and Fitch
+212,0.4879,Djang and Fitch
+213,0.4352,Djang and Fitch
+214,0.5023,Djang and Fitch
+215,0.596,Djang and Fitch
+216,0.5402,Djang and Fitch
+217,0.4324,Djang and Fitch
+218,0.6109,Djang and Fitch
+219,0.6797,Djang and Fitch
+220,0.6498,Djang and Fitch
+221,0.4664,Djang and Fitch
+222,0.6004,Djang and Fitch
+223,0.578,Djang and Fitch
+224,0.6143,Djang and Fitch
+225,0.5455,Djang and Fitch
+226,0.4166,Djang and Fitch
+227,0.4755,Djang and Fitch
+228,0.7599,Djang and Fitch
+229,0.4828,Djang and Fitch
+230,0.4749,Djang and Fitch
+231,0.5738,Djang and Fitch
+232,0.6148,Djang and Fitch
+233,0.5112,Djang and Fitch
+234,0.5668,Djang and Fitch
+235,0.524,Djang and Fitch
+236,0.5079,Djang and Fitch
+237,0.5016,Djang and Fitch
+238,0.56,Djang and Fitch
+239,0.6704,Djang and Fitch
+240,0.5992,Djang and Fitch
+241,0.5743,Djang and Fitch
+242,0.5784,Djang and Fitch
+243,0.5712,Djang and Fitch
+244,0.56,Djang and Fitch
+245,0.582,Djang and Fitch
+246,0.6053,Djang and Fitch
+247,0.5991,Djang and Fitch
+248,0.4513,Djang and Fitch
+249,0.605,Djang and Fitch
+250,0.5525,Djang and Fitch
+251,0.687,Djang and Fitch
+252,0.5798,Djang and Fitch
+253,0.4996,Djang and Fitch
+254,0.584,Djang and Fitch
+255,0.4548,Djang and Fitch
+256,0.6797,Djang and Fitch
+257,0.4914,Djang and Fitch
+258,0.4283,Djang and Fitch
+259,0.5744,Djang and Fitch
+260,0.4981,Djang and Fitch
+261,0.5512,Djang and Fitch
+262,0.5628,Djang and Fitch
+263,0.6332,Djang and Fitch
+264,0.6789,Djang and Fitch
+265,0.6252,Djang and Fitch
+266,0.508,Djang and Fitch
+267,0.4431,Djang and Fitch
+268,0.549,Djang and Fitch
+269,0.5749,Djang and Fitch
+270,0.5817,Djang and Fitch
+271,0.6586,Djang and Fitch
+272,0.624,Djang and Fitch
+273,0.6125,Djang and Fitch
+274,0.5719,Djang and Fitch
+275,0.574,Djang and Fitch
+276,0.4615,Djang and Fitch
+277,0.553,Djang and Fitch
+278,0.5426,Djang and Fitch
+279,0.5285,Djang and Fitch
+280,0.5109,Djang and Fitch
+281,0.5213,Djang and Fitch
+282,0.4992,Djang and Fitch
+283,0.5236,Djang and Fitch
+284,0.6039,Djang and Fitch
+285,0.4511,Djang and Fitch
+286,0.452,Djang and Fitch
+287,0.6372,Djang and Fitch
+288,0.5195,Djang and Fitch
+289,0.5469,Djang and Fitch
+290,0.6397,Djang and Fitch
+291,0.5429,Djang and Fitch
+292,0.5084,Djang and Fitch
+293,0.5182,Djang and Fitch
+294,0.4678,Djang and Fitch
+295,0.5334,Djang and Fitch
+296,0.4723,Djang and Fitch
+297,0.6112,Djang and Fitch
+298,0.4855,Djang and Fitch
+299,0.5232,Djang and Fitch
+300,0.6173,Djang and Fitch
+301,0.6734,Djang and Fitch
+302,0.5568,Djang and Fitch
+303,0.5764,Djang and Fitch
+304,0.5085,Djang and Fitch
+305,0.5772,Djang and Fitch
+306,0.598,Djang and Fitch
+307,0.5563,Djang and Fitch
+308,0.5576,Djang and Fitch
+309,0.622,Djang and Fitch
+310,0.6552,Djang and Fitch
+311,0.6774,Djang and Fitch
+312,0.5408,Djang and Fitch
+313,0.6149,Djang and Fitch
+314,0.4097,Djang and Fitch
+315,0.5344,Djang and Fitch
+316,0.5473,Djang and Fitch
+317,0.651,Djang and Fitch
+318,0.4663,Djang and Fitch
+319,0.5754,Djang and Fitch
+320,0.5113,Djang and Fitch
+321,0.6603,Djang and Fitch
+322,0.7442,Djang and Fitch
+323,0.5296,Djang and Fitch
+324,0.4632,Djang and Fitch
+325,0.5349,Djang and Fitch
+326,0.4991,Djang and Fitch
+327,0.5497,Djang and Fitch
+328,0.5818,Djang and Fitch
+329,0.6291,Djang and Fitch
+330,0.5769,Djang and Fitch
+331,0.6187,Djang and Fitch
+332,0.5847,Djang and Fitch
+333,0.5323,Djang and Fitch
+334,0.5774,Djang and Fitch
+335,0.5582,Djang and Fitch
+336,0.5458,Djang and Fitch
+337,0.4369,Djang and Fitch
+338,0.5271,Djang and Fitch
+339,0.6304,Djang and Fitch
+340,0.6566,Djang and Fitch
+341,0.6691,Djang and Fitch
+342,0.65,Djang and Fitch
+343,0.4976,Djang and Fitch
+344,0.4513,Djang and Fitch
+345,0.4976,Djang and Fitch
+346,0.4663,Djang and Fitch
+347,0.6191,Djang and Fitch
+348,0.6283,Djang and Fitch
+349,0.6688,Djang and Fitch
+350,0.5758,Djang and Fitch
+351,0.4603,Djang and Fitch
+352,0.4329,Djang and Fitch
+353,0.595,Djang and Fitch
+354,0.5301,Djang and Fitch
+355,0.5831,Djang and Fitch
+356,0.6378,Djang and Fitch
+357,0.5687,Djang and Fitch
+358,0.562,Djang and Fitch
+359,0.5199,Djang and Fitch
+360,0.5525,Djang and Fitch
+361,0.5719,Djang and Fitch
+362,0.5815,Djang and Fitch
+363,0.577,Djang and Fitch
+364,0.59,Djang and Fitch
+365,0.5088,Djang and Fitch
+366,0.4916,Djang and Fitch
+367,0.6351,Djang and Fitch
+368,0.6363,Djang and Fitch
+369,0.605,Djang and Fitch
+370,0.5063,Djang and Fitch
+371,0.5983,Djang and Fitch
+372,0.5893,Djang and Fitch
+373,0.6506,Djang and Fitch
+374,0.5882,Djang and Fitch
+375,0.5474,Djang and Fitch
+376,0.6965,Djang and Fitch
+377,0.4693,Djang and Fitch
+378,0.5699,Djang and Fitch
+379,0.5248,Djang and Fitch
+380,0.6821,Djang and Fitch
+381,0.5117,Djang and Fitch
+382,0.5905,Djang and Fitch
+383,0.6431,Djang and Fitch
+384,0.6571,Djang and Fitch
+385,0.5845,Djang and Fitch
+386,0.5381,Djang and Fitch
+387,0.6,Djang and Fitch
+388,0.5392,Djang and Fitch
+389,0.5348,Djang and Fitch
+390,0.5329,Djang and Fitch
+391,0.4023,Djang and Fitch
+392,0.5356,Djang and Fitch
+393,0.5426,Djang and Fitch
+394,0.4126,Djang and Fitch
+395,0.6146,Djang and Fitch
+396,0.5869,Djang and Fitch
+397,0.6203,Djang and Fitch
+398,0.5999,Djang and Fitch
+399,0.5104,Djang and Fitch
+400,0.6799,Djang and Fitch
+401,0.4947,Djang and Fitch
+402,0.5524,Djang and Fitch
+403,0.5769,Djang and Fitch
+404,0.5149,Djang and Fitch
+405,0.5127,Djang and Fitch
+406,0.6066,Djang and Fitch
+407,0.5871,Djang and Fitch
+408,0.5482,Djang and Fitch
+409,0.5298,Djang and Fitch
+410,0.5817,Djang and Fitch
+411,0.4635,Djang and Fitch
+412,0.565,Djang and Fitch
+413,0.5149,Djang and Fitch
+414,0.4765,Djang and Fitch
+415,0.5007,Djang and Fitch
+416,0.6544,Djang and Fitch
+417,0.5834,Djang and Fitch
+418,0.6653,Djang and Fitch
+419,0.6063,Djang and Fitch
+420,0.5726,Djang and Fitch
+421,0.6234,Djang and Fitch
+422,0.5747,Djang and Fitch
+423,0.5221,Djang and Fitch
+424,0.551,Djang and Fitch
+425,0.5405,Djang and Fitch
+426,0.6089,Djang and Fitch
+427,0.5452,Djang and Fitch
+428,0.459,Djang and Fitch
+429,0.5931,Djang and Fitch
+430,0.6331,Djang and Fitch
+431,0.5331,Djang and Fitch
+432,0.5489,Djang and Fitch
+433,0.6905,Djang and Fitch
+434,0.5569,Djang and Fitch
+435,0.5787,Djang and Fitch
+436,0.5002,Djang and Fitch
+437,0.5796,Djang and Fitch
+438,0.6028,Djang and Fitch
+439,0.5308,Djang and Fitch
+440,0.5951,Djang and Fitch
+441,0.5708,Djang and Fitch
+442,0.6707,Djang and Fitch
+443,0.4394,Djang and Fitch
+444,0.6189,Djang and Fitch
+445,0.7172,Djang and Fitch
+446,0.5824,Djang and Fitch
+447,0.5841,Djang and Fitch
+448,0.5646,Djang and Fitch
+449,0.5214,Djang and Fitch
+450,0.4735,Djang and Fitch
+451,0.5589,Djang and Fitch
+452,0.4591,Djang and Fitch
+453,0.5845,Djang and Fitch
+454,0.579,Djang and Fitch
+455,0.4662,Djang and Fitch
+456,0.5733,Djang and Fitch
+457,0.5202,Djang and Fitch
+458,0.5284,Djang and Fitch
+459,0.5399,Djang and Fitch
+460,0.5134,Djang and Fitch
+461,0.6063,Djang and Fitch
+462,0.4592,Djang and Fitch
+463,0.4666,Djang and Fitch
+464,0.5177,Djang and Fitch
+465,0.5371,Djang and Fitch
+466,0.6159,Djang and Fitch
+467,0.6621,Djang and Fitch
+468,0.6093,Djang and Fitch
+469,0.5774,Djang and Fitch
+470,0.5076,Djang and Fitch
+471,0.5518,Djang and Fitch
+472,0.529,Djang and Fitch
+473,0.5932,Djang and Fitch
+474,0.4768,Djang and Fitch
+475,0.6359,Djang and Fitch
+476,0.5989,Djang and Fitch
+477,0.5814,Djang and Fitch
+478,0.4985,Djang and Fitch
+479,0.532,Djang and Fitch
+480,0.5249,Djang and Fitch
+481,0.4584,Djang and Fitch
+482,0.5936,Djang and Fitch
+483,0.4879,Djang and Fitch
+484,0.5108,Djang and Fitch
+485,0.7122,Djang and Fitch
+486,0.6282,Djang and Fitch
+487,0.5795,Djang and Fitch
+488,0.6128,Djang and Fitch
+489,0.4985,Djang and Fitch
+490,0.5599,Djang and Fitch
+491,0.506,Djang and Fitch
+492,0.586,Djang and Fitch
+493,0.6356,Djang and Fitch
+494,0.5727,Djang and Fitch
+495,0.6301,Djang and Fitch
+496,0.5508,Djang and Fitch
+497,0.5018,Djang and Fitch
+498,0.52,Djang and Fitch
+499,0.5358,Djang and Fitch
+0,0.4736,Djang and Fitch 2
+1,0.492,Djang and Fitch 2
+2,0.553,Djang and Fitch 2
+3,0.5039,Djang and Fitch 2
+4,0.449,Djang and Fitch 2
+5,0.5649,Djang and Fitch 2
+6,0.5691,Djang and Fitch 2
+7,0.5054,Djang and Fitch 2
+8,0.5699,Djang and Fitch 2
+9,0.4266,Djang and Fitch 2
+10,0.4793,Djang and Fitch 2
+11,0.5122,Djang and Fitch 2
+12,0.5454,Djang and Fitch 2
+13,0.4713,Djang and Fitch 2
+14,0.5006,Djang and Fitch 2
+15,0.5304,Djang and Fitch 2
+16,0.4847,Djang and Fitch 2
+17,0.527,Djang and Fitch 2
+18,0.4666,Djang and Fitch 2
+19,0.4191,Djang and Fitch 2
+20,0.4786,Djang and Fitch 2
+21,0.4151,Djang and Fitch 2
+22,0.4994,Djang and Fitch 2
+23,0.4982,Djang and Fitch 2
+24,0.491,Djang and Fitch 2
+25,0.5529,Djang and Fitch 2
+26,0.5823,Djang and Fitch 2
+27,0.4535,Djang and Fitch 2
+28,0.5373,Djang and Fitch 2
+29,0.4868,Djang and Fitch 2
+30,0.5287,Djang and Fitch 2
+31,0.4508,Djang and Fitch 2
+32,0.448,Djang and Fitch 2
+33,0.4596,Djang and Fitch 2
+34,0.5049,Djang and Fitch 2
+35,0.5206,Djang and Fitch 2
+36,0.4734,Djang and Fitch 2
+37,0.5089,Djang and Fitch 2
+38,0.5026,Djang and Fitch 2
+39,0.548,Djang and Fitch 2
+40,0.5147,Djang and Fitch 2
+41,0.5489,Djang and Fitch 2
+42,0.4691,Djang and Fitch 2
+43,0.5129,Djang and Fitch 2
+44,0.4423,Djang and Fitch 2
+45,0.4597,Djang and Fitch 2
+46,0.5075,Djang and Fitch 2
+47,0.56,Djang and Fitch 2
+48,0.4946,Djang and Fitch 2
+49,0.5704,Djang and Fitch 2
+50,0.4947,Djang and Fitch 2
+51,0.4536,Djang and Fitch 2
+52,0.5022,Djang and Fitch 2
+53,0.5022,Djang and Fitch 2
+54,0.5097,Djang and Fitch 2
+55,0.4692,Djang and Fitch 2
+56,0.5033,Djang and Fitch 2
+57,0.4975,Djang and Fitch 2
+58,0.4734,Djang and Fitch 2
+59,0.4449,Djang and Fitch 2
+60,0.6006,Djang and Fitch 2
+61,0.444,Djang and Fitch 2
+62,0.5133,Djang and Fitch 2
+63,0.5573,Djang and Fitch 2
+64,0.519,Djang and Fitch 2
+65,0.5571,Djang and Fitch 2
+66,0.4731,Djang and Fitch 2
+67,0.5152,Djang and Fitch 2
+68,0.5657,Djang and Fitch 2
+69,0.5701,Djang and Fitch 2
+70,0.5304,Djang and Fitch 2
+71,0.4707,Djang and Fitch 2
+72,0.4437,Djang and Fitch 2
+73,0.5368,Djang and Fitch 2
+74,0.5446,Djang and Fitch 2
+75,0.4677,Djang and Fitch 2
+76,0.5688,Djang and Fitch 2
+77,0.5391,Djang and Fitch 2
+78,0.4704,Djang and Fitch 2
+79,0.5014,Djang and Fitch 2
+80,0.4572,Djang and Fitch 2
+81,0.557,Djang and Fitch 2
+82,0.5383,Djang and Fitch 2
+83,0.484,Djang and Fitch 2
+84,0.5653,Djang and Fitch 2
+85,0.5615,Djang and Fitch 2
+86,0.4089,Djang and Fitch 2
+87,0.5034,Djang and Fitch 2
+88,0.4821,Djang and Fitch 2
+89,0.4499,Djang and Fitch 2
+90,0.5066,Djang and Fitch 2
+91,0.4781,Djang and Fitch 2
+92,0.4867,Djang and Fitch 2
+93,0.4684,Djang and Fitch 2
+94,0.4771,Djang and Fitch 2
+95,0.5292,Djang and Fitch 2
+96,0.545,Djang and Fitch 2
+97,0.434,Djang and Fitch 2
+98,0.3802,Djang and Fitch 2
+99,0.4665,Djang and Fitch 2
+100,0.4548,Djang and Fitch 2
+101,0.5581,Djang and Fitch 2
+102,0.5583,Djang and Fitch 2
+103,0.4664,Djang and Fitch 2
+104,0.4926,Djang and Fitch 2
+105,0.5027,Djang and Fitch 2
+106,0.6242,Djang and Fitch 2
+107,0.5607,Djang and Fitch 2
+108,0.5557,Djang and Fitch 2
+109,0.4564,Djang and Fitch 2
+110,0.5687,Djang and Fitch 2
+111,0.4738,Djang and Fitch 2
+112,0.4549,Djang and Fitch 2
+113,0.4085,Djang and Fitch 2
+114,0.5426,Djang and Fitch 2
+115,0.3834,Djang and Fitch 2
+116,0.6019,Djang and Fitch 2
+117,0.5057,Djang and Fitch 2
+118,0.5505,Djang and Fitch 2
+119,0.4924,Djang and Fitch 2
+120,0.5442,Djang and Fitch 2
+121,0.6127,Djang and Fitch 2
+122,0.4642,Djang and Fitch 2
+123,0.5327,Djang and Fitch 2
+124,0.4462,Djang and Fitch 2
+125,0.5378,Djang and Fitch 2
+126,0.464,Djang and Fitch 2
+127,0.5324,Djang and Fitch 2
+128,0.5147,Djang and Fitch 2
+129,0.5535,Djang and Fitch 2
+130,0.5028,Djang and Fitch 2
+131,0.5842,Djang and Fitch 2
+132,0.5139,Djang and Fitch 2
+133,0.5151,Djang and Fitch 2
+134,0.4611,Djang and Fitch 2
+135,0.4197,Djang and Fitch 2
+136,0.493,Djang and Fitch 2
+137,0.4813,Djang and Fitch 2
+138,0.4731,Djang and Fitch 2
+139,0.5641,Djang and Fitch 2
+140,0.5209,Djang and Fitch 2
+141,0.5353,Djang and Fitch 2
+142,0.4688,Djang and Fitch 2
+143,0.4287,Djang and Fitch 2
+144,0.5556,Djang and Fitch 2
+145,0.4299,Djang and Fitch 2
+146,0.4865,Djang and Fitch 2
+147,0.5627,Djang and Fitch 2
+148,0.5284,Djang and Fitch 2
+149,0.5844,Djang and Fitch 2
+150,0.5951,Djang and Fitch 2
+151,0.6426,Djang and Fitch 2
+152,0.4539,Djang and Fitch 2
+153,0.5404,Djang and Fitch 2
+154,0.5147,Djang and Fitch 2
+155,0.51,Djang and Fitch 2
+156,0.5246,Djang and Fitch 2
+157,0.4601,Djang and Fitch 2
+158,0.5559,Djang and Fitch 2
+159,0.5995,Djang and Fitch 2
+160,0.4203,Djang and Fitch 2
+161,0.5794,Djang and Fitch 2
+162,0.5545,Djang and Fitch 2
+163,0.5849,Djang and Fitch 2
+164,0.4692,Djang and Fitch 2
+165,0.4788,Djang and Fitch 2
+166,0.439,Djang and Fitch 2
+167,0.4932,Djang and Fitch 2
+168,0.4554,Djang and Fitch 2
+169,0.5785,Djang and Fitch 2
+170,0.5104,Djang and Fitch 2
+171,0.5389,Djang and Fitch 2
+172,0.4823,Djang and Fitch 2
+173,0.488,Djang and Fitch 2
+174,0.5433,Djang and Fitch 2
+175,0.5641,Djang and Fitch 2
+176,0.4395,Djang and Fitch 2
+177,0.5049,Djang and Fitch 2
+178,0.4537,Djang and Fitch 2
+179,0.4667,Djang and Fitch 2
+180,0.464,Djang and Fitch 2
+181,0.4541,Djang and Fitch 2
+182,0.4791,Djang and Fitch 2
+183,0.5577,Djang and Fitch 2
+184,0.484,Djang and Fitch 2
+185,0.471,Djang and Fitch 2
+186,0.4066,Djang and Fitch 2
+187,0.421,Djang and Fitch 2
+188,0.5204,Djang and Fitch 2
+189,0.4762,Djang and Fitch 2
+190,0.514,Djang and Fitch 2
+191,0.4438,Djang and Fitch 2
+192,0.5129,Djang and Fitch 2
+193,0.5207,Djang and Fitch 2
+194,0.5279,Djang and Fitch 2
+195,0.5829,Djang and Fitch 2
+196,0.4079,Djang and Fitch 2
+197,0.4886,Djang and Fitch 2
+198,0.4349,Djang and Fitch 2
+199,0.5446,Djang and Fitch 2
+200,0.5424,Djang and Fitch 2
+201,0.4763,Djang and Fitch 2
+202,0.4981,Djang and Fitch 2
+203,0.5093,Djang and Fitch 2
+204,0.6566,Djang and Fitch 2
+205,0.3978,Djang and Fitch 2
+206,0.5467,Djang and Fitch 2
+207,0.4202,Djang and Fitch 2
+208,0.6074,Djang and Fitch 2
+209,0.4124,Djang and Fitch 2
+210,0.6112,Djang and Fitch 2
+211,0.4754,Djang and Fitch 2
+212,0.4811,Djang and Fitch 2
+213,0.4379,Djang and Fitch 2
+214,0.4924,Djang and Fitch 2
+215,0.4785,Djang and Fitch 2
+216,0.537,Djang and Fitch 2
+217,0.4241,Djang and Fitch 2
+218,0.5093,Djang and Fitch 2
+219,0.5497,Djang and Fitch 2
+220,0.497,Djang and Fitch 2
+221,0.4251,Djang and Fitch 2
+222,0.4836,Djang and Fitch 2
+223,0.5774,Djang and Fitch 2
+224,0.612,Djang and Fitch 2
+225,0.5292,Djang and Fitch 2
+226,0.4111,Djang and Fitch 2
+227,0.4586,Djang and Fitch 2
+228,0.6118,Djang and Fitch 2
+229,0.4738,Djang and Fitch 2
+230,0.3933,Djang and Fitch 2
+231,0.5631,Djang and Fitch 2
+232,0.6073,Djang and Fitch 2
+233,0.5208,Djang and Fitch 2
+234,0.6508,Djang and Fitch 2
+235,0.5018,Djang and Fitch 2
+236,0.4981,Djang and Fitch 2
+237,0.4618,Djang and Fitch 2
+238,0.4436,Djang and Fitch 2
+239,0.5352,Djang and Fitch 2
+240,0.5811,Djang and Fitch 2
+241,0.5629,Djang and Fitch 2
+242,0.5672,Djang and Fitch 2
+243,0.5419,Djang and Fitch 2
+244,0.5546,Djang and Fitch 2
+245,0.5082,Djang and Fitch 2
+246,0.4885,Djang and Fitch 2
+247,0.528,Djang and Fitch 2
+248,0.45,Djang and Fitch 2
+249,0.4977,Djang and Fitch 2
+250,0.4858,Djang and Fitch 2
+251,0.5379,Djang and Fitch 2
+252,0.4871,Djang and Fitch 2
+253,0.4188,Djang and Fitch 2
+254,0.5967,Djang and Fitch 2
+255,0.3686,Djang and Fitch 2
+256,0.5526,Djang and Fitch 2
+257,0.5218,Djang and Fitch 2
+258,0.4667,Djang and Fitch 2
+259,0.4533,Djang and Fitch 2
+260,0.4946,Djang and Fitch 2
+261,0.5504,Djang and Fitch 2
+262,0.5541,Djang and Fitch 2
+263,0.6279,Djang and Fitch 2
+264,0.6652,Djang and Fitch 2
+265,0.5147,Djang and Fitch 2
+266,0.5143,Djang and Fitch 2
+267,0.4353,Djang and Fitch 2
+268,0.5101,Djang and Fitch 2
+269,0.4417,Djang and Fitch 2
+270,0.557,Djang and Fitch 2
+271,0.5689,Djang and Fitch 2
+272,0.543,Djang and Fitch 2
+273,0.4756,Djang and Fitch 2
+274,0.4543,Djang and Fitch 2
+275,0.5743,Djang and Fitch 2
+276,0.4558,Djang and Fitch 2
+277,0.4669,Djang and Fitch 2
+278,0.5352,Djang and Fitch 2
+279,0.5266,Djang and Fitch 2
+280,0.5109,Djang and Fitch 2
+281,0.5184,Djang and Fitch 2
+282,0.4925,Djang and Fitch 2
+283,0.5109,Djang and Fitch 2
+284,0.4684,Djang and Fitch 2
+285,0.4434,Djang and Fitch 2
+286,0.3881,Djang and Fitch 2
+287,0.5391,Djang and Fitch 2
+288,0.5154,Djang and Fitch 2
+289,0.4501,Djang and Fitch 2
+290,0.5371,Djang and Fitch 2
+291,0.5402,Djang and Fitch 2
+292,0.4416,Djang and Fitch 2
+293,0.5068,Djang and Fitch 2
+294,0.397,Djang and Fitch 2
+295,0.5263,Djang and Fitch 2
+296,0.4655,Djang and Fitch 2
+297,0.6211,Djang and Fitch 2
+298,0.4727,Djang and Fitch 2
+299,0.5243,Djang and Fitch 2
+300,0.4997,Djang and Fitch 2
+301,0.4717,Djang and Fitch 2
+302,0.5558,Djang and Fitch 2
+303,0.4463,Djang and Fitch 2
+304,0.5108,Djang and Fitch 2
+305,0.5551,Djang and Fitch 2
+306,0.5188,Djang and Fitch 2
+307,0.4985,Djang and Fitch 2
+308,0.5549,Djang and Fitch 2
+309,0.4808,Djang and Fitch 2
+310,0.554,Djang and Fitch 2
+311,0.5796,Djang and Fitch 2
+312,0.471,Djang and Fitch 2
+313,0.505,Djang and Fitch 2
+314,0.4056,Djang and Fitch 2
+315,0.454,Djang and Fitch 2
+316,0.5422,Djang and Fitch 2
+317,0.6501,Djang and Fitch 2
+318,0.4531,Djang and Fitch 2
+319,0.424,Djang and Fitch 2
+320,0.6012,Djang and Fitch 2
+321,0.5772,Djang and Fitch 2
+322,0.5695,Djang and Fitch 2
+323,0.5177,Djang and Fitch 2
+324,0.4564,Djang and Fitch 2
+325,0.4069,Djang and Fitch 2
+326,0.4847,Djang and Fitch 2
+327,0.4554,Djang and Fitch 2
+328,0.5055,Djang and Fitch 2
+329,0.6254,Djang and Fitch 2
+330,0.4623,Djang and Fitch 2
+331,0.5168,Djang and Fitch 2
+332,0.5379,Djang and Fitch 2
+333,0.5643,Djang and Fitch 2
+334,0.4846,Djang and Fitch 2
+335,0.5375,Djang and Fitch 2
+336,0.6549,Djang and Fitch 2
+337,0.4135,Djang and Fitch 2
+338,0.5105,Djang and Fitch 2
+339,0.5488,Djang and Fitch 2
+340,0.4997,Djang and Fitch 2
+341,0.6672,Djang and Fitch 2
+342,0.5575,Djang and Fitch 2
+343,0.4976,Djang and Fitch 2
+344,0.4803,Djang and Fitch 2
+345,0.4943,Djang and Fitch 2
+346,0.4563,Djang and Fitch 2
+347,0.6116,Djang and Fitch 2
+348,0.5401,Djang and Fitch 2
+349,0.5163,Djang and Fitch 2
+350,0.5017,Djang and Fitch 2
+351,0.4472,Djang and Fitch 2
+352,0.4192,Djang and Fitch 2
+353,0.4261,Djang and Fitch 2
+354,0.5276,Djang and Fitch 2
+355,0.4892,Djang and Fitch 2
+356,0.5647,Djang and Fitch 2
+357,0.4724,Djang and Fitch 2
+358,0.5611,Djang and Fitch 2
+359,0.4397,Djang and Fitch 2
+360,0.4534,Djang and Fitch 2
+361,0.556,Djang and Fitch 2
+362,0.575,Djang and Fitch 2
+363,0.4485,Djang and Fitch 2
+364,0.5851,Djang and Fitch 2
+365,0.5011,Djang and Fitch 2
+366,0.492,Djang and Fitch 2
+367,0.5102,Djang and Fitch 2
+368,0.5475,Djang and Fitch 2
+369,0.582,Djang and Fitch 2
+370,0.4831,Djang and Fitch 2
+371,0.5155,Djang and Fitch 2
+372,0.5797,Djang and Fitch 2
+373,0.5457,Djang and Fitch 2
+374,0.5808,Djang and Fitch 2
+375,0.4658,Djang and Fitch 2
+376,0.5703,Djang and Fitch 2
+377,0.4525,Djang and Fitch 2
+378,0.5568,Djang and Fitch 2
+379,0.5236,Djang and Fitch 2
+380,0.5996,Djang and Fitch 2
+381,0.5102,Djang and Fitch 2
+382,0.495,Djang and Fitch 2
+383,0.5311,Djang and Fitch 2
+384,0.5479,Djang and Fitch 2
+385,0.5025,Djang and Fitch 2
+386,0.5379,Djang and Fitch 2
+387,0.498,Djang and Fitch 2
+388,0.5359,Djang and Fitch 2
+389,0.5302,Djang and Fitch 2
+390,0.4224,Djang and Fitch 2
+391,0.398,Djang and Fitch 2
+392,0.5151,Djang and Fitch 2
+393,0.5335,Djang and Fitch 2
+394,0.4427,Djang and Fitch 2
+395,0.5307,Djang and Fitch 2
+396,0.5067,Djang and Fitch 2
+397,0.5205,Djang and Fitch 2
+398,0.5963,Djang and Fitch 2
+399,0.4523,Djang and Fitch 2
+400,0.5712,Djang and Fitch 2
+401,0.4944,Djang and Fitch 2
+402,0.4339,Djang and Fitch 2
+403,0.4635,Djang and Fitch 2
+404,0.5148,Djang and Fitch 2
+405,0.4983,Djang and Fitch 2
+406,0.529,Djang and Fitch 2
+407,0.5827,Djang and Fitch 2
+408,0.3873,Djang and Fitch 2
+409,0.5215,Djang and Fitch 2
+410,0.4767,Djang and Fitch 2
+411,0.4449,Djang and Fitch 2
+412,0.5493,Djang and Fitch 2
+413,0.5103,Djang and Fitch 2
+414,0.4754,Djang and Fitch 2
+415,0.5238,Djang and Fitch 2
+416,0.5552,Djang and Fitch 2
+417,0.5743,Djang and Fitch 2
+418,0.6635,Djang and Fitch 2
+419,0.6048,Djang and Fitch 2
+420,0.5568,Djang and Fitch 2
+421,0.6256,Djang and Fitch 2
+422,0.584,Djang and Fitch 2
+423,0.5129,Djang and Fitch 2
+424,0.5444,Djang and Fitch 2
+425,0.5079,Djang and Fitch 2
+426,0.6379,Djang and Fitch 2
+427,0.5625,Djang and Fitch 2
+428,0.46,Djang and Fitch 2
+429,0.5165,Djang and Fitch 2
+430,0.6387,Djang and Fitch 2
+431,0.417,Djang and Fitch 2
+432,0.5473,Djang and Fitch 2
+433,0.5493,Djang and Fitch 2
+434,0.5598,Djang and Fitch 2
+435,0.5684,Djang and Fitch 2
+436,0.489,Djang and Fitch 2
+437,0.4535,Djang and Fitch 2
+438,0.5102,Djang and Fitch 2
+439,0.5444,Djang and Fitch 2
+440,0.589,Djang and Fitch 2
+441,0.574,Djang and Fitch 2
+442,0.5323,Djang and Fitch 2
+443,0.4299,Djang and Fitch 2
+444,0.5061,Djang and Fitch 2
+445,0.6048,Djang and Fitch 2
+446,0.5784,Djang and Fitch 2
+447,0.4633,Djang and Fitch 2
+448,0.469,Djang and Fitch 2
+449,0.482,Djang and Fitch 2
+450,0.4876,Djang and Fitch 2
+451,0.4647,Djang and Fitch 2
+452,0.4432,Djang and Fitch 2
+453,0.5679,Djang and Fitch 2
+454,0.5927,Djang and Fitch 2
+455,0.3976,Djang and Fitch 2
+456,0.576,Djang and Fitch 2
+457,0.51,Djang and Fitch 2
+458,0.4415,Djang and Fitch 2
+459,0.5334,Djang and Fitch 2
+460,0.4898,Djang and Fitch 2
+461,0.6052,Djang and Fitch 2
+462,0.4418,Djang and Fitch 2
+463,0.4712,Djang and Fitch 2
+464,0.4361,Djang and Fitch 2
+465,0.535,Djang and Fitch 2
+466,0.4135,Djang and Fitch 2
+467,0.4994,Djang and Fitch 2
+468,0.5282,Djang and Fitch 2
+469,0.5753,Djang and Fitch 2
+470,0.4364,Djang and Fitch 2
+471,0.5593,Djang and Fitch 2
+472,0.5444,Djang and Fitch 2
+473,0.5761,Djang and Fitch 2
+474,0.3982,Djang and Fitch 2
+475,0.4934,Djang and Fitch 2
+476,0.5026,Djang and Fitch 2
+477,0.481,Djang and Fitch 2
+478,0.5135,Djang and Fitch 2
+479,0.5176,Djang and Fitch 2
+480,0.5217,Djang and Fitch 2
+481,0.3876,Djang and Fitch 2
+482,0.5844,Djang and Fitch 2
+483,0.4654,Djang and Fitch 2
+484,0.5069,Djang and Fitch 2
+485,0.6176,Djang and Fitch 2
+486,0.4821,Djang and Fitch 2
+487,0.455,Djang and Fitch 2
+488,0.5931,Djang and Fitch 2
+489,0.434,Djang and Fitch 2
+490,0.5998,Djang and Fitch 2
+491,0.4353,Djang and Fitch 2
+492,0.4733,Djang and Fitch 2
+493,0.5512,Djang and Fitch 2
+494,0.4517,Djang and Fitch 2
+495,0.5358,Djang and Fitch 2
+496,0.476,Djang and Fitch 2
+497,0.496,Djang and Fitch 2
+498,0.4251,Djang and Fitch 2
+499,0.5232,Djang and Fitch 2
+0,0.5566745871428572,Converged HH
+1,0.6332301480000001,Converged HH
+2,0.5484324385714285,Converged HH
+3,0.50653927875,Converged HH
+4,0.5297503842857144,Converged HH
+5,0.5829523055555555,Converged HH
+6,0.5682878075,Converged HH
+7,0.5118639037499999,Converged HH
+8,0.5680999471428572,Converged HH
+9,0.5078868628571429,Converged HH
+10,0.5840644633333335,Converged HH
+11,0.5461479083333333,Converged HH
+12,0.5544853750000001,Converged HH
+13,0.4728003509999999,Converged HH
+14,0.5091093425000001,Converged HH
+15,0.551373545,Converged HH
+16,0.5551362314285714,Converged HH
+17,0.5151699128571429,Converged HH
+18,0.473989444,Converged HH
+19,0.537193434,Converged HH
+20,0.4713933455555555,Converged HH
+21,0.3984063075,Converged HH
+22,0.5032576233333332,Converged HH
+23,0.5901867866666667,Converged HH
+24,0.4923793811111111,Converged HH
+25,0.55916095,Converged HH
+26,0.5875692812500001,Converged HH
+27,0.4622482412499999,Converged HH
+28,0.5602169233333333,Converged HH
+29,0.57128899,Converged HH
+30,0.7328173099999999,Converged HH
+31,0.5336292828571427,Converged HH
+32,0.4598614428571428,Converged HH
+33,0.47952446375,Converged HH
+34,0.5124774388888889,Converged HH
+35,0.5305779271428571,Converged HH
+36,0.5151831749999999,Converged HH
+37,0.5975764837499999,Converged HH
+38,0.481986175,Converged HH
+39,0.5726689871428572,Converged HH
+40,0.520107608888889,Converged HH
+41,0.54156655125,Converged HH
+42,0.4799109085714286,Converged HH
+43,0.5255796383333333,Converged HH
+44,0.4554278912499999,Converged HH
+45,0.4759753928571428,Converged HH
+46,0.4963304333333333,Converged HH
+47,0.5804699071428573,Converged HH
+48,0.5915051333333333,Converged HH
+49,0.5316257337500001,Converged HH
+50,0.5847629599999999,Converged HH
+51,0.4676193814285714,Converged HH
+52,0.4704059028571428,Converged HH
+53,0.509944259,Converged HH
+54,0.5949134928571429,Converged HH
+55,0.55728791,Converged HH
+56,0.6147456833333333,Converged HH
+57,0.672126856,Converged HH
+58,0.6121388280000001,Converged HH
+59,0.4279974614285714,Converged HH
+60,0.61456611125,Converged HH
+61,0.4688555799999999,Converged HH
+62,0.5084746000000001,Converged HH
+63,0.5623460140000001,Converged HH
+64,0.529981535,Converged HH
+65,0.5576699100000001,Converged HH
+66,0.4757024972727273,Converged HH
+67,0.52508614125,Converged HH
+68,0.573561501111111,Converged HH
+69,0.6730840871428571,Converged HH
+70,0.6711374449999999,Converged HH
+71,0.4769548324999999,Converged HH
+72,0.4647310866666665,Converged HH
+73,0.6308202633333334,Converged HH
+74,0.5443224671428571,Converged HH
+75,0.5578159012499999,Converged HH
+76,0.58597791,Converged HH
+77,0.54988397125,Converged HH
+78,0.60540474,Converged HH
+79,0.5164819822222221,Converged HH
+80,0.457650467,Converged HH
+81,0.6467938442857143,Converged HH
+82,0.5451520885714286,Converged HH
+83,0.4997127914285714,Converged HH
+84,0.727481406,Converged HH
+85,0.563613805,Converged HH
+86,0.4114205581818181,Converged HH
+87,0.5029949685714284,Converged HH
+88,0.4881836814285715,Converged HH
+89,0.4690152828571428,Converged HH
+90,0.5076392488888888,Converged HH
+91,0.6263180125,Converged HH
+92,0.5804649014285715,Converged HH
+93,0.46012638375,Converged HH
+94,0.4900884225,Converged HH
+95,0.54157733,Converged HH
+96,0.5238087975,Converged HH
+97,0.44918443,Converged HH
+98,0.509270374,Converged HH
+99,0.54462446,Converged HH
+100,0.54348523,Converged HH
+101,0.6704361842857143,Converged HH
+102,0.5657111733333332,Converged HH
+103,0.5830568971428571,Converged HH
+104,0.5056069685714285,Converged HH
+105,0.5244969014285715,Converged HH
+106,0.6387300155555555,Converged HH
+107,0.5684920371428571,Converged HH
+108,0.5651963128571429,Converged HH
+109,0.5443976928571429,Converged HH
+110,0.58535058625,Converged HH
+111,0.4963597819999999,Converged HH
+112,0.6070013400000001,Converged HH
+113,0.5317814380000001,Converged HH
+114,0.5503885842857142,Converged HH
+115,0.38466413,Converged HH
+116,0.6107973400000002,Converged HH
+117,0.65849777,Converged HH
+118,0.575052144,Converged HH
+119,0.5024484377777778,Converged HH
+120,0.55643263,Converged HH
+121,0.6322701066666668,Converged HH
+122,0.4734514929999999,Converged HH
+123,0.54594006875,Converged HH
+124,0.658122508,Converged HH
+125,0.6299576771428572,Converged HH
+126,0.4413412116666667,Converged HH
+127,0.5424248628571429,Converged HH
+128,0.5249244366666668,Converged HH
+129,0.5576095785714286,Converged HH
+130,0.6457480020000002,Converged HH
+131,0.5705622857142857,Converged HH
+132,0.631639014,Converged HH
+133,0.5258501437499999,Converged HH
+134,0.61454662,Converged HH
+135,0.5161410716666667,Converged HH
+136,0.622847928,Converged HH
+137,0.5700961114285714,Converged HH
+138,0.4770562072727272,Converged HH
+139,0.6422590012499999,Converged HH
+140,0.5258726516666666,Converged HH
+141,0.7132971840000001,Converged HH
+142,0.5681956642857143,Converged HH
+143,0.6076521875,Converged HH
+144,0.5782126214285714,Converged HH
+145,0.45350021,Converged HH
+146,0.49987782,Converged HH
+147,0.56700613875,Converged HH
+148,0.5401526111111112,Converged HH
+149,0.68522352875,Converged HH
+150,0.5965994177777778,Converged HH
+151,0.6471595757142856,Converged HH
+152,0.5636324439999999,Converged HH
+153,0.5465266449999999,Converged HH
+154,0.6119828833333333,Converged HH
+155,0.6555693183333333,Converged HH
+156,0.5490529000000001,Converged HH
+157,0.4569413742857143,Converged HH
+158,0.5644084014285715,Converged HH
+159,0.6039677844444444,Converged HH
+160,0.429249245,Converged HH
+161,0.5831871975,Converged HH
+162,0.5630759414285714,Converged HH
+163,0.5849864039999999,Converged HH
+164,0.5371769012500001,Converged HH
+165,0.6061363133333333,Converged HH
+166,0.5130219157142857,Converged HH
+167,0.4949334777777778,Converged HH
+168,0.45899914,Converged HH
+169,0.5896709357142857,Converged HH
+170,0.6974734039999999,Converged HH
+171,0.5395529733333333,Converged HH
+172,0.47735645,Converged HH
+173,0.5691142983333333,Converged HH
+174,0.5503031114285715,Converged HH
+175,0.5544551583333333,Converged HH
+176,0.5255764642857143,Converged HH
+177,0.6486131079999999,Converged HH
+178,0.45651099,Converged HH
+179,0.4709576183333333,Converged HH
+180,0.47772901375,Converged HH
+181,0.514199722,Converged HH
+182,0.5546859775,Converged HH
+183,0.5676462833333333,Converged HH
+184,0.61728994,Converged HH
+185,0.4773094711111111,Converged HH
+186,0.6340116066666667,Converged HH
+187,0.5081989942857142,Converged HH
+188,0.722513462,Converged HH
+189,0.510225302,Converged HH
+190,0.5201040922222222,Converged HH
+191,0.48329529,Converged HH
+192,0.5871977644444446,Converged HH
+193,0.6340789966666667,Converged HH
+194,0.5270229719999999,Converged HH
+195,0.5854922011111111,Converged HH
+196,0.5249035180000001,Converged HH
+197,0.591459572,Converged HH
+198,0.5489180119999999,Converged HH
+199,0.5455880955555555,Converged HH
+200,0.5692805371428571,Converged HH
+201,0.4980637357142857,Converged HH
+202,0.660362378,Converged HH
+203,0.682024096,Converged HH
+204,0.5590742062499999,Converged HH
+205,0.4714697071428572,Converged HH
+206,0.5586103083333334,Converged HH
+207,0.5186299783333334,Converged HH
+208,0.5964877688888888,Converged HH
+209,0.5462886100000001,Converged HH
+210,0.7268969649999999,Converged HH
+211,0.4842697828571429,Converged HH
+212,0.49466414,Converged HH
+213,0.4349929983333334,Converged HH
+214,0.50637429,Converged HH
+215,0.5991275800000001,Converged HH
+216,0.54400591,Converged HH
+217,0.43081476375,Converged HH
+218,0.610931525,Converged HH
+219,0.68188895,Converged HH
+220,0.6554403440000001,Converged HH
+221,0.4666471060000001,Converged HH
+222,0.6012173266666666,Converged HH
+223,0.5845167242857142,Converged HH
+224,0.6154870722222222,Converged HH
+225,0.5473013514285714,Converged HH
+226,0.4193764714285714,Converged HH
+227,0.4755189599999999,Converged HH
+228,0.7599138616666666,Converged HH
+229,0.4860987514285714,Converged HH
+230,0.47539205,Converged HH
+231,0.5737951783333334,Converged HH
+232,0.6164489225,Converged HH
+233,0.5203405714285715,Converged HH
+234,0.5667721644444444,Converged HH
+235,0.523950558,Converged HH
+236,0.508652946,Converged HH
+237,0.5016399016666667,Converged HH
+238,0.559847184,Converged HH
+239,0.6748744133333333,Converged HH
+240,0.6032240733333334,Converged HH
+241,0.5681827071428571,Converged HH
+242,0.5784427042857143,Converged HH
+243,0.55285427,Converged HH
+244,0.5605136977777777,Converged HH
+245,0.5829883742857142,Converged HH
+246,0.6056767799999999,Converged HH
+247,0.5990792633333334,Converged HH
+248,0.4546108710000001,Converged HH
+249,0.6049782266666667,Converged HH
+250,0.55298886625,Converged HH
+251,0.5605151883333334,Converged HH
+252,0.5798078933333334,Converged HH
+253,0.5115394042857143,Converged HH
+254,0.5856083049999999,Converged HH
+255,0.4662597283333333,Converged HH
+256,0.679714956,Converged HH
+257,0.4917107357142858,Converged HH
+258,0.4289001033333333,Converged HH
+259,0.5743883116666667,Converged HH
+260,0.5124608914285714,Converged HH
+261,0.5516382177777778,Converged HH
+262,0.5717718857142857,Converged HH
+263,0.6362537899999999,Converged HH
+264,0.6789326025,Converged HH
+265,0.625222588,Converged HH
+266,0.50796750875,Converged HH
+267,0.4481038771428571,Converged HH
+268,0.5490169220000001,Converged HH
+269,0.574910818,Converged HH
+270,0.58158659,Converged HH
+271,0.6632770333333333,Converged HH
+272,0.6257136425,Converged HH
+273,0.61122818,Converged HH
+274,0.5725563859999999,Converged HH
+275,0.5768732987499999,Converged HH
+276,0.4650558514285715,Converged HH
+277,0.5532419442857143,Converged HH
+278,0.5431252025,Converged HH
+279,0.5284588316666666,Converged HH
+280,0.5125150300000001,Converged HH
+281,0.5243996725000001,Converged HH
+282,0.5021991555555556,Converged HH
+283,0.53771072,Converged HH
+284,0.60388379,Converged HH
+285,0.451272726,Converged HH
+286,0.4679809299999999,Converged HH
+287,0.6372413328571429,Converged HH
+288,0.5296268500000001,Converged HH
+289,0.54849625,Converged HH
+290,0.6396816242857143,Converged HH
+291,0.5490670877777777,Converged HH
+292,0.5131477985714286,Converged HH
+293,0.5162321314285715,Converged HH
+294,0.4700411450000001,Converged HH
+295,0.5334367175,Converged HH
+296,0.4735810014285713,Converged HH
+297,0.6112195616666667,Converged HH
+298,0.4875064674999999,Converged HH
+299,0.5304308525,Converged HH
+300,0.650183284,Converged HH
+301,0.6636953924999999,Converged HH
+302,0.5575583433333333,Converged HH
+303,0.57649184,Converged HH
+304,0.5121772827272728,Converged HH
+305,0.5709936157142858,Converged HH
+306,0.5981371687500001,Converged HH
+307,0.5566663133333333,Converged HH
+308,0.55792793,Converged HH
+309,0.6222627,Converged HH
+310,0.6675607633333334,Converged HH
+311,0.6774166485714286,Converged HH
+312,0.543625945,Converged HH
+313,0.632524765,Converged HH
+314,0.41374334125,Converged HH
+315,0.5346748142857143,Converged HH
+316,0.5711666314285714,Converged HH
+317,0.6510425883333334,Converged HH
+318,0.4690468487500001,Converged HH
+319,0.580517478,Converged HH
+320,0.5144734788888888,Converged HH
+321,0.6604920457142857,Converged HH
+322,0.744332354,Converged HH
+323,0.5309546914285714,Converged HH
+324,0.4572334433333332,Converged HH
+325,0.53493038,Converged HH
+326,0.5012490071428573,Converged HH
+327,0.54996753,Converged HH
+328,0.5854616199999999,Converged HH
+329,0.6296107799999999,Converged HH
+330,0.5773247116666665,Converged HH
+331,0.6269799814285715,Converged HH
+332,0.6971401266666667,Converged HH
+333,0.52835969,Converged HH
+334,0.5899070416666666,Converged HH
+335,0.5584157350000001,Converged HH
+336,0.5458270777777778,Converged HH
+337,0.4377233616666667,Converged HH
+338,0.5282112583333333,Converged HH
+339,0.6305357300000001,Converged HH
+340,0.6565953739999999,Converged HH
+341,0.67242598125,Converged HH
+342,0.6500094685714286,Converged HH
+343,0.5047303163636364,Converged HH
+344,0.4553617083333333,Converged HH
+345,0.5010920266666666,Converged HH
+346,0.4662877216666667,Converged HH
+347,0.6194685433333333,Converged HH
+348,0.63049262875,Converged HH
+349,0.668966402,Converged HH
+350,0.4954865275,Converged HH
+351,0.4626912114285714,Converged HH
+352,0.5495013299999999,Converged HH
+353,0.5952623575,Converged HH
+354,0.53022454375,Converged HH
+355,0.5846637285714287,Converged HH
+356,0.6407722574999999,Converged HH
+357,0.568746374,Converged HH
+358,0.5660220325,Converged HH
+359,0.5241456783333334,Converged HH
+360,0.5500638866666666,Converged HH
+361,0.5719915799999999,Converged HH
+362,0.5817487057142857,Converged HH
+363,0.57696125,Converged HH
+364,0.5901725412500001,Converged HH
+365,0.5089207566666666,Converged HH
+366,0.4926110233333333,Converged HH
+367,0.635516606,Converged HH
+368,0.6392530925,Converged HH
+369,0.60628625625,Converged HH
+370,0.5064023114285714,Converged HH
+371,0.6052038671428571,Converged HH
+372,0.5930379980000001,Converged HH
+373,0.6625333116666666,Converged HH
+374,0.5887904722222221,Converged HH
+375,0.5512425414285714,Converged HH
+376,0.6964506133333334,Converged HH
+377,0.46926625,Converged HH
+378,0.5713578542857142,Converged HH
+379,0.5282231099999999,Converged HH
+380,0.6834268375,Converged HH
+381,0.5179219187499999,Converged HH
+382,0.6005242233333333,Converged HH
+383,0.6619771416666668,Converged HH
+384,0.6604801,Converged HH
+385,0.5906731128571429,Converged HH
+386,0.5349122775,Converged HH
+387,0.6053808283333333,Converged HH
+388,0.53946407,Converged HH
+389,0.5390680457142857,Converged HH
+390,0.5328825640000001,Converged HH
+391,0.4077160172727273,Converged HH
+392,0.53771536875,Converged HH
+393,0.5421137042857144,Converged HH
+394,0.4120881916666667,Converged HH
+395,0.6164993799999999,Converged HH
+396,0.5867880525,Converged HH
+397,0.6208810816666667,Converged HH
+398,0.5933538514285714,Converged HH
+399,0.5125175677777778,Converged HH
+400,0.58528213875,Converged HH
+401,0.500819712,Converged HH
+402,0.565278642,Converged HH
+403,0.5777113266666666,Converged HH
+404,0.5176539957142858,Converged HH
+405,0.5132941033333335,Converged HH
+406,0.61112498625,Converged HH
+407,0.5945099062500001,Converged HH
+408,0.548229345,Converged HH
+409,0.5374443425,Converged HH
+410,0.58300485,Converged HH
+411,0.467777075,Converged HH
+412,0.565086805,Converged HH
+413,0.5169797549999999,Converged HH
+414,0.48583517875,Converged HH
+415,0.5007814766666666,Converged HH
+416,0.6526190866666666,Converged HH
+417,0.5846117171428572,Converged HH
+418,0.6652852924999999,Converged HH
+419,0.6088980366666668,Converged HH
+420,0.5728451840000001,Converged HH
+421,0.6282797600000001,Converged HH
+422,0.5753374922222223,Converged HH
+423,0.52409327875,Converged HH
+424,0.5522634874999999,Converged HH
+425,0.5157025971428572,Converged HH
+426,0.6088616728571431,Converged HH
+427,0.5454337733333333,Converged HH
+428,0.4619949342857142,Converged HH
+429,0.5931382266666667,Converged HH
+430,0.6349666628571429,Converged HH
+431,0.533656148,Converged HH
+432,0.560103095,Converged HH
+433,0.691283372,Converged HH
+434,0.557009822857143,Converged HH
+435,0.5787126583333333,Converged HH
+436,0.5100293833333334,Converged HH
+437,0.579726674,Converged HH
+438,0.6027556271428571,Converged HH
+439,0.5308358822222222,Converged HH
+440,0.5972654057142857,Converged HH
+441,0.5708492383333333,Converged HH
+442,0.678823972,Converged HH
+443,0.4441711275,Converged HH
+444,0.6203920116666667,Converged HH
+445,0.722646015,Converged HH
+446,0.5836572162500001,Converged HH
+447,0.60312806,Converged HH
+448,0.5649656983333334,Converged HH
+449,0.5215419314285714,Converged HH
+450,0.4909271983333333,Converged HH
+451,0.5600381366666667,Converged HH
+452,0.4613199142857143,Converged HH
+453,0.59378269,Converged HH
+454,0.5807680942857143,Converged HH
+455,0.4684889871428572,Converged HH
+456,0.57662329375,Converged HH
+457,0.5202086674999998,Converged HH
+458,0.5465803100000001,Converged HH
+459,0.5398941157142857,Converged HH
+460,0.5143496866666666,Converged HH
+461,0.6073098257142858,Converged HH
+462,0.4644865166666667,Converged HH
+463,0.46912623,Converged HH
+464,0.5226249442857144,Converged HH
+465,0.5394556190909091,Converged HH
+466,0.4934575183333334,Converged HH
+467,0.66229169,Converged HH
+468,0.6092653849999999,Converged HH
+469,0.57742382,Converged HH
+470,0.5072103942857143,Converged HH
+471,0.5517523855555555,Converged HH
+472,0.5347883800000001,Converged HH
+473,0.5883116116666667,Converged HH
+474,0.4768627633333334,Converged HH
+475,0.642523398,Converged HH
+476,0.5989661242857143,Converged HH
+477,0.5851527366666667,Converged HH
+478,0.5007207357142858,Converged HH
+479,0.5340759355555554,Converged HH
+480,0.5258948522222222,Converged HH
+481,0.461972515,Converged HH
+482,0.5937513583333334,Converged HH
+483,0.4892340328571428,Converged HH
+484,0.513893638888889,Converged HH
+485,0.7122390057142857,Converged HH
+486,0.634127068,Converged HH
+487,0.5794602600000001,Converged HH
+488,0.61297578,Converged HH
+489,0.49854829375,Converged HH
+490,0.5599489316666667,Converged HH
+491,0.5066648614285715,Converged HH
+492,0.5880111400000001,Converged HH
+493,0.6433629071428572,Converged HH
+494,0.5729136966666667,Converged HH
+495,0.6332965787500001,Converged HH
+496,0.56213692,Converged HH
+497,0.5184600866666667,Converged HH
+498,0.5194895166666668,Converged HH
+499,0.5369366133333333,Converged HH
+0,0.5554160271428571,Broad HH
+1,0.6297420119999999,Broad HH
+2,0.5218665128571428,Broad HH
+3,0.50346411125,Broad HH
+4,0.4408032262499999,Broad HH
+5,0.5802423566666667,Broad HH
+6,0.55952465,Broad HH
+7,0.50944312125,Broad HH
+8,0.5665828328571428,Broad HH
+9,0.5035179228571428,Broad HH
+10,0.58150343,Broad HH
+11,0.5302827916666667,Broad HH
+12,0.548178495,Broad HH
+13,0.463937229,Broad HH
+14,0.5042427925,Broad HH
+15,0.5365940350000001,Broad HH
+16,0.4467380975,Broad HH
+17,0.5091283099999999,Broad HH
+18,0.46763985,Broad HH
+19,0.442931115,Broad HH
+20,0.4577736255555555,Broad HH
+21,0.3873322775,Broad HH
+22,0.5027456366666665,Broad HH
+23,0.5851821933333333,Broad HH
+24,0.4887691322222222,Broad HH
+25,0.4675918662499999,Broad HH
+26,0.499743361111111,Broad HH
+27,0.45886321375,Broad HH
+28,0.5159844033333333,Broad HH
+29,0.46736681125,Broad HH
+30,0.516734848,Broad HH
+31,0.5301578485714286,Broad HH
+32,0.44993098,Broad HH
+33,0.47192599375,Broad HH
+34,0.5083411544444445,Broad HH
+35,0.6283703216666666,Broad HH
+36,0.5145896249999999,Broad HH
+37,0.57381946375,Broad HH
+38,0.4889725749999999,Broad HH
+39,0.5717443871428571,Broad HH
+40,0.5141067244444444,Broad HH
+41,0.6440156300000001,Broad HH
+42,0.4798666914285715,Broad HH
+43,0.5124724983333334,Broad HH
+44,0.4348772912499999,Broad HH
+45,0.46201785,Broad HH
+46,0.4901242133333334,Broad HH
+47,0.5951670271428571,Broad HH
+48,0.5850460199999999,Broad HH
+49,0.53829694375,Broad HH
+50,0.4799643466666666,Broad HH
+51,0.4610933128571428,Broad HH
+52,0.4883445371428571,Broad HH
+53,0.5044974170000001,Broad HH
+54,0.51080328125,Broad HH
+55,0.56246933,Broad HH
+56,0.6049082966666667,Broad HH
+57,0.52665058,Broad HH
+58,0.6090069720000001,Broad HH
+59,0.4266681557142857,Broad HH
+60,0.6130258287500001,Broad HH
+61,0.4637215599999999,Broad HH
+62,0.6201795133333333,Broad HH
+63,0.5495606700000001,Broad HH
+64,0.5303630699999999,Broad HH
+65,0.55714532,Broad HH
+66,0.4722828772727272,Broad HH
+67,0.51061341625,Broad HH
+68,0.5764791744444445,Broad HH
+69,0.6717067157142856,Broad HH
+70,0.5703124671428571,Broad HH
+71,0.4649876575,Broad HH
+72,0.4640183399999998,Broad HH
+73,0.5288438714285715,Broad HH
+74,0.44728091625,Broad HH
+75,0.55430665375,Broad HH
+76,0.587303985,Broad HH
+77,0.5346192362500001,Broad HH
+78,0.5938119866666666,Broad HH
+79,0.4993818666666665,Broad HH
+80,0.462332191,Broad HH
+81,0.6462762671428571,Broad HH
+82,0.5427773742857143,Broad HH
+83,0.4900084228571428,Broad HH
+84,0.5966564383333334,Broad HH
+85,0.546796465,Broad HH
+86,0.4115627072727272,Broad HH
+87,0.4958950542857144,Broad HH
+88,0.4842733957142857,Broad HH
+89,0.4690152828571428,Broad HH
+90,0.5053700355555555,Broad HH
+91,0.6254200525,Broad HH
+92,0.56026593,Broad HH
+93,0.45845535875,Broad HH
+94,0.4817929725,Broad HH
+95,0.53082128,Broad HH
+96,0.6301915685714284,Broad HH
+97,0.3665059977777778,Broad HH
+98,0.5114684620000001,Broad HH
+99,0.5300348028571429,Broad HH
+100,0.53452087,Broad HH
+101,0.5589210312499999,Broad HH
+102,0.5745772366666667,Broad HH
+103,0.5543136657142858,Broad HH
+104,0.4933910057142858,Broad HH
+105,0.5119028414285715,Broad HH
+106,0.6233217666666666,Broad HH
+107,0.5549044714285715,Broad HH
+108,0.5713658757142858,Broad HH
+109,0.5296986414285715,Broad HH
+110,0.5066178811111112,Broad HH
+111,0.467853672,Broad HH
+112,0.597049612,Broad HH
+113,0.505103238,Broad HH
+114,0.46178765125,Broad HH
+115,0.3783353722222223,Broad HH
+116,0.5957779371428572,Broad HH
+117,0.5280057583333334,Broad HH
+118,0.57114572,Broad HH
+119,0.4922090822222222,Broad HH
+120,0.5799763179999999,Broad HH
+121,0.6018799833333334,Broad HH
+122,0.4766427909999999,Broad HH
+123,0.5302056012499999,Broad HH
+124,0.6636332439999999,Broad HH
+125,0.6271908457142857,Broad HH
+126,0.481550625,Broad HH
+127,0.5295653057142856,Broad HH
+128,0.4765225766666666,Broad HH
+129,0.5531108385714286,Broad HH
+130,0.6607859260000001,Broad HH
+131,0.5893535657142855,Broad HH
+132,0.6235357340000001,Broad HH
+133,0.51658796375,Broad HH
+134,0.611061348,Broad HH
+135,0.4955361983333334,Broad HH
+136,0.61039686,Broad HH
+137,0.53725768,Broad HH
+138,0.4741647527272727,Broad HH
+139,0.6388739537499999,Broad HH
+140,0.5456206783333334,Broad HH
+141,0.5748866899999999,Broad HH
+142,0.5643593214285715,Broad HH
+143,0.6055107975,Broad HH
+144,0.5456985871428571,Broad HH
+145,0.4459792842857143,Broad HH
+146,0.50400348,Broad HH
+147,0.5591655812499999,Broad HH
+148,0.520456168888889,Broad HH
+149,0.5759640922222222,Broad HH
+150,0.5952647022222223,Broad HH
+151,0.6347070842857143,Broad HH
+152,0.551847196,Broad HH
+153,0.543864275,Broad HH
+154,0.5164565057142857,Broad HH
+155,0.5244954042857143,Broad HH
+156,0.5205184920000001,Broad HH
+157,0.4522787628571428,Broad HH
+158,0.5709863528571429,Broad HH
+159,0.6007525711111109,Broad HH
+160,0.4279380183333334,Broad HH
+161,0.5831304975,Broad HH
+162,0.5662910128571429,Broad HH
+163,0.553056552,Broad HH
+164,0.5360912712500001,Broad HH
+165,0.5903703566666666,Broad HH
+166,0.5050184699999999,Broad HH
+167,0.4817535933333333,Broad HH
+168,0.45874778,Broad HH
+169,0.5893145214285714,Broad HH
+170,0.5610540833333333,Broad HH
+171,0.5371706,Broad HH
+172,0.4754647014285714,Broad HH
+173,0.46768253,Broad HH
+174,0.5410140257142857,Broad HH
+175,0.563312695,Broad HH
+176,0.5124508042857142,Broad HH
+177,0.5082778966666667,Broad HH
+178,0.4604007200000001,Broad HH
+179,0.4689701049999999,Broad HH
+180,0.4575096212499999,Broad HH
+181,0.485744522,Broad HH
+182,0.4530978155555556,Broad HH
+183,0.4528586942857143,Broad HH
+184,0.6023526680000001,Broad HH
+185,0.4678362333333334,Broad HH
+186,0.464046785,Broad HH
+187,0.4946172228571429,Broad HH
+188,0.5751746516666666,Broad HH
+189,0.51007039,Broad HH
+190,0.5112807944444444,Broad HH
+191,0.600531216,Broad HH
+192,0.510680434,Broad HH
+193,0.5061177571428571,Broad HH
+194,0.52573438,Broad HH
+195,0.5828630499999999,Broad HH
+196,0.5193597340000001,Broad HH
+197,0.4632084000000001,Broad HH
+198,0.545065108,Broad HH
+199,0.5441181088888889,Broad HH
+200,0.56709456,Broad HH
+201,0.4953666785714286,Broad HH
+202,0.5174338816666667,Broad HH
+203,0.5207050933333334,Broad HH
+204,0.55771383125,Broad HH
+205,0.4576522157142857,Broad HH
+206,0.5395835583333334,Broad HH
+207,0.537865665,Broad HH
+208,0.5112629419999999,Broad HH
+209,0.5389758579999999,Broad HH
+210,0.7216770483333333,Broad HH
+211,0.4605938371428571,Broad HH
+212,0.4919680714285714,Broad HH
+213,0.526182522,Broad HH
+214,0.5011882274999999,Broad HH
+215,0.59561726,Broad HH
+216,0.5402964585714286,Broad HH
+217,0.43601086125,Broad HH
+218,0.610931525,Broad HH
+219,0.6776912700000001,Broad HH
+220,0.6457985240000002,Broad HH
+221,0.5468104225,Broad HH
+222,0.6004178266666667,Broad HH
+223,0.5774697414285714,Broad HH
+224,0.5307212849999999,Broad HH
+225,0.5337552828571429,Broad HH
+226,0.4155192114285714,Broad HH
+227,0.487597184,Broad HH
+228,0.5987432785714286,Broad HH
+229,0.5976727433333334,Broad HH
+230,0.47774181,Broad HH
+231,0.5473125516666666,Broad HH
+232,0.5994433875000001,Broad HH
+233,0.5008944228571429,Broad HH
+234,0.6455355125000001,Broad HH
+235,0.503631862,Broad HH
+236,0.511604994,Broad HH
+237,0.4560401149999999,Broad HH
+238,0.5593566,Broad HH
+239,0.5431773714285713,Broad HH
+240,0.5954152733333332,Broad HH
+241,0.5747488471428571,Broad HH
+242,0.5762083385714286,Broad HH
+243,0.5729205966666667,Broad HH
+244,0.5595943177777777,Broad HH
+245,0.5809482085714286,Broad HH
+246,0.6077808,Broad HH
+247,0.5983644633333334,Broad HH
+248,0.4499117130000001,Broad HH
+249,0.6118486866666667,Broad HH
+250,0.5512486412500001,Broad HH
+251,0.5247433116666668,Broad HH
+252,0.5721959533333333,Broad HH
+253,0.49316261,Broad HH
+254,0.604443165,Broad HH
+255,0.4565359616666667,Broad HH
+256,0.56964881,Broad HH
+257,0.5228104157142858,Broad HH
+258,0.4281272299999999,Broad HH
+259,0.5720621083333333,Broad HH
+260,0.437907205,Broad HH
+261,0.5485065777777778,Broad HH
+262,0.56283284,Broad HH
+263,0.62882899,Broad HH
+264,0.6734298524999999,Broad HH
+265,0.617837188,Broad HH
+266,0.5027524837499999,Broad HH
+267,0.4407883771428572,Broad HH
+268,0.5574579980000001,Broad HH
+269,0.458878605,Broad HH
+270,0.5739085100000001,Broad HH
+271,0.5060954857142858,Broad HH
+272,0.6250959625,Broad HH
+273,0.4894644166666667,Broad HH
+274,0.5719443459999999,Broad HH
+275,0.56860985875,Broad HH
+276,0.4573706771428571,Broad HH
+277,0.5347853014285714,Broad HH
+278,0.526493225,Broad HH
+279,0.5116382216666666,Broad HH
+280,0.5000991100000001,Broad HH
+281,0.51814876,Broad HH
+282,0.4986549911111111,Broad HH
+283,0.4964333633333333,Broad HH
+284,0.603906278,Broad HH
+285,0.4601722139999999,Broad HH
+286,0.4460063757142857,Broad HH
+287,0.6275161214285714,Broad HH
+288,0.526190785,Broad HH
+289,0.4313676428571429,Broad HH
+290,0.5182360012499999,Broad HH
+291,0.5459972255555555,Broad HH
+292,0.5088420557142858,Broad HH
+293,0.5154510171428571,Broad HH
+294,0.4724068450000001,Broad HH
+295,0.5219457875000001,Broad HH
+296,0.4727178414285715,Broad HH
+297,0.5752205216666667,Broad HH
+298,0.4822137674999999,Broad HH
+299,0.5197012824999999,Broad HH
+300,0.618063892,Broad HH
+301,0.6728751075,Broad HH
+302,0.5472284733333334,Broad HH
+303,0.5590487599999999,Broad HH
+304,0.5083569372727272,Broad HH
+305,0.5452859757142857,Broad HH
+306,0.59639426875,Broad HH
+307,0.5514695533333333,Broad HH
+308,0.5542327185714285,Broad HH
+309,0.610447008,Broad HH
+310,0.6644891433333333,Broad HH
+311,0.6735777799999999,Broad HH
+312,0.5375825875,Broad HH
+313,0.6154299783333332,Broad HH
+314,0.38532094875,Broad HH
+315,0.5231312857142857,Broad HH
+316,0.5473312828571428,Broad HH
+317,0.6510425883333334,Broad HH
+318,0.4548905337499999,Broad HH
+319,0.574090854,Broad HH
+320,0.4944650277777778,Broad HH
+321,0.563567795,Broad HH
+322,0.759052406,Broad HH
+323,0.53339308,Broad HH
+324,0.4451295033333333,Broad HH
+325,0.55374158,Broad HH
+326,0.4845935357142856,Broad HH
+327,0.54825153,Broad HH
+328,0.5799410628571428,Broad HH
+329,0.6291750228571429,Broad HH
+330,0.5892430983333332,Broad HH
+331,0.6188266214285715,Broad HH
+332,0.585171,Broad HH
+333,0.5240849471428571,Broad HH
+334,0.5664708616666667,Broad HH
+335,0.5311826783333333,Broad HH
+336,0.5396555311111111,Broad HH
+337,0.4360951216666666,Broad HH
+338,0.65990151,Broad HH
+339,0.6283895242857144,Broad HH
+340,0.64662243,Broad HH
+341,0.66498684875,Broad HH
+342,0.6489407828571429,Broad HH
+343,0.4933385018181818,Broad HH
+344,0.635867022,Broad HH
+345,0.4858556711111111,Broad HH
+346,0.473180355,Broad HH
+347,0.4966667342857143,Broad HH
+348,0.6283274037500001,Broad HH
+349,0.66125603,Broad HH
+350,0.5022676475,Broad HH
+351,0.4540218171428571,Broad HH
+352,0.541293926,Broad HH
+353,0.4687291259999999,Broad HH
+354,0.5301065687500001,Broad HH
+355,0.57630918,Broad HH
+356,0.5600757288888888,Broad HH
+357,0.5557902020000001,Broad HH
+358,0.5616081800000001,Broad HH
+359,0.5143861383333334,Broad HH
+360,0.55101201,Broad HH
+361,0.5660894000000001,Broad HH
+362,0.5682032342857143,Broad HH
+363,0.5720749780000001,Broad HH
+364,0.58017236875,Broad HH
+365,0.5057496066666666,Broad HH
+366,0.4770288233333334,Broad HH
+367,0.5219867449999999,Broad HH
+368,0.6369936549999999,Broad HH
+369,0.60113679875,Broad HH
+370,0.4845946314285714,Broad HH
+371,0.5983486385714286,Broad HH
+372,0.592807866,Broad HH
+373,0.6609950816666667,Broad HH
+374,0.5773057166666667,Broad HH
+375,0.5496903242857143,Broad HH
+376,0.6820218100000001,Broad HH
+377,0.466823118,Broad HH
+378,0.5797206514285714,Broad HH
+379,0.5251772339999998,Broad HH
+380,0.564865431111111,Broad HH
+381,0.50972588625,Broad HH
+382,0.4987766028571428,Broad HH
+383,0.633221615,Broad HH
+384,0.6554490285714286,Broad HH
+385,0.5850154128571428,Broad HH
+386,0.5357393374999999,Broad HH
+387,0.4818495328571429,Broad HH
+388,0.5389922433333333,Broad HH
+389,0.5325859857142857,Broad HH
+390,0.5304629440000002,Broad HH
+391,0.402133079090909,Broad HH
+392,0.4964756462499999,Broad HH
+393,0.5371137071428571,Broad HH
+394,0.4119293116666667,Broad HH
+395,0.6146317,Broad HH
+396,0.5866302475,Broad HH
+397,0.6163379383333333,Broad HH
+398,0.58557218,Broad HH
+399,0.5091000744444445,Broad HH
+400,0.5852689762499999,Broad HH
+401,0.489214492,Broad HH
+402,0.545893734,Broad HH
+403,0.5773017800000001,Broad HH
+404,0.5162286014285714,Broad HH
+405,0.617933308,Broad HH
+406,0.60524826875,Broad HH
+407,0.5921289012500001,Broad HH
+408,0.545405105,Broad HH
+409,0.5294636300000001,Broad HH
+410,0.5703049366666667,Broad HH
+411,0.460942915,Broad HH
+412,0.5613881783333333,Broad HH
+413,0.499028097,Broad HH
+414,0.47602466875,Broad HH
+415,0.5130968966666667,Broad HH
+416,0.6524894199999999,Broad HH
+417,0.5845322428571429,Broad HH
+418,0.5587122511111109,Broad HH
+419,0.60437071,Broad HH
+420,0.561345588,Broad HH
+421,0.6266348450000001,Broad HH
+422,0.5627795211111112,Broad HH
+423,0.52083325875,Broad HH
+424,0.5410517775,Broad HH
+425,0.51970854,Broad HH
+426,0.6183085814285715,Broad HH
+427,0.5336139400000001,Broad HH
+428,0.4502541228571428,Broad HH
+429,0.5011084,Broad HH
+430,0.6331491657142857,Broad HH
+431,0.5341136919999999,Broad HH
+432,0.545299545,Broad HH
+433,0.691226692,Broad HH
+434,0.5569010685714286,Broad HH
+435,0.5727225383333333,Broad HH
+436,0.4839437166666666,Broad HH
+437,0.5469003060000001,Broad HH
+438,0.5991792157142858,Broad HH
+439,0.5329397644444445,Broad HH
+440,0.5871191885714285,Broad HH
+441,0.572859305,Broad HH
+442,0.666711456,Broad HH
+443,0.4379071499999999,Broad HH
+444,0.6102359783333333,Broad HH
+445,0.718810815,Broad HH
+446,0.5823526437500001,Broad HH
+447,0.5857577599999999,Broad HH
+448,0.5663233216666667,Broad HH
+449,0.5215419314285714,Broad HH
+450,0.6212473700000001,Broad HH
+451,0.56250135,Broad HH
+452,0.45968044,Broad HH
+453,0.5728272950000001,Broad HH
+454,0.5786666885714286,Broad HH
+455,0.4647912842857143,Broad HH
+456,0.4677848522222222,Broad HH
+457,0.5204449424999998,Broad HH
+458,0.5266932233333333,Broad HH
+459,0.5654712442857143,Broad HH
+460,0.476541611111111,Broad HH
+461,0.5165244099999999,Broad HH
+462,0.4501051966666667,Broad HH
+463,0.5836272680000001,Broad HH
+464,0.5174261642857143,Broad HH
+465,0.5299175627272728,Broad HH
+466,0.4893149883333333,Broad HH
+467,0.4904029883333334,Broad HH
+468,0.4949610911111111,Broad HH
+469,0.5753248771428572,Broad HH
+470,0.5043407314285714,Broad HH
+471,0.5496588944444444,Broad HH
+472,0.5301177444444445,Broad HH
+473,0.582270985,Broad HH
+474,0.4759429233333334,Broad HH
+475,0.524911645,Broad HH
+476,0.595476507142857,Broad HH
+477,0.5803451466666667,Broad HH
+478,0.50034853,Broad HH
+479,0.5097702888888889,Broad HH
+480,0.5153357744444444,Broad HH
+481,0.4600308316666667,Broad HH
+482,0.5672318516666667,Broad HH
+483,0.4854730557142858,Broad HH
+484,0.5101520388888889,Broad HH
+485,0.7107809057142858,Broad HH
+486,0.6221968520000001,Broad HH
+487,0.556247564,Broad HH
+488,0.61297578,Broad HH
+489,0.49497727375,Broad HH
+490,0.5530800316666667,Broad HH
+491,0.50135509,Broad HH
+492,0.4818626033333333,Broad HH
+493,0.6372328014285714,Broad HH
+494,0.5569566199999999,Broad HH
+495,0.6323016787500001,Broad HH
+496,0.5440916857142858,Broad HH
+497,0.5009065355555555,Broad HH
+498,0.5127128766666668,Broad HH
+499,0.5002432833333333,Broad HH
